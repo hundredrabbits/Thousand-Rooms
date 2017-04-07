@@ -1,46 +1,46 @@
 ## Characters
 
-Ant
-Owl, wise
-Fox, cunning
-Cat, predator
-Bat, patient
+- Ant
+- Owl, wise
+- Fox, cunning
+- Cat, predator
+- Bat, patient
 
 ## Chapters
 
-     Chapter: Intro
-01 - Cat Awakening.
-02 - Owl Paper.
-03 - Bat Pencil.
-04 - Fox Desk.
+### Chapter: Intro
+- Cat Awakening.
+- Owl Paper.
+- Bat Pencil.
+- Fox Desk.
 
-     Chapter: Basics
-05 - Cat Origami.
-06 - Owl Manuscript.
-07 - Bat Drawing On Paper.
-08 - Fox Enters Desk.
+### Chapter: Basics
+- Cat Origami.
+- Owl Manuscript.
+- Bat Drawing On Paper.
+- Fox Enters Desk.
 
-     Chapter: Experiments
-09 - Cat Tattoo Itself
-10 - Owl Drawing On Walls
-11 - Bat Claws At Walls
-12 - Fox Dismantle Desk
-     
-     Chapter: Realizations
-13 - Cat Desk door opens[1], steps back
-14 - Owl reads
-15 - Bat sleeps
-16 - Fox Builds desk inside out
+### Chapter: Experiments
+- Cat Tattoo Itself
+- Owl Drawing On Walls
+- Bat Claws At Walls
+- Fox Dismantle Desk
+  
+### Chapter: Realizations
+- Cat Desk door opens[1], steps back
+- Owl reads
+- Bat sleeps
+- Fox Builds desk inside out
 
-     Chapter: Effects
-13 - Cat 
-14 - Owl pray(supersticious/Religious interpretation)
-15 - Bat kills itself(Use pencil against self)
-16 - Fox Emerges from desk against cat[1]
+### Chapter: Effects
+- Cat 
+- Owl pray(supersticious/Religious interpretation)
+- Bat kills itself(Use pencil against self)
+- Fox Emerges from desk against cat[1]
 
-     Chapter: Meet competition
-00 - Fox Enter Desk, dies
-00 - Cat Enter Desk, survive
+### Chapter: Meet competition
+- Fox Enter Desk, dies
+- Cat Enter Desk, survive
 
 * Let people add there own rooms on blank pages.
 
