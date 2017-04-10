@@ -9,32 +9,32 @@
 ## Per Character
 
 CAT(ROOM)
-- Look at room(awaken)
-- Claw on walls
-- Destroy pen, paper
-- Destroy desk
-- Enter desk
+1 Look at room(awaken)                  "Cat awakens"
+2 Claw on walls                         "Cat cannot break out"
+3 Destroy pen, paper                    "Cat destroys the pen and paper"
+4 Destroy desk                          "Cat destroys the desk"
+5 Enter desk                            "Cat enters the desk"
 
 OWL(PAPER)
-- Looks at paper
-- Begins to write a manuscript, writing what he sees
-- Writes on the walls
-- Reads long manuscripts in desk
-- Attempt translation, mathematics
+1 Looks at paper                        "Owl finds a piece of paper"
+2 Begins to write a manuscript          "Owl leaves a drawing in the desk"
+3 Writes on the walls                   "Owl write on walls"
+4 Reads long manuscripts in desk        "Owl finds notes in the desk"
+5 Attempt translation, mathematics      ""
 
 BAT(PEN)
-- Looks at pen
-- Places pen in desk, gets 2 pens
-- Bat opens desk with multiple pens in it. 
-- Leaves desk open, lives for a long time(Constructions?)
-- Draw clone friend drawing(Origami habitat)
+1 Looks at pen                          "Bat finds the pen"
+2 Places pen in desk, gets 2 pens       "Bat finds another pen in the desk"
+3 Bat opens desk with multiple pens in it. 
+4 Leaves desk open, lives for a long time(Constructions?)
+5 Draw clone friend drawing(Origami habitat)
 
 FOX(DESK)
-- open desk
-- dismantle desk
-- build desk inside-out
-- someone spawns from desk Friend
-- someone spawns from desk Foe
+1 open desk                             "Fox opens the desk"
+2 dismantle desk                        "Fox dismantle desk"
+3 build desk inside-out                 "Fox build desk inside-out"
+4 someone spawns from desk Friend       "Fox watches as someone emerges from the desk"
+5 someone spawns from desk Foe          "Fox watches as Cat emerges from the desk with a pen"
 
 ## Preface:
 

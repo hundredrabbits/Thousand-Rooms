@@ -10,7 +10,7 @@ class Book
     
     @name = name
     @pages = []
-    @style = ""
+    @style = "  page {page-break-after: always;}"
     @increment = 0
     
   end
