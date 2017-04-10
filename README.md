@@ -6,43 +6,35 @@
 - Cat, predator
 - Bat, patient
 
-## Chapters
+## Per Character
 
-### Chapter: Intro
-- Cat Awakening.
-- Owl Paper.
-- Bat Pencil.
-- Fox Desk.
+CAT(ROOM)
+- Look at room(awaken)
+- Claw on walls
+- Destroy pen, paper
+- Destroy desk
+- Enter desk
 
-### Chapter: Basics
-- Cat Origami.
-- Owl Manuscript.
-- Bat Drawing On Paper.
-- Fox Enters Desk.
+OWL(PAPER)
+- Looks at paper
+- Begins to write a manuscript, writing what he sees
+- Writes on the walls
+- Reads long manuscripts in desk
+- Attempt translation, mathematics
 
-### Chapter: Experiments
-- Cat Tattoo Itself
-- Owl Drawing On Walls
-- Bat Claws At Walls
-- Fox Dismantle Desk
-  
-### Chapter: Realizations
-- Cat Desk door opens[1], steps back
-- Owl reads
-- Bat sleeps
-- Fox Builds desk inside out
+BAT(PEN)
+- Looks at pen
+- Places pen in desk, gets 2 pens
+- Bat opens desk with multiple pens in it. 
+- Leaves desk open, lives for a long time(Constructions?)
+- Draw clone friend drawing(Origami habitat)
 
-### Chapter: Effects
-- Cat 
-- Owl pray(supersticious/Religious interpretation)
-- Bat kills itself(Use pencil against self)
-- Fox Emerges from desk against cat[1]
-
-### Chapter: Meet competition
-- Fox Enter Desk, dies
-- Cat Enter Desk, survive
-
-* Let people add there own rooms on blank pages.
+FOX(DESK)
+- open desk
+- dismantle desk
+- build desk inside-out
+- someone spawns from desk Friend
+- someone spawns from desk Foe
 
 ## Preface:
 
