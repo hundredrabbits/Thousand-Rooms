@@ -15,14 +15,14 @@ class IllustrationPage
     @is_increment = true
     
     @style = {}
-    @style["img"] = "background:red; display: block; width:100%"
-    @style["h1"] = "display:block; text-align:center"
+    @style["img"] = "background:red; display: block; width:calc(100% - 20px); position:absolute; bottom:0px"
+    @style["h1"] = "position:absolute; top:100px; display:block; text-align:center; width:100%"
 
   end
 
   def content
 
-    return "<img src='assets/#{@name}.jpg'/>
+    return "<img src='assets/#{@name}.png'/>
   <h1>#{@text}</h1>
   <id>#{@id}</id>"
     
