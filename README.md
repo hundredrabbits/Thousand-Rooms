@@ -1,6 +1,5 @@
 ## Characters
 
-- Ant
 - Owl, wise
 - Fox, cunning
 - Cat, predator

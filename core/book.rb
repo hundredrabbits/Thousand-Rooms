@@ -10,7 +10,10 @@ class Book
     
     @name = name
     @pages = []
-    @style = "  page {page-break-after: always;}"
+    @style = "
+  body { font-family:'Garamond'}
+  page { page-break-after: always; border:1px solid black; display:block; padding:10px; width:300px; height:500px; position:relative}
+  page id { position:absolute; bottom:0px}"
     @increment = 0
     
   end
