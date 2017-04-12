@@ -11,8 +11,9 @@ class Book
     @name = name
     @pages = []
     @style = "
+  @page { size: 5.5in 8.5in; }
   body { font-family:'Garamond'}
-  page { page-break-after: always; border:1px solid black; display:block; padding:10px; width:300px; height:400px; position:relative}
+  page { page-break-after: always; border:1px solid black; display:block; padding:10px; width:300px; height:400px; position:relative; margin-bottom:30px; border-radius:3px}
   page id { position: absolute;bottom: 10px;display: block;text-align: center;width:100%;}"
     @increment = 0
     

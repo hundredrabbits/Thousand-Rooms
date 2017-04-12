@@ -15,8 +15,8 @@ class IllustrationPage
     @is_increment = true
     
     @style = {}
-    @style["img"] = "background:red; display: block; width:calc(100% - 20px); position:absolute; bottom:0px"
-    @style["h1"] = "position:absolute; top:100px; display:block; text-align:center; width:100%"
+    @style["img"] = "display: block; width:calc(100% - 20px); position:absolute; bottom:45px"
+    @style["h1"] = "position:absolute; top:50px; display:block; text-align:center; width:calc(100% - 40px); padding:0px 20px"
 
   end
 
