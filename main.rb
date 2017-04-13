@@ -1,3 +1,5 @@
+#!/bin/env ruby
+# encoding: utf-8
 
 require_relative "core/book.rb"
 require_relative "core/page.rb"
@@ -21,7 +23,7 @@ book.add_page(IllustrationPage.new("bat.2","Bat finds a second pen."))
 book.add_page(IllustrationPage.new("fox.2"))
 book.add_page(IllustrationPage.new("cat.3","Cat destroys the pencil and the paper."))
 book.add_page(IllustrationPage.new("owl.3"))
-book.add_page(IllustrationPage.new("bat.3"))
+book.add_page(IllustrationPage.new("bat.3","Bat finds many pens."))
 book.add_page(IllustrationPage.new("fox.3"))
 book.add_page(IllustrationPage.new("cat.4","Cat destroys the desk."))
 book.add_page(IllustrationPage.new("owl.4"))
