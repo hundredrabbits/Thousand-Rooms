@@ -24,6 +24,7 @@ class TitlePage
 <img src='assets/title.desk.png'/>
 <h2>Pencil, Paper & Desk</h2>
 <h3>By<br />Rekka Bellum & Devine Lu Linvega</h3>
+<h4>Hundred Rabbits</h4>
 "
     
   end
