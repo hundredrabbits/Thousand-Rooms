@@ -13,7 +13,8 @@ class TitlePage
     @style = {}
     @style["h1"] = "text-transform:uppercase; display:block; text-align:center; font-size:36px; margin-top:100px;"
     @style["h2"] = "text-transform:uppercase; display:block; text-align:center; font-size:20px; margin-top:40px;"
-    @style["h3"] = "text-transform:uppercase; display:block; text-align:center; font-size:16px; margin-top:20px;"
+    @style["h3"] = "text-transform:uppercase; display:block; text-align:center; font-size:16px; margin-top:40px;"
+    @style["h4"] = "text-transform:uppercase; display:block; text-align:center; font-size:12px; margin-top:100px;"
     
   end
 
