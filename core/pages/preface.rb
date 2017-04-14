@@ -15,7 +15,7 @@ class PrefacePage
 
   def content
 
-    return "((Preface))"
+    return "<p></p>"
     
   end
   

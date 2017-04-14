@@ -50,3 +50,23 @@ Manuscripts tells of the persistance of the inside of the desk, you are wise, yo
 You wake up, you find a limb inside the furniture.
 
 You have been awake for days, sitting on the furniture, you await the moment when the door will open again and you can add a stroke to your page, a corpse to the floor.
+
+## Extra
+
+### Ultimate death
+
+Leave desk open, kill yourself.
+
+### Kübler-Ross model
+
+Denial – The first reaction is denial. In this stage individuals believe the diagnosis is somehow mistaken, and cling to a false, preferable reality.
+
+Anger – When the individual recognizes that denial cannot continue, they become frustrated, especially at proximate individuals. Certain psychological responses of a person undergoing this phase would be: "Why me? It's not fair!"; "How can this happen to me?"; "Who is to blame?"; "Why would this happen?".
+
+Bargaining – The third stage involves the hope that the individual can avoid a cause of grief. Usually, the negotiation for an extended life is made in exchange for a reformed lifestyle. People facing less serious trauma can bargain or seek compromise. For instance: "I'd give anything to have him back." Or: "If only he'd come back to life, I'd promise to be a better person!"
+
+Depression – "I'm so sad, why bother with anything?"; "I'm going to die soon, so what's the point?"; "I miss my loved one, why go on?"
+During the fourth stage, the individual despairs at the recognition of their mortality. In this state, the individual may become silent, refuse visitors and spend much of the time mournful and sullen.
+
+Acceptance – "It's going to be okay."; "I can't fight it; I may as well prepare for it."
+In this last stage, individuals embrace mortality or inevitable future, or that of a loved one, or other tragic event. People dying may precede the survivors in this state, which typically comes with a calm, retrospective view for the individual, and a stable condition of emotions.
