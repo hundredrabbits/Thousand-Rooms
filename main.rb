@@ -37,7 +37,11 @@ book.add_page(IllustrationPage.new("fox.3","Fox rebuilts the desk inside-out."))
 book.add_page(ChapterPage.new("Chapter: The Rules"))
 book.add_page(IllustrationPage.new("cat.4","Cat enters the desk."))
 book.add_page(IllustrationPage.new("owl.4","Owl tries to make sense of the room."))
+<<<<<<< HEAD
 book.add_page(IllustrationPage.new("bat.4","Bat suicide."))
+=======
+book.add_page(IllustrationPage.new("bat.4","Bat suicice."))
+>>>>>>> origin/master
 book.add_page(IllustrationPage.new("fox.4","Fox has a visitor."))
 
 book.add_page(ChapterPage.new("Chapter: The Rules"))
