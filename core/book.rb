@@ -11,9 +11,9 @@ class Book
     @name = name[$lang]
     @pages = []
     @style = "
-  @page { size: 5.5in 8.5in; }
-  body { font-family:'azuki_font','Garamond'}
-  page { page-break-after: always; display:block; width:100%; height:100%; position:relative; margin-bottom:30px; border-radius:3px}
+  @page { size: 148mm 210mm; }
+  body { font-family:'azuki_font','Garamond'; padding:0px; margin:0px}
+  page { page-break-after: always; display:block; width:100%; height:100%; position:relative; margin-bottom:30px; border-radius:3px; overflow:hidden}
   page id { position: absolute;bottom: 10px;display: block;text-align: center;width:100%;}"
     @increment = 0
     
