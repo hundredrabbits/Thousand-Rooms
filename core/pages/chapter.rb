@@ -7,10 +7,10 @@ class ChapterPage
   
   include Page
 
-  def initialize text = "missing"
+  def initialize loc_text
     
     @type = "chapter"
-    @text = text
+    @text = loc_text[$lang]
 
     @style = {}
     @style["h1"] = "position:absolute; top:50px; display:block; text-align:center; width:calc(100% - 40px); padding:150px 20px"

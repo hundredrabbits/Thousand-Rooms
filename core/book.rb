@@ -8,12 +8,12 @@ class Book
   
   def initialize name
     
-    @name = name
+    @name = name[$lang]
     @pages = []
     @style = "
   @page { size: 5.5in 8.5in; }
-  body { font-family:'Garamond'}
-  page { page-break-after: always; border:1px solid black; display:block; padding:10px; width:400px; height:500px; position:relative; margin-bottom:30px; border-radius:3px}
+  body { font-family:'azuki_font','Garamond'}
+  page { page-break-after: always; display:block; width:100%; height:100%; position:relative; margin-bottom:30px; border-radius:3px}
   page id { position: absolute;bottom: 10px;display: block;text-align: center;width:100%;}"
     @increment = 0
     
@@ -51,7 +51,7 @@ class Book
 
     # Create file
     out_file = File.new("#{@name}.html", "w")
-    out_file.puts(content)
+    out_file.puts("<html><meta charset='UTF-8'>#{content}</html>")
     out_file.close
     
     puts "Done."
