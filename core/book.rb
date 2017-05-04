@@ -13,7 +13,7 @@ class Book
     @style = "
   @page { size: 148mm 210mm; }
   body { font-family:'azuki_font','Garamond'; padding:0px; margin:0px}
-  page { page-break-after: always; display:block; width:100%; height:100%; position:relative; margin-bottom:30px; border-radius:3px; overflow:hidden}
+  page { page-break-after: always; display:block; width:100%; height:100%; position:relative; margin-bottom:30px; border-radius:3px; overflow:hidden; background:#fefefe}
   page id { position: absolute;bottom: 10px;display: block;text-align: center;width:100%;}"
     @increment = 0
     

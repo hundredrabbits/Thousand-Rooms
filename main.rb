@@ -11,7 +11,7 @@ require_relative 'core/pages/preface.rb'
 require_relative 'core/pages/chapter.rb'
 require_relative 'core/pages/cover.rb'
 
-$lang = :ru
+$lang = :jp
 
 title = {:en => "Thousand Rooms", :fr => "Milles Pieces", :ru => "Thousand Rooms", :jp => "Thousand Rooms"}
 
