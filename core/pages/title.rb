@@ -26,7 +26,7 @@ class TitlePage
 
     return "
 <h1>#{@text[0]}</h1>
-<img src='assets/title.desk.png'/>
+<img src='assets/glyph.png'/>
 <h2>#{@text[1]}</h2>
 <h3>#{@text[2]}</h3>
 "
