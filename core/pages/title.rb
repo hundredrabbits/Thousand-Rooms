@@ -7,26 +7,28 @@ class TitlePage
   
   include Page
 
-  def initialize
+  def initialize loc_text
     
     @type = "title"
+    @is_increment = true
+    
     @style = {}
-    @style["h1"] = "text-transform:uppercase; display:block; text-align:center; font-size:36px; margin-top:100px;"
-    @style["h2"] = "text-transform:uppercase; display:block; text-align:center; font-size:20px; margin-top:40px; font-weight:normal"
-    @style["h3"] = "display:block; text-align:center; font-size:16px; margin-top:40px; font-weight:normal; font-style:italic"
-    @style["h4"] = "text-transform:uppercase; display:block; text-align:center; font-size:12px; margin-top:20px; font-weight:normal"
-    @style["img"] = "display: block; width: 150px; margin:0px auto"
+    @style["h1"] = "font-weight:normal; text-transform:uppercase; display:block; text-align:center; font-size:36px; margin-top:160px; margin-bottom:80px"
+    @style["h2"] = "text-transform:uppercase; display:block; text-align:center; font-size:32px; font-weight:normal; margin-bottom:40px"
+    @style["h3"] = "display:block; text-align:center; font-size:32px; margin-top:40px; font-weight:normal; line-height:40px; margin-bottom:40px"
+    @style["img"] = "display: block; width: 200px; margin:0px auto; margin-bottom:80px"
+
+    @text = loc_text[$lang]
     
   end
 
   def content
 
     return "
-<h1>Thousand Rooms</h1>
+<h1>#{@text[0]}</h1>
 <img src='assets/title.desk.png'/>
-<h2>Pencil, Paper & Desk</h2>
-<h3>Rekka Bellum & Devine Lu Linvega</h3>
-<h4>Hundred Rabbits</h4>
+<h2>#{@text[1]}</h2>
+<h3>#{@text[2]}</h3>
 "
     
   end

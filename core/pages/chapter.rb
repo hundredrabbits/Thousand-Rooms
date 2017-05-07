@@ -11,9 +11,10 @@ class ChapterPage
     
     @type = "chapter"
     @text = loc_text[$lang]
+    @is_increment = true
 
     @style = {}
-    @style["h1"] = "position:absolute; top:50px; display:block; text-align:center; width:calc(100% - 40px); padding:150px 20px"
+    @style["h1"] = "position:absolute; top:50%; display:block; text-align:center; margin-top:-13px;font-size:26px; width:100%; "
 
   end
 

@@ -1,4 +1,4 @@
-<svg version='1.1' baseProfile='full' xmlns='http://www.w3.org/2000/svg' width='600' height='800' fill="none" stroke="white">
+<svg version='1.1' baseProfile='full' xmlns='http://www.w3.org/2000/svg' width='600' height='800' fill="none" stroke="black" stroke-width='2px'>
   <path  transform="translate(0,-150)" d="M0,620 l60,0 M60,600 l0,120 l120,0 l0,-20 M140,600 l-80,0 M0,740 l100,0 l0,-20 M220,580 l-80,0 l0,120 l120,0 l0,-20 M300,560 l-80,0 l0,120 l120,0 l0,-20 M380,540 l-80,0 l0,120 l120,0 l0,-20 M460,520 l-80,0 l0,120 l120,0 l0,-20 M540,500 l-80,0 l0,120 l120,0 l0,-20 M600,480 l-60,0 l0,120 l60,0 M20,740 l0,20 l-20,0"/>
-  <path  transform="translate(0,-150)" d="M60,600 l-80,20 M100,740 l-80,20 M180,720 l80,-20 M140,580 l80,-20 M340,680 l80,-20 M300,540 l80,-20 M500,640 l80,-20 M460,500 l80,-20"/>
+  <path  transform="translate(0,-150)" d="M60,600 l-80,20 M100,740 l-80,20 M180,720 l80,-20 M140,580 l80,-20 M340,680 l80,-20 M300,540 l80,-20 M500,640 l80,-20 M460,500 l80,-20" stroke-dasharray="4,4"/>
 </svg>

@@ -7,18 +7,21 @@ class PrefacePage
   
   include Page
 
-  def initialize
+  def initialize loc_text
     
     @type = "preface"
     
     @style = {}
-    @style["p"] = "padding:40px; font-size:16px; line-height:20px"
+    @style["p"] = "padding:40px; font-size:26px; line-height:36px"
+    @is_increment = true
+
+    @text = loc_text[$lang]
 
   end
 
   def content
 
-    return "<p>You wake up in a room, a wooden desk with a piece of blank paper and pencil lies in front of you. The walls of the room are white of an unbreakable matter, the room is about 4 square meters. Inside the furniture, pages with notes written with your handwritting, you have no recollection.</p>"
+    return "<p>#{@text}</p>"
     
   end
   

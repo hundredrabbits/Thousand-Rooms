@@ -8,12 +8,13 @@ class Book
   
   def initialize name
     
+    # A5 = 148mm x 210mm
     @name = name[$lang]
     @pages = []
     @style = "
-  @page { size: 148mm 210mm; }
-  body { font-family:'azuki_font','Garamond'; padding:0px; margin:0px}
-  page { page-break-after: always; display:block; width:100%; height:100%; position:relative; margin-bottom:30px; border-radius:3px; overflow:hidden; background:#fefefe}
+  @page { size: 148mm 210mm; width:592px; height:840px; margin:0px; padding:0px }
+  body { font-family:'azuki_font','Garamond'; padding:0px; margin:0px;}
+  page { page-break-after: always; display:block; position:relative; overflow:hidden; background:#fefefe; width:592px; height:820px;}
   page id { position: absolute;bottom: 10px;display: block;text-align: center;width:100%;}"
     @increment = 0
     

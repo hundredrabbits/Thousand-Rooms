@@ -10,6 +10,7 @@ class BlankPage
   def initialize
     
     @type = "blank"
+    @is_increment = true
     
   end
 
