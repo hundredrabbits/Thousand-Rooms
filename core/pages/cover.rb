@@ -15,7 +15,7 @@ class CoverPage
     @style = {}
     @style[""] = "background:black; overflow:hidden"
     @style["img"] = "width:100%"
-    @style["h1"] = "position:absolute; bottom:60px; color:white; text-transform:uppercase; width:100%; text-align:center"
+    @style["h1"] = "position:absolute; bottom:60px; color:white; text-transform:uppercase; width:100%; text-align:center; font-weight:normal"
 
   end
 
