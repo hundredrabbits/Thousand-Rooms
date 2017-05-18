@@ -22,10 +22,10 @@ book.add_page(CoverPage.new(title))
 book.add_page(BlankPage.new)
 
 book.add_page(TitlePage.new({
-  :en => ["Thousand Rooms","Pencil, Paper & Desk","Illustrated by Rekka Bellum<br />Written by Devine Lu Linvega"],
-  :fr => ["Thousand Rooms","Pencil, Paper & Desk","Rekka Bellum & Devine Lu Linvega"],
-  :ru => ["Thousand Rooms","Pencil, Paper & Desk","Rekka Bellum & Devine Lu Linvega"],
-  :jp => ["Thousand Rooms","Pencil, Paper & Desk","Rekka Bellum & Devine Lu Linvega"]
+  :en => ["Thousand Rooms","Pencil, Paper & Desk","Illustrated by Rekka Bellum<br />Written by Devine Lu Linvega","First Edition"],
+  :fr => ["Thousand Rooms","Pencil, Paper & Desk","Illustrated by Rekka Bellum<br />Written by Devine Lu Linvega","First Edition"],
+  :ru => ["Thousand Rooms","Pencil, Paper & Desk","Illustrated by Rekka Bellum<br />Written by Devine Lu Linvega","First Edition"],
+  :jp => ["Thousand Rooms","Pencil, Paper & Desk","Illustrated by Rekka Bellum<br />Written by Devine Lu Linvega","First Edition"]
 }))
 
 book.add_page(BlankPage.new)
@@ -48,7 +48,7 @@ book.add_page(BlankPage.new)
 book.add_page(ChapterPage.new(             {:en => "II",                                          :fr => "Les Questions",                                   :ru => "Эксперименты ",                               :jp => "実験"}))
 book.add_page(IllustrationPage.new("cat.2",{:en => "Cat claws at walls.",                         :fr => "Le chat griffe les murs.",                        :ru => "Кошачьи когти у стен. ",                      :jp => "壁の猫の爪。"}))
 book.add_page(IllustrationPage.new("owl.2",{:en => "Owl leaves a message in the desk.",           :fr => "La chouette laisse un message dans le pupitre.",  :ru => "Сова оставляет сообщение на столе. ",         :jp => "フクロウは机の中にメッセージを残す。"}))
-book.add_page(IllustrationPage.new("bat.2",{:en => "Bat finds a second pen.",                     :fr => "La chauve-souris trouve un autre crayon.",        :ru => "Бат находит вторую ручку. ",                  :jp => "バットは2番目のペンを見つける」"}))
+book.add_page(IllustrationPage.new("bat.2",{:en => "Bat finds a second pencil.",                  :fr => "La chauve-souris trouve un autre crayon.",        :ru => "Бат находит вторую ручку. ",                  :jp => "バットは2番目のペンを見つける」"}))
 book.add_page(IllustrationPage.new("fox.2",{:en => "Fox dismantles the desk.",                    :fr => "Le renard deconstruit le pupitre.",               :ru => "Фокс разбирает стол. ",                       :jp => "フォックスは机を解体する。"}))
 
 book.add_page(BlankPage.new)
@@ -76,7 +76,7 @@ book.add_page(BlankPage.new)
 book.add_page(ChapterPage.new(             {:en => "VI",                                          :fr => "",                                                :ru => "Правила",                                     :jp => "ルール"}))
 book.add_page(IllustrationPage.new("cat.6",{:en => "Cat destroys the desk.",                      :fr => "Le chat detruit le pupitre.",                     :ru => "Кошка разрушает стол. ",                      :jp => "猫は机を壊す。"}))
 book.add_page(IllustrationPage.new("owl.6",{:en => "Owl finds a scribble.",                       :fr => "La chouette n'a rien compris.",                   :ru => "Сова находит каракули в столе. ",             :jp => "フクロウは机の上で落書きを見つける。"}))
-book.add_page(IllustrationPage.new("bat.6",{:en => "Bat finds a pen.",                            :fr => "La chauve-souris trouve un crayon.",              :ru => "Бат находит ручку. ",                         :jp => "バットはペンを見つける。"}))
+book.add_page(IllustrationPage.new("bat.6",{:en => "Bat finds a pencil.",                         :fr => "La chauve-souris trouve un crayon.",              :ru => "Бат находит ручку. ",                         :jp => "バットはペンを見つける。"}))
 book.add_page(IllustrationPage.new("fox.6",{:en => "Fox has too many visitors.",                  :fr => "Le renaud a trop de visiteurs.",                  :ru => "Фокс слишком много посетителей. ",            :jp => "フォックスは訪問者が多すぎます。"}))
 
 book.add_page(BlankPage.new)

@@ -29,6 +29,7 @@ class TitlePage
 <img src='assets/glyph.png'/>
 <h2>#{@text[1]}</h2>
 <h3>#{@text[2]}</h3>
+<h4>#{@text[3]}</h4>
 "
     
   end
