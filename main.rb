@@ -15,7 +15,7 @@ $lang = ARGV.first.to_sym ? ARGV.first.to_sym : :en
 
 title = {
   :en => "Thousand Rooms", 
-  :fr => "Milles Pièces", 
+  :fr => "Milles Pi<grave>e</grave>ces", 
   :ru => "Тысяча Комнат", 
   :jp => "Thousand Rooms"
 }
@@ -28,7 +28,7 @@ book.add_page(BlankPage.new)
 
 book.add_page(TitlePage.new({
   :en => [title[:en],"Cat, Owl, Bat & Fox","Illustrated by Rekka Bellum<br />Written by Devine Lu Linvega","First Edition"],
-  :fr => [title[:fr],"Chat, Hibou, Chauve-Souris & Renard","Illustrated by Rekka Bellum<br />Written by Devine Lu Linvega","First Edition"],
+  :fr => [title[:fr],"Chat, Hibou, Chauve-Souris & Renard","Illustrated by Rekka Bellum<br />Written by Devine Lu Linvega","Premiere Edition"],
   :ru => [title[:ru],"Кошка, Сова, Летучая Мышь & Лиса","Р. БЕЛУМ<br />Под редакцией<br />Д. Л. ЛИНВЕГА","Издание Второе"],
   :jp => [title[:jp],"Pencil, Paper & Desk","Illustrated by Rekka Bellum<br />Written by Devine Lu Linvega","First Edition"]
 }))
@@ -47,7 +47,7 @@ book.add_page(BlankPage.new)
 book.add_page(ChapterPage.new(1,{
   :en => "Lesson 1",                                    
   :fr => "Premi<grave>e</grave>re Le<cedil>c</cedil>on",                                      
-  :ru => "Правила",                                     
+  :ru => "Урок 1",                                     
   :jp => "ルール"}))
 book.add_page(IllustrationPage.new("cat.1",{
   :en => "Cat awakens.",                                
@@ -75,7 +75,7 @@ book.add_page(BlankPage.new)
 book.add_page(ChapterPage.new(2,{
   :en => "Lesson 2",                                    
   :fr => "Deuxi<grave>e</grave>me Le<cedil>c</cedil>on",                                   
-  :ru => "Эксперименты ",                               
+  :ru => "Урок 2",                               
   :jp => "実験"}))
 book.add_page(IllustrationPage.new("cat.2",{
   :en => "Cat claws at walls.",                         
@@ -104,7 +104,7 @@ book.add_page(BlankPage.new)
 book.add_page(ChapterPage.new(3,{
   :en => "Lesson 3",                                    
   :fr => "Troisi<grave>e</grave>me Le<cedil>c</cedil>on",                              
-  :ru => "Ответы",                                      
+  :ru => "Урок 3",                                      
   :jp => "回答"}))
 book.add_page(IllustrationPage.new("cat.3",{
   :en => "Cat destroys the pencil and the paper.",      
@@ -133,7 +133,7 @@ book.add_page(BlankPage.new)
 book.add_page(ChapterPage.new(4,{
   :en => "Lesson 4",                                    
   :fr => "Quatri<grave>e</grave>me Le<cedil>c</cedil>on",                                 
-  :ru => "Правила",                                     
+  :ru => "Урок 4",                                     
   :jp => "ルール"}))
 book.add_page(IllustrationPage.new("cat.4",{
   :en => "Cat enters the desk.",                        
@@ -162,7 +162,7 @@ book.add_page(BlankPage.new)
 book.add_page(ChapterPage.new(5,{
   :en => "Lesson 5",                                    
   :fr => "Cinqui<grave>e</grave>me Le<cedil>c</cedil>on",                                   
-  :ru => "Правила",                                     
+  :ru => "Урок 5",                                     
   :jp => "ルール"}))
 book.add_page(IllustrationPage.new("cat.5",{
   :en => "Cat comes out of the desk",                   
@@ -191,7 +191,7 @@ book.add_page(BlankPage.new)
 book.add_page(ChapterPage.new(6,{
   :en => "Lesson 6",                                    
   :fr => "Sixi<grave>e</grave>me Le<cedil>c</cedil>on",                                                
-  :ru => "Правила",                                     
+  :ru => "Урок 6",                                     
   :jp => "ルール"}))
 book.add_page(IllustrationPage.new("cat.6",{
   :en => "Cat destroys the desk.",                      
@@ -220,7 +220,7 @@ book.add_page(BlankPage.new)
 book.add_page(ChapterPage.new(7,{
   :en => "Last Lesson",                                 
   :fr => "Derni<grave>e</grave>re Le<cedil>c</cedil>on",                                                
-  :ru => "Правила",                                     
+  :ru => "Последней Урок",                                     
   :jp => "ルール"}))
 book.add_page(IllustrationPage.new("you.1",{
   :en => "What would you do?",                          
