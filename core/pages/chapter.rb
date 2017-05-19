@@ -15,7 +15,7 @@ class ChapterPage
 
     @style = {}
     @style["h1"] = "position:absolute; top:50%; display:block; text-align:center; margin-top:-13px;font-size:26px; width:100%; font-weight: normal"
-    @style["img"] = "width:100px; height:100px; position:absolute; top:calc(50% + 100px); left:calc(50% - 50px)"
+    @style["img"] = "width: 200px;height: 200px;position: absolute;top: calc(50% + 100px);left: calc(50% - 100px)"
 
   end
 

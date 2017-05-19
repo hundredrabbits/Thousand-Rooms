@@ -18,6 +18,7 @@ class Book
   page id { position: absolute;bottom: 10px;display: block;text-align: center;width:100%;}
   page grave { display:inline; background-image:url(assets/accent.grave.svg); background-position:center 0px}
   page aigue { display:inline; background-image:url(assets/accent.aigue.svg); background-position:center 0px}
+  page cedil { display:inline; background-image:url(assets/accent.cedil.svg); background-position:center 0px}
   "
     @increment = 0
     
@@ -54,11 +55,11 @@ class Book
     end
 
     # Create file
-    out_file = File.new("#{@name}.html", "w")
+    out_file = File.new("thousand.#{$lang}.html", "w")
     out_file.puts("<html><meta charset='UTF-8'>#{content}</html>")
     out_file.close
     
-    puts "Done."
+    puts "Generated #{count} pages, for thousand.#{$lang}.html"
 
   end
   

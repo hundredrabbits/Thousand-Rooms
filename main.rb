@@ -11,7 +11,7 @@ require_relative 'core/pages/preface.rb'
 require_relative 'core/pages/chapter.rb'
 require_relative 'core/pages/cover.rb'
 
-$lang = :fr
+$lang = ARGV.first.to_sym ? ARGV.first.to_sym : :en
 
 title = {
   :en => "Thousand Rooms", 
@@ -46,7 +46,7 @@ book.add_page(BlankPage.new)
 
 book.add_page(ChapterPage.new({
   :en => "Lesson 1",                                    
-  :fr => "Premi<grave>e</grave>re Leçon",                                      
+  :fr => "Premi<grave>e</grave>re Le<cedil>c</cedil>on",                                      
   :ru => "Правила",                                     
   :jp => "ルール"}))
 book.add_page(IllustrationPage.new("cat.1",{
@@ -74,7 +74,7 @@ book.add_page(BlankPage.new)
 
 book.add_page(ChapterPage.new({
   :en => "Lesson 2",                                    
-  :fr => "Deuxi<grave>e</grave>me Leçon",                                   
+  :fr => "Deuxi<grave>e</grave>me Le<cedil>c</cedil>on",                                   
   :ru => "Эксперименты ",                               
   :jp => "実験"}))
 book.add_page(IllustrationPage.new("cat.2",{
@@ -103,7 +103,7 @@ book.add_page(BlankPage.new)
 
 book.add_page(ChapterPage.new({
   :en => "Lesson 3",                                    
-  :fr => "Troisi<grave>e</grave>me Leçon",                              
+  :fr => "Troisi<grave>e</grave>me Le<cedil>c</cedil>on",                              
   :ru => "Ответы",                                      
   :jp => "回答"}))
 book.add_page(IllustrationPage.new("cat.3",{
@@ -123,7 +123,7 @@ book.add_page(IllustrationPage.new("bat.3",{
   :jp => "バットは机の中にもうペンを入れることはできません。"}))
 book.add_page(IllustrationPage.new("fox.3",{
   :en => "Fox builds the desk inside-out.",             
-  :fr => "Renard reconstruit le pupitre <aigue>a</aigue> l'envers.",    
+  :fr => "Renard reconstruit le pupitre <grave>a</grave> l'envers.",    
   :ru => "Фокс перестраивает стол наизнанку »",         
   :jp => "フォックスは机を裏返しにしています。"}))
 
@@ -132,7 +132,7 @@ book.add_page(BlankPage.new)
 
 book.add_page(ChapterPage.new({
   :en => "Lesson 4",                                    
-  :fr => "Quatri<grave>e</grave>me Leçon",                                 
+  :fr => "Quatri<grave>e</grave>me Le<cedil>c</cedil>on",                                 
   :ru => "Правила",                                     
   :jp => "ルール"}))
 book.add_page(IllustrationPage.new("cat.4",{
@@ -152,7 +152,7 @@ book.add_page(IllustrationPage.new("bat.4",{
   :jp => "バットは十分に見た。"}))
 book.add_page(IllustrationPage.new("fox.4",{
   :en => "Fox has a visitor.",                          
-  :fr => "Renard a un visiteur.",                       
+  :fr => "Renard <grave>a</grave> un visiteur.",                       
   :ru => "У Лиса есть посетитель.",                     
   :jp => "フォックスには訪問者がいます。」"}))
 
@@ -161,7 +161,7 @@ book.add_page(BlankPage.new)
 
 book.add_page(ChapterPage.new({
   :en => "Lesson 5",                                    
-  :fr => "Cinqui<grave>e</grave>me Leçon",                                   
+  :fr => "Cinqui<grave>e</grave>me Le<cedil>c</cedil>on",                                   
   :ru => "Правила",                                     
   :jp => "ルール"}))
 book.add_page(IllustrationPage.new("cat.5",{
@@ -190,7 +190,7 @@ book.add_page(BlankPage.new)
 
 book.add_page(ChapterPage.new({
   :en => "Lesson 6",                                    
-  :fr => "Sixi<grave>e</grave>me Leçon",                                                
+  :fr => "Sixi<grave>e</grave>me Le<cedil>c</cedil>on",                                                
   :ru => "Правила",                                     
   :jp => "ルール"}))
 book.add_page(IllustrationPage.new("cat.6",{
@@ -219,7 +219,7 @@ book.add_page(BlankPage.new)
 
 book.add_page(ChapterPage.new({
   :en => "Last Lesson",                                 
-  :fr => "Derni<grave>e</grave>re Leçon",                                                
+  :fr => "Derni<grave>e</grave>re Le<cedil>c</cedil>on",                                                
   :ru => "Правила",                                     
   :jp => "ルール"}))
 book.add_page(IllustrationPage.new("you.1",{
@@ -232,4 +232,3 @@ book.add_page(BlankPage.new)
 book.add_page(BlankPage.new)
 
 book.build
-
