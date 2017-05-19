@@ -16,7 +16,7 @@ $lang = ARGV.first.to_sym ? ARGV.first.to_sym : :en
 title = {
   :en => "Thousand Rooms", 
   :fr => "Milles Pièces", 
-  :ru => "Thousand Rooms", 
+  :ru => "Тысяча Комнат", 
   :jp => "Thousand Rooms"
 }
 
@@ -28,8 +28,8 @@ book.add_page(BlankPage.new)
 
 book.add_page(TitlePage.new({
   :en => [title[:en],"Cat, Owl, Bat & Fox","Illustrated by Rekka Bellum<br />Written by Devine Lu Linvega","First Edition"],
-  :fr => [title[:fr],"Pencil, Paper & Desk","Illustrated by Rekka Bellum<br />Written by Devine Lu Linvega","First Edition"],
-  :ru => [title[:ru],"Pencil, Paper & Desk","Illustrated by Rekka Bellum<br />Written by Devine Lu Linvega","First Edition"],
+  :fr => [title[:fr],"Chat, Hibou, Chauve-Souris & Renard","Illustrated by Rekka Bellum<br />Written by Devine Lu Linvega","First Edition"],
+  :ru => [title[:ru],"Кошка, Сова, Летучая Мышь & Лиса","Р. БЕЛУМ<br />Под редакцией<br />Д. Л. ЛИНВЕГА","Издание Второе"],
   :jp => [title[:jp],"Pencil, Paper & Desk","Illustrated by Rekka Bellum<br />Written by Devine Lu Linvega","First Edition"]
 }))
 

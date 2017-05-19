@@ -13,11 +13,11 @@ class TitlePage
     @is_increment = true
     
     @style = {}
-    @style["h1"] = "font-weight:normal; text-transform:uppercase; display:block; text-align:center; font-size:36px; margin-top:160px; margin-bottom:80px"
-    @style["h2"] = "text-transform:uppercase; display:block; text-align:center; font-size:32px; font-weight:normal; margin-bottom:40px"
-    @style["h3"] = "display:block; text-align:center; font-size:28px; margin-top:40px; font-weight:normal; line-height:40px; margin-bottom:40px"
-    @style["h4"] = "display:block; text-align:center; font-size:24px; margin-top:40px; font-weight:normal; line-height:40px; margin-bottom:40px"
-    @style["img"] = "display: block; width: 200px; margin:0px auto; margin-bottom:80px"
+    @style["h1"] = "font-weight: normal;text-transform: uppercase;display: block;text-align: center;font-size: 36px;margin-top: 120px;margin-bottom: 40px"
+    @style["h2"] = "text-transform: uppercase;display: block;text-align: center;font-size: 30px;font-weight: normal;margin-bottom: 40px;padding: 0px 30px;line-height: 40px"
+    @style["h3"] = "display:block; text-align:center; font-size:28px; margin-top:40px; font-weight:normal; line-height:40px; margin-bottom:40px; letter-spacing: -5px"
+    @style["h4"] = "display: block;text-align: center;font-size: 18px;margin-top: 40px;font-weight: normal;line-height: 40px;margin-bottom: 40px;text-transform: uppercase "
+    @style["img"] = "display: block;width: 200px;margin: 0px auto;margin-bottom: 40px"
 
     @text = loc_text[$lang]
     
@@ -27,8 +27,8 @@ class TitlePage
 
     return "
 <h1>#{@text[0]}</h1>
-<img src='assets/glyph.png'/>
 <h2>#{@text[1]}</h2>
+<img src='assets/glyph.png'/>
 <h3>#{@text[2]}</h3>
 <h4>#{@text[3]}</h4>
 "
