@@ -13,7 +13,12 @@ require_relative 'core/pages/cover.rb'
 
 $lang = :fr
 
-title = {:en => "Thousand Rooms", :fr => "Milles Pièces", :ru => "Thousand Rooms", :jp => "Thousand Rooms"}
+title = {
+  :en => "Thousand Rooms", 
+  :fr => "Milles Pièces", 
+  :ru => "Thousand Rooms", 
+  :jp => "Thousand Rooms"
+}
 
 book = Book.new(title)
 
@@ -41,12 +46,12 @@ book.add_page(BlankPage.new)
 
 book.add_page(ChapterPage.new({
   :en => "Lesson 1",                                    
-  :fr => "Première Leçon",                                      
+  :fr => "Premi<grave>e</grave>re Leçon",                                      
   :ru => "Правила",                                     
   :jp => "ルール"}))
 book.add_page(IllustrationPage.new("cat.1",{
   :en => "Cat awakens.",                                
-  :fr => "Chat se reveille.",                            
+  :fr => "Chat se r<aigue>e</aigue>veille.",                            
   :ru => "Кошка пробуждается. ",                        
   :jp => "猫は目を覚ます。"}))
 book.add_page(IllustrationPage.new("owl.1",{
@@ -69,7 +74,7 @@ book.add_page(BlankPage.new)
 
 book.add_page(ChapterPage.new({
   :en => "Lesson 2",                                    
-  :fr => "Deuxième Leçon",                                   
+  :fr => "Deuxi<grave>e</grave>me Leçon",                                   
   :ru => "Эксперименты ",                               
   :jp => "実験"}))
 book.add_page(IllustrationPage.new("cat.2",{
@@ -89,7 +94,7 @@ book.add_page(IllustrationPage.new("bat.2",{
   :jp => "バットは2番目のペンを見つける」"}))
 book.add_page(IllustrationPage.new("fox.2",{
   :en => "Fox dismantles the desk.",                    
-  :fr => "Renard deconstruit le pupitre.",               
+  :fr => "Renard d<aigue>e</aigue>construit le pupitre.",               
   :ru => "Фокс разбирает стол. ",                       
   :jp => "フォックスは机を解体する。"}))
 
@@ -98,12 +103,12 @@ book.add_page(BlankPage.new)
 
 book.add_page(ChapterPage.new({
   :en => "Lesson 3",                                    
-  :fr => "Troisième Leçon",                              
+  :fr => "Troisi<grave>e</grave>me Leçon",                              
   :ru => "Ответы",                                      
   :jp => "回答"}))
 book.add_page(IllustrationPage.new("cat.3",{
   :en => "Cat destroys the pencil and the paper.",      
-  :fr => "Chat detruit le crayon et le papier.",         
+  :fr => "Chat d<aigue>e</aigue>truit le crayon et le papier.",         
   :ru => "Кошка уничтожает карандаш и бумагу. ",        
   :jp => "猫は鉛筆と紙を壊す。"}))
 book.add_page(IllustrationPage.new("owl.3",{
@@ -118,7 +123,7 @@ book.add_page(IllustrationPage.new("bat.3",{
   :jp => "バットは机の中にもうペンを入れることはできません。"}))
 book.add_page(IllustrationPage.new("fox.3",{
   :en => "Fox builds the desk inside-out.",             
-  :fr => "Renard reconstruit le pupitre a l'envers.",    
+  :fr => "Renard reconstruit le pupitre <aigue>a</aigue> l'envers.",    
   :ru => "Фокс перестраивает стол наизнанку »",         
   :jp => "フォックスは机を裏返しにしています。"}))
 
@@ -127,7 +132,7 @@ book.add_page(BlankPage.new)
 
 book.add_page(ChapterPage.new({
   :en => "Lesson 4",                                    
-  :fr => "Quatrième Leçon",                                 
+  :fr => "Quatri<grave>e</grave>me Leçon",                                 
   :ru => "Правила",                                     
   :jp => "ルール"}))
 book.add_page(IllustrationPage.new("cat.4",{
@@ -156,7 +161,7 @@ book.add_page(BlankPage.new)
 
 book.add_page(ChapterPage.new({
   :en => "Lesson 5",                                    
-  :fr => "Cinquième Leçon",                                   
+  :fr => "Cinqui<grave>e</grave>me Leçon",                                   
   :ru => "Правила",                                     
   :jp => "ルール"}))
 book.add_page(IllustrationPage.new("cat.5",{
@@ -171,12 +176,12 @@ book.add_page(IllustrationPage.new("owl.5",{
   :jp => "フクロウは世界の感覚を作った！"}))
 book.add_page(IllustrationPage.new("bat.5",{
   :en => "Bat awakens.",                                
-  :fr => "Chauve-souris se reveille.",                   
+  :fr => "Chauve-souris se r<aigue>e</aigue>veille.",                   
   :ru => "Летучая мышь пробуждается. ",                 
   :jp => "バットは目を覚ます。"}))
 book.add_page(IllustrationPage.new("fox.5",{
   :en => "Fox has a second visitor",                    
-  :fr => "Renard a un visiteur.",                        
+  :fr => "Renard <grave>a</grave> un visiteur.",                        
   :ru => "У Фокса еще один посетитель »",               
   :jp => "フォックスは別の訪問者を持っています"}))
 
@@ -185,12 +190,12 @@ book.add_page(BlankPage.new)
 
 book.add_page(ChapterPage.new({
   :en => "Lesson 6",                                    
-  :fr => "Sixième Leçon",                                                
+  :fr => "Sixi<grave>e</grave>me Leçon",                                                
   :ru => "Правила",                                     
   :jp => "ルール"}))
 book.add_page(IllustrationPage.new("cat.6",{
   :en => "Cat destroys the desk.",                      
-  :fr => "Chat detruit le pupitre.",                     
+  :fr => "Chat d<aigue>e</aigue>truit le pupitre.",                     
   :ru => "Кошка разрушает стол. ",                      
   :jp => "猫は机を壊す。"}))
 book.add_page(IllustrationPage.new("owl.6",{
@@ -214,7 +219,7 @@ book.add_page(BlankPage.new)
 
 book.add_page(ChapterPage.new({
   :en => "Last Lesson",                                 
-  :fr => "Dernière Leçon",                                                
+  :fr => "Derni<grave>e</grave>re Leçon",                                                
   :ru => "Правила",                                     
   :jp => "ルール"}))
 book.add_page(IllustrationPage.new("you.1",{
