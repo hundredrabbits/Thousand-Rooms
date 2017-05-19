@@ -7,8 +7,9 @@ class ChapterPage
   
   include Page
 
-  def initialize loc_text
+  def initialize chapter, loc_text
     
+    @chapter = chapter
     @type = "chapter"
     @text = loc_text[$lang]
     @is_increment = true
@@ -21,7 +22,7 @@ class ChapterPage
 
   def content
 
-    return "<h1>#{@text}</h1><img src='assets/origami.1.png'/>"
+    return "<h1>#{@text}</h1><img src='assets/lesson.#{@chapter}.png'/>"
     
   end
   

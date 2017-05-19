@@ -44,7 +44,7 @@ book.add_page(PrefacePage.new({
 
 book.add_page(BlankPage.new)
 
-book.add_page(ChapterPage.new({
+book.add_page(ChapterPage.new(1,{
   :en => "Lesson 1",                                    
   :fr => "Premi<grave>e</grave>re Le<cedil>c</cedil>on",                                      
   :ru => "Правила",                                     
@@ -72,7 +72,7 @@ book.add_page(IllustrationPage.new("fox.1",{
 
 book.add_page(BlankPage.new)
 
-book.add_page(ChapterPage.new({
+book.add_page(ChapterPage.new(2,{
   :en => "Lesson 2",                                    
   :fr => "Deuxi<grave>e</grave>me Le<cedil>c</cedil>on",                                   
   :ru => "Эксперименты ",                               
@@ -101,7 +101,7 @@ book.add_page(IllustrationPage.new("fox.2",{
 
 book.add_page(BlankPage.new)
 
-book.add_page(ChapterPage.new({
+book.add_page(ChapterPage.new(3,{
   :en => "Lesson 3",                                    
   :fr => "Troisi<grave>e</grave>me Le<cedil>c</cedil>on",                              
   :ru => "Ответы",                                      
@@ -130,7 +130,7 @@ book.add_page(IllustrationPage.new("fox.3",{
 
 book.add_page(BlankPage.new)
 
-book.add_page(ChapterPage.new({
+book.add_page(ChapterPage.new(4,{
   :en => "Lesson 4",                                    
   :fr => "Quatri<grave>e</grave>me Le<cedil>c</cedil>on",                                 
   :ru => "Правила",                                     
@@ -159,7 +159,7 @@ book.add_page(IllustrationPage.new("fox.4",{
 
 book.add_page(BlankPage.new)
 
-book.add_page(ChapterPage.new({
+book.add_page(ChapterPage.new(5,{
   :en => "Lesson 5",                                    
   :fr => "Cinqui<grave>e</grave>me Le<cedil>c</cedil>on",                                   
   :ru => "Правила",                                     
@@ -188,7 +188,7 @@ book.add_page(IllustrationPage.new("fox.5",{
 
 book.add_page(BlankPage.new)
 
-book.add_page(ChapterPage.new({
+book.add_page(ChapterPage.new(6,{
   :en => "Lesson 6",                                    
   :fr => "Sixi<grave>e</grave>me Le<cedil>c</cedil>on",                                                
   :ru => "Правила",                                     
@@ -217,7 +217,7 @@ book.add_page(IllustrationPage.new("fox.6",{
 
 book.add_page(BlankPage.new)
 
-book.add_page(ChapterPage.new({
+book.add_page(ChapterPage.new(7,{
   :en => "Last Lesson",                                 
   :fr => "Derni<grave>e</grave>re Le<cedil>c</cedil>on",                                                
   :ru => "Правила",                                     

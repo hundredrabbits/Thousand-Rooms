@@ -59,7 +59,7 @@ class Book
     out_file.puts("<html><meta charset='UTF-8'>#{content}</html>")
     out_file.close
     
-    puts "Generated #{count} pages, for thousand.#{$lang}.html"
+    puts "Completed #{count} pages, for thousand.#{$lang}.html"
 
   end
   

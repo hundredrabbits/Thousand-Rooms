@@ -15,7 +15,8 @@ class TitlePage
     @style = {}
     @style["h1"] = "font-weight:normal; text-transform:uppercase; display:block; text-align:center; font-size:36px; margin-top:160px; margin-bottom:80px"
     @style["h2"] = "text-transform:uppercase; display:block; text-align:center; font-size:32px; font-weight:normal; margin-bottom:40px"
-    @style["h3"] = "display:block; text-align:center; font-size:32px; margin-top:40px; font-weight:normal; line-height:40px; margin-bottom:40px"
+    @style["h3"] = "display:block; text-align:center; font-size:28px; margin-top:40px; font-weight:normal; line-height:40px; margin-bottom:40px"
+    @style["h4"] = "display:block; text-align:center; font-size:24px; margin-top:40px; font-weight:normal; line-height:40px; margin-bottom:40px"
     @style["img"] = "display: block; width: 200px; margin:0px auto; margin-bottom:80px"
 
     @text = loc_text[$lang]
