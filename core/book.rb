@@ -14,7 +14,7 @@ class Book
     @style = "
   @page { size: 148mm 210mm; width:592px; height:840px; margin:0px; padding:0px }
   body { font-family:'azuki_font','aquafont','Garamond'; padding:0px; margin:0px;}
-  page { page-break-after: always; display:block; position:relative; overflow:hidden; background:#fefefe; width:592px; height:820px;}
+  page { page-break-after: always; display:block; position:relative; overflow:hidden; background:#ffffff; width:592px; height:820px; border:1px solid #fefefe; }
   page id { position: absolute;bottom: 10px;display: block;text-align: center;width:100%;}
   page grave { display:inline; background-image:url(assets/accent.grave.svg); background-position:center 0px}
   page aigue { display:inline; background-image:url(assets/accent.aigue.svg); background-position:center 0px}

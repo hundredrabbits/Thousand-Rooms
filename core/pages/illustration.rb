@@ -18,7 +18,7 @@ class IllustrationPage
     
     @style = {}
     @style["img"] = "display: block; width:100%; position:absolute; bottom:0px"
-    @style["h1"] = "position:absolute; top:50px; display:block; text-align:center; width:calc(100% - 40px); padding:0px 20px; font-size:26px;font-weight: normal"
+    @style["h1"] = "position:absolute; top:100px; display:block; text-align:center; width:calc(100% - 40px); padding:0px 20px; font-size:38px;font-weight: normal"
 
   end
 

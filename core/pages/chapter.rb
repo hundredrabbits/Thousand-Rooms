@@ -15,8 +15,8 @@ class ChapterPage
     @is_increment = true
 
     @style = {}
-    @style["h1"] = "position:absolute; top:50%; display:block; text-align:center; margin-top:-13px;font-size:26px; width:100%; font-weight: normal"
-    @style["img"] = "width: 200px;height: 200px;position: absolute;top: calc(50% + 100px);left: calc(50% - 100px)"
+    @style["h1"] = "position:absolute; top:40%; display:block; text-align:center; margin-top:-13px;font-size:40px; width:100%; font-weight: normal"
+    @style["img"] = "width: 300px;height: 300px;position: absolute;top: calc(50%);left: calc(50% - 150px)"
 
   end
 
