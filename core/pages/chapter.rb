@@ -11,7 +11,7 @@ class ChapterPage
     
     @chapter = chapter
     @type = "chapter"
-    @text = loc_text[$lang]
+    @text = loc_text[$lang] ? loc_text[$lang] : loc_text[:en]
     @is_increment = true
 
     @style = {}

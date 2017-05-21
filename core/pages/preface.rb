@@ -15,7 +15,7 @@ class PrefacePage
     @style["p"] = "padding:40px; font-size:26px; line-height:36px"
     @is_increment = true
 
-    @text = loc_text[$lang]
+    @text = loc_text[$lang] ? loc_text[$lang] : loc_text[:en]
 
   end
 

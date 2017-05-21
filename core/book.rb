@@ -19,6 +19,7 @@ class Book
   page grave { display:inline; background-image:url(assets/accent.grave.svg); background-position:center 0px}
   page aigue { display:inline; background-image:url(assets/accent.aigue.svg); background-position:center 0px}
   page cedil { display:inline; background-image:url(assets/accent.cedil.svg); background-position:center 0px}
+  page trema { display:inline; background-image:url(assets/accent.trema.svg); background-position:center 0px}
   "
     @increment = 0
     

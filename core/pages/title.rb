@@ -20,7 +20,7 @@ class TitlePage
     @style["img"] = "display: block;width: 200px;margin: 0px auto;margin-bottom: 40px"
     @style["grave"] = "background-position: center -1px;line-height: 50px;display: inline-block"
 
-    @text = loc_text[$lang]
+    @text = loc_text[$lang] ? loc_text[$lang] : loc_text[:en]
     
   end
 
