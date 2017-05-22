@@ -7,7 +7,8 @@
   page grave { display:inline; background-image:url(assets/accent.grave.svg); background-position:center 0px}
   page aigue { display:inline; background-image:url(assets/accent.aigue.svg); background-position:center 0px}
   page cedil { display:inline; background-image:url(assets/accent.cedil.svg); background-position:center 0px}
-  page trema { display:inline; background-image:url(assets/accent.trema.svg); background-position:center 0px}
+  page trema { display: inline-block;background-position: center 0px;height: 15.5px;}
+  page trema:before { background-color:white; display: inline-block;width: 15px;height: 15px;content: ' ';position: absolute; background-image: url(assets/accent.trema.svg); }
     page.cover  { background:white; overflow:hidden }
   page.cover img { width:100% }
   page.cover h1 { position:absolute; bottom:100px; color:black; text-transform:uppercase; width:100%; text-align:center; font-weight:normal; font-size:36px }
@@ -19,15 +20,17 @@
   page.title h4 { display: block;text-align: center;font-size: 18px;margin-top: 40px;font-weight: normal;line-height: 40px;margin-bottom: 40px;text-transform: uppercase  }
   page.title img { display: block;width: 200px;margin: 0px auto;margin-bottom: 40px }
   page.title grave { background-position: center -1px;line-height: 50px;display: inline-block }
+  page.title trema:before { display:none !important }
   page.preface p { padding:40px; font-size:26px; line-height:36px }
+  page.preface trema { display:none !important }
   page.chapter h1 { position:absolute; top:40%; display:block; text-align:center; margin-top:-13px;font-size:40px; width:100%; font-weight: normal }
   page.chapter img { width: 300px;height: 300px;position: absolute;top: calc(50%);left: calc(50% - 150px) }
   page.illustration img { display: block; width:100%; position:absolute; bottom:0px }
-  page.illustration h1 { position:absolute; top:100px; display:block; text-align:center; width:calc(100% - 40px); padding:0px 20px; font-size:40px;font-weight: normal }
+  page.illustration h1 { position:absolute; top:100px; display:block; text-align:center; width:calc(100% - 40px); padding:0px 20px; font-size:38px;font-weight: normal }
 </style>
 
 <page class='cover'>
-  <img src='assets/cover.svg'/><h1>Lae'doi</h1><img class='logo' src='assets/hundred.rabbits.logo.svg'/>
+  <img src='assets/cover.svg'/><h1>Lae'Doi</h1><img class='logo' src='assets/hundred.rabbits.logo.svg'/>
 </page>
 
 <page class='blank'>
@@ -36,11 +39,11 @@
 
 <page class='title'>
   
-<h1>Thousand Rooms</h1>
-<h2>Cat, Owl, Bat & Fox</h2>
+<h1>Lae'Doi</h1>
+<h2>Es el K<trema>a</trema>t J<trema>o</trema>l V<trema>a</trema>t F<trema>o</trema>j ul</h2>
 <img src='assets/glyph.png'/>
-<h3>Illustrated by Rekka Bellum<br />Written by Devine Lu Linvega</h3>
-<h4>First Edition</h4>
+<h3>R. Bellum'Fita.<br />D. Lu Linvega'Fide</h3>
+<h4>Lady'Al.</h4>
 
 </page>
 
@@ -49,7 +52,7 @@
 </page>
 
 <page class='preface'>
-  <p>You wake up in a room, surrounded by unbreakable walls. On a desk, lies a pencil and a sheet of blank paper.<br/> Inside the desk, notes bearing your handwriting, you have no recollection.</p>
+  <p>Doki el lyfasi es jof<trema>i</trema>l ul'ok ev lari'fori j<trema>a</trema>f. Todeo'ik ev el tofitay es tofatay ul. Todeo'ok ev doety'tado el lari'tado ul. Lari'fadiro'dijo.</p>
 </page>
 
 <page class='blank'>
@@ -57,27 +60,27 @@
 </page>
 
 <page class='chapter'>
-  <h1>Dodeit'la</h1><img src='assets/lesson.1.png'/>
+  <h1>Doeti'Lyde</h1><img src='assets/lesson.1.png'/>
 </page>
 
 <page class='illustration'>
   <img src='assets/cat.1.png'/>
-  <h1>Kat'fori jäf. </h1>
+  <h1>K<trema>a</trema>t'fori j<trema>a</trema>f.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/owl.1.png'/>
-  <h1>Jol'faji XX</h1>
+  <h1>J<trema>o</trema>l'faji tofatay.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/bat.1.png'/>
-  <h1>Vat'faji tofiod.</h1>
+  <h1>V<trema>a</trema>t'faji tofitay.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/fox.1.png'/>
-  <h1>Foj'firo todeo. </h1>
+  <h1>F<trema>o</trema>j'firo todeo.</h1>
 </page>
 
 <page class='blank'>
@@ -85,22 +88,22 @@
 </page>
 
 <page class='chapter'>
-  <h1>Dodeit'li</h1><img src='assets/lesson.2.png'/>
+  <h1>Doeti'Il</h1><img src='assets/lesson.2.png'/>
 </page>
 
 <page class='illustration'>
   <img src='assets/cat.2.png'/>
-  <h1>K<trema>a</trema>t'fivoat dojoyf.</h1>
+  <h1>K<trema>a</trema>t'fivota jofy.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/owl.2.png'/>
-  <h1>J<trema>o</trema>l'fiko todeo'koa doty.</h1>
+  <h1>J<trema>o</trema>l'fiko el todeo'ok ev doety ul.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/bat.2.png'/>
-  <h1>V<trema>a</trema>t'faji li'tofiod. </h1>
+  <h1>V<trema>a</trema>t'faji tofitay'il'es.</h1>
 </page>
 
 <page class='illustration'>
@@ -113,27 +116,27 @@
 </page>
 
 <page class='chapter'>
-  <h1>Lesson 3</h1><img src='assets/lesson.3.png'/>
+  <h1>Doeti'Lio</h1><img src='assets/lesson.3.png'/>
 </page>
 
 <page class='illustration'>
   <img src='assets/cat.3.png'/>
-  <h1>Cat destroys the pencil and the paper.</h1>
+  <h1>K<trema>a</trema>t'filo el tofitay es tofatay ul.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/owl.3.png'/>
-  <h1>Owl finds notes in the desk</h1>
+  <h1>J<trema>o</trema>l'faji el todeo'ok ev doety ul.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/bat.3.png'/>
-  <h1>Bat finds the desk full with pencils.</h1>
+  <h1>V<trema>a</trema>t'faji el todeo'ok ev tofitay'il ul.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/fox.3.png'/>
-  <h1>Fox builds the desk inside-out.</h1>
+  <h1>F<trema>o</trema>j'fito todeo'roi.</h1>
 </page>
 
 <page class='blank'>
@@ -141,27 +144,27 @@
 </page>
 
 <page class='chapter'>
-  <h1>Lesson 4</h1><img src='assets/lesson.4.png'/>
+  <h1>Doeti'Lia</h1><img src='assets/lesson.4.png'/>
 </page>
 
 <page class='illustration'>
   <img src='assets/cat.4.png'/>
-  <h1>Cat enters the desk.</h1>
+  <h1>K<trema>a</trema>t'foroka todeo.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/owl.4.png'/>
-  <h1>Owl tries to understand.</h1>
+  <h1>J<trema>o</trema>l'fati'dij<trema>a</trema>r.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/bat.4.png'/>
-  <h1>Bat sees no escape.</h1>
+  <h1>V<trema>a</trema>t'forika'dijo.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/fox.4.png'/>
-  <h1>Fox has a visitor.</h1>
+  <h1>F<trema>o</trema>j'af daku'al'es.</h1>
 </page>
 
 <page class='blank'>
@@ -169,27 +172,27 @@
 </page>
 
 <page class='chapter'>
-  <h1>Lesson 5</h1><img src='assets/lesson.5.png'/>
+  <h1>Doeti'L<trema>i</trema></h1><img src='assets/lesson.5.png'/>
 </page>
 
 <page class='illustration'>
   <img src='assets/cat.5.png'/>
-  <h1>Cat comes out of the desk</h1>
+  <h1>K<trema>a</trema>t'forika todeo.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/owl.5.png'/>
-  <h1>Owl understands the room</h1>
+  <h1>J<trema>o</trema>l'fati doki.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/bat.5.png'/>
-  <h1>Bat awakens.</h1>
+  <h1>V<trema>a</trema>t'fori j<trema>a</trema>f.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/fox.5.png'/>
-  <h1>Fox has a second visitor</h1>
+  <h1>F<trema>o</trema>j'af daku'il'es.</h1>
 </page>
 
 <page class='blank'>
@@ -197,27 +200,27 @@
 </page>
 
 <page class='chapter'>
-  <h1>Lesson 6</h1><img src='assets/lesson.6.png'/>
+  <h1>Doeti'Liso</h1><img src='assets/lesson.6.png'/>
 </page>
 
 <page class='illustration'>
   <img src='assets/cat.6.png'/>
-  <h1>Cat destroys the desk.</h1>
+  <h1>K<trema>a</trema>t'filo todeo.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/owl.6.png'/>
-  <h1>Owl finds a scribble.</h1>
+  <h1>J<trema>o</trema>l'faji douty.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/bat.6.png'/>
-  <h1>Bat finds a pencil.</h1>
+  <h1>V<trema>a</trema>t'faji tofitay.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/fox.6.png'/>
-  <h1>Fox has too many visitors.</h1>
+  <h1>F<trema>o</trema>j'of dulida.</h1>
 </page>
 
 <page class='blank'>
@@ -225,12 +228,12 @@
 </page>
 
 <page class='chapter'>
-  <h1>Last Lesson</h1><img src='assets/lesson.7.png'/>
+  <h1>Doeti'Lydu</h1><img src='assets/lesson.7.png'/>
 </page>
 
 <page class='illustration'>
   <img src='assets/you.1.png'/>
-  <h1>What would you do?</h1>
+  <h1>Lari'if jado.</h1>
 </page>
 
 <page class='blank'>

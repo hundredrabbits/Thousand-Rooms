@@ -13,6 +13,7 @@ class PrefacePage
     
     @style = {}
     @style["p"] = "padding:40px; font-size:26px; line-height:36px"
+    @style["trema"] = "display:none !important"
     @is_increment = true
 
     @text = loc_text[$lang] ? loc_text[$lang] : loc_text[:en]
