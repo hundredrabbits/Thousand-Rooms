@@ -29,7 +29,7 @@ book.add_page(BlankPage.new)
 
 book.add_page(TitlePage.new({
   :en => [title[:en],"Cat, Owl, Bat & Fox","Illustrated by Rekka Bellum<br />Written by Devine Lu Linvega","First Edition"],
-  :fr => [title[:fr],"Chat, Hibou, Chauve-Souris & Renard","Illustrated by Rekka Bellum<br />Written by Devine Lu Linvega","Premiere Edition"],
+  :fr => [title[:fr],"Chat, Hibou, Chauve-Souris & Renard","Illustr<aigue>e</aigue>e par Rekka Bellum<br /><aigue>E</aigue>crit par Devine Lu Linvega","Premi<grave>e</grave>re <aigue>E</aigue>dition"],
   :ru => [title[:ru],"Кошка, Сова, Летучая Мышь & Лиса","Р. БЕЛУМ<br />Под редакцией<br />Д. Л. ЛИНВЕГА","Издание Второе"],
   :jp => [title[:jp],"ネコ、アウル、バットとキツネ","レッカベラムのイラスト<br />デヴィンルリンヴェガちょ","しょはん"],
   :li => [title[:li],"Es el K<trema>a</trema>t J<trema>o</trema>l V<trema>a</trema>t F<trema>o</trema>j ul","R. Bellum'Fita.<br />D. Lu Linvega'Fide","Lady'Al."]
@@ -39,8 +39,8 @@ book.add_page(BlankPage.new)
 
 book.add_page(PrefacePage.new({
   :en => "You wake up in a room, surrounded by unbreakable walls. On a desk, lies a pencil and a sheet of blank paper.<br/> Inside the desk, notes bearing your handwriting, you have no recollection.",
-  :fr => "You wake up in a room, surrounded by white unbreakable walls. On a desk, lies a pencil and a sheet of blank paper.<br/> Inside the desk, notes bearing your handwritting, you have no recollection.",
-  :ru => "You wake up in a room, surrounded by white unbreakable walls. On a desk, lies a pencil and a sheet of blank paper.<br/> Inside the desk, notes bearing your handwritting, you have no recollection.",
+  :fr => "Vous vous r<aigue>e</aigue>veillez dans une pi<grave>e</grave>ce, entour<aigue>e</aigue> de murs incassables. Sur un pupitre se trouve un crayon et une feuille de papier. Dans le pupitre se trouve une note portant votre <aigue>e</aigue>criture, vous ne vous souvenez de rien",
+  :ru => "You wake up in a room, surrounded by white unbreakable walls. On a desk, lies a pencil and a sheet of blank paper.<br/> Inside the desk, notes bearing your handwriting, you have no recollection.",
   :jp => "へやにおきる、こわさないのかべでとりまいている。つくえのうえには、えんぴつとブランクのかみをいる。<br/>　つくえのなかには、あたしのてがきのメモがいる。なにもおもいださない。",
   :li => "Doki el lyfasi es jof<trema>i</trema>l ul'ok ev lari'fori j<trema>a</trema>f. Todeo'ik ev el tofitay es tofatay ul. Todeo'ok ev doety'tado el lari'tado ul. Lari'fadiro'dijo."
 }))
@@ -61,7 +61,7 @@ book.add_page(IllustrationPage.new("cat.1",{
   :li => "K<trema>a</trema>t'fori j<trema>a</trema>f."}))
 book.add_page(IllustrationPage.new("owl.1",{
   :en => "Owl finds a piece of paper.",                 
-  :fr => "Hibou trouve une feuille.",                 
+  :fr => "Hibou trouve une feuille de papier.",                 
   :ru => "Сова находит лист бумаги. ",                  
   :jp => "アウルはかみをみつける。",
   :li => "J<trema>o</trema>l'faji tofatay."}))
@@ -122,7 +122,7 @@ book.add_page(ChapterPage.new(3,{
   :li => "Doeti'Lio"}))
 book.add_page(IllustrationPage.new("cat.3",{
   :en => "Cat destroys the pencil and the paper.",      
-  :fr => "Chat d<aigue>e</aigue>truit le crayon et le papier.",         
+  :fr => "Chat d<aigue>e</aigue>truit le crayon et la feuille de papier.",         
   :ru => "Кошка уничтожает карандаш и бумагу. ",        
   :jp => "ネコはえんぴつとかみをこわす。",
   :li => "K<trema>a</trema>t'filo el tofitay es tofatay ul."}))
@@ -134,7 +134,7 @@ book.add_page(IllustrationPage.new("owl.3",{
   :li => "J<trema>o</trema>l'faji el todeo'ok ev doety ul."}))
 book.add_page(IllustrationPage.new("bat.3",{
   :en => "Bat finds the desk full with pencils.",       
-  :fr => "Chauve-souris trouve plusieur crayons.",       
+  :fr => "Chauve-souris trouve plusieurs crayons.",       
   :ru => "Бат больше не может вставлять ручки в стол.", 
   :jp => "バットはえんぴつがおおいのつくえをみつける。",
   :li => "V<trema>a</trema>t'faji el todeo'ok ev tofitay'il ul."}))
@@ -196,7 +196,7 @@ book.add_page(IllustrationPage.new("owl.5",{
   :en => "Owl understands the room.",                    
   :fr => "Hibou a tout compris.",                     
   :ru => "Сова поняла мир! »",                          
-  :jp => "アウルすべてわかる。",
+  :jp => "アウルはわかろうとする。",
   :li => "J<trema>o</trema>l'fati doki."}))
 book.add_page(IllustrationPage.new("bat.5",{
   :en => "Bat awakens.",                                
@@ -228,7 +228,7 @@ book.add_page(IllustrationPage.new("cat.6",{
   :li => "K<trema>a</trema>t'filo todeo."}))
 book.add_page(IllustrationPage.new("owl.6",{
   :en => "Owl finds a scribble.",                       
-  :fr => "Hibou n'a rien compris.",                   
+  :fr => "Hibou trouve un gribouillage.",                   
   :ru => "Сова находит каракули в столе. ",             
   :jp => "アウルはらくがきをみつける",
   :li => "J<trema>o</trema>l'faji douty."}))
