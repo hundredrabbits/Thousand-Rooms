@@ -17,7 +17,7 @@ title = {
   :en => "Thousand Rooms", 
   :fr => "Milles Pi<grave>e</grave>ces", 
   :ru => "Тысяча Комнат", 
-  :jp => "Thousand Rooms",
+  :jp => "せんへや",
   :li => "Lae'Doi"
 }
 
@@ -31,7 +31,7 @@ book.add_page(TitlePage.new({
   :en => [title[:en],"Cat, Owl, Bat & Fox","Illustrated by Rekka Bellum<br />Written by Devine Lu Linvega","First Edition"],
   :fr => [title[:fr],"Chat, Hibou, Chauve-Souris & Renard","Illustr<aigue>e</aigue>e par Rekka Bellum<br /><aigue>E</aigue>crit par Devine Lu Linvega","Premi<grave>e</grave>re <aigue>E</aigue>dition"],
   :ru => [title[:ru],"Кошка, Сова, Летучая Мышь & Лиса","Р. БЕЛУМ<br />Под редакцией<br />Д. Л. ЛИНВЕГА","Издание Второе"],
-  :jp => [title[:jp],"ネコ、アウル、バットとキツネ","レッカベラムのイラスト<br />デヴィンルリンヴェガちょ","しょはん"],
+  :jp => [title[:jp],"ネコ、アウル、バットとキツネ","レッカベラムのイラスト<br />デルリンちょ","しょはん"],
   :li => [title[:li],"Es el K<trema>a</trema>t J<trema>o</trema>l V<trema>a</trema>t F<trema>o</trema>j ul","R. Bellum'Fita.<br />D. Lu Linvega'Fide","Lady'Al."]
 }))
 
@@ -39,7 +39,7 @@ book.add_page(BlankPage.new)
 
 book.add_page(PrefacePage.new({
   :en => "You wake up in a room, surrounded by unbreakable walls. On a desk, lies a pencil and a sheet of blank paper.<br/> Inside the desk, notes bearing your handwriting, you have no recollection.",
-  :fr => "Vous vous r<aigue>e</aigue>veillez dans une pi<grave>e</grave>ce, entour<aigue>e</aigue> de murs incassables. Sur un pupitre se trouve un crayon et une feuille de papier. Dans le pupitre se trouve une note portant votre <aigue>e</aigue>criture, vous ne vous souvenez de rien",
+  :fr => "Vous vous r<aigue>e</aigue>veillez dans une pi<grave>e</grave>ce, entour<aigue>e</aigue> de murs incassables. Sur un pupitre se trouve un crayon et une feuille de papier. <grave>A</grave> l'int<aigue>e</aigue>rieur, une note portant votre <aigue>e</aigue>criture. Vous ne vous souvenez de rien",
   :ru => "You wake up in a room, surrounded by white unbreakable walls. On a desk, lies a pencil and a sheet of blank paper.<br/> Inside the desk, notes bearing your handwriting, you have no recollection.",
   :jp => "へやにおきる、こわさないのかべでとりまいている。つくえのうえには、えんぴつとブランクのかみをいる。<br/>　つくえのなかには、あたしのてがきのメモがいる。なにもおもいださない。",
   :li => "Doki el lyfasi es jof<trema>i</trema>l ul'ok ev lari'fori j<trema>a</trema>f. Todeo'ik ev el tofitay es tofatay ul. Todeo'ok ev doety'tado el lari'tado ul. Lari'fadiro'dijo."
