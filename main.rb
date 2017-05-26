@@ -16,8 +16,8 @@ $lang = ARGV.first.to_sym ? ARGV.first.to_sym : :en
 title = {
   :en => "Thousand Rooms", 
   :fr => "Milles Pi<grave>e</grave>ces", 
-  :ru => "Тысяча комнат", 
-  :jp => "Thousand Rooms",
+  :ru => "Тысяча Комнат", 
+  :jp => "せんへや",
   :li => "Lae'Doi"
 }
 
@@ -31,7 +31,7 @@ book.add_page(TitlePage.new({
   :en => [title[:en],"Cat, Owl, Bat & Fox","Illustrated by Rekka Bellum<br />Written by Devine Lu Linvega","First Edition"],
   :fr => [title[:fr],"Chat, Hibou, Chauve-Souris & Renard","Illustr<aigue>e</aigue>e par Rekka Bellum<br /><aigue>E</aigue>crit par Devine Lu Linvega","Premi<grave>e</grave>re <aigue>E</aigue>dition"],
   :ru => [title[:ru],"Кошка, Сова, Летучая мышь и Лисёнок","Художник Р. Беллум<br />Под редакцией Д.&#8201;Л. Линвеги","Издание первое"],
-  :jp => [title[:jp],"ネコ、アウル、バットとキツネ","レッカベラムのイラスト<br />デヴィンルリンヴェガちょ","しょはん"],
+  :jp => [title[:jp],"ネコ、アウル、バットとキツネ","レッカベラムのイラスト<br />デルリンちょ","しょはん"],
   :li => [title[:li],"Es el K<trema>a</trema>t J<trema>o</trema>l V<trema>a</trema>t F<trema>o</trema>j ul","R. Bellum'Fita.<br />D. Lu Linvega'Fide","Lady'Al."]
 }))
 
