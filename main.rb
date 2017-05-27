@@ -10,12 +10,13 @@ require_relative 'core/pages/illustration.rb'
 require_relative 'core/pages/preface.rb'
 require_relative 'core/pages/chapter.rb'
 require_relative 'core/pages/cover.rb'
+require_relative 'core/pages/thank.rb'
 
 $lang = ARGV.first.to_sym ? ARGV.first.to_sym : :en
 
 title = {
   :en => "Thousand Rooms", 
-  :fr => "Milles Pi<grave>e</grave>ces", 
+  :fr => "Mille Pi<grave>e</grave>ces", 
   :ru => "Тысяча Комнат", 
   :jp => "せんへや",
   :li => "Lae'Doi"
@@ -29,7 +30,7 @@ book.add_page(BlankPage.new)
 
 book.add_page(TitlePage.new({
   :en => [title[:en],"Cat, Owl, Bat & Fox","Illustrated by Rekka Bellum<br />Written by Devine Lu Linvega","First Edition"],
-  :fr => [title[:fr],"Chat, Hibou, Chauve-Souris & Renard","Illustr<aigue>e</aigue>e par Rekka Bellum<br /><aigue>E</aigue>crit par Devine Lu Linvega","Premi<grave>e</grave>re <aigue>E</aigue>dition"],
+  :fr => [title[:fr],"Chat, Hibou, Chauve-Souris & Renard","Illustr<aigue>e</aigue> par Rekka Bellum<br /><aigue class='cap'>E</aigue>crit par Devine Lu Linvega","Premi<grave>e</grave>re <aigue>E</aigue>dition"],
   :ru => [title[:ru],"Кошка, Сова, Летучая мышь и Лисёнок","Художник Р. Беллум<br />Под редакцией Д.&#8201;Л. Линвеги","Издание первое"],
   :jp => [title[:jp],"ネコ、アウル、バットとキツネ","レッカベラムのイラスト<br />デルリンちょ","しょはん"],
   :li => [title[:li],"Es el K<trema>a</trema>t J<trema>o</trema>l V<trema>a</trema>t F<trema>o</trema>j ul","R. Bellum'Fita.<br />D. Lu Linvega'Fide","Lady'Al."]
@@ -39,7 +40,7 @@ book.add_page(BlankPage.new)
 
 book.add_page(PrefacePage.new({
   :en => "You wake up in a room, surrounded by unbreakable walls. On a desk, lies a pencil and a sheet of blank paper.<br/> Inside the desk, notes bearing your handwriting, you have no recollection.",
-  :fr => "Vous vous r<aigue>e</aigue>veillez dans une pi<grave>e</grave>ce, entour<aigue>e</aigue> de murs incassables. Sur un pupitre se trouve un crayon et une feuille de papier. Dans le pupitre se trouve une note portant votre <aigue>e</aigue>criture, vous ne vous souvenez de rien",
+  :fr => "Vous vous r<aigue>e</aigue>veillez dans une pi<grave>e</grave>ce, entour<aigue>e</aigue> de murs incassables. Sur un pupitre se trouve un crayon et une feuille de papier. Dans le pupitre, une note portant votre <aigue>e</aigue>criture, vous ne vous souvenez de rien.",
   :ru => "Вы проснулись в белой замкнутой комнате. На парте перед вами чистый лист и карандаш. Под крышкой — пачка исписанной вами бумаги, о которой вы ничего не помните.",
   :jp => "へやにおきる、こわさないのかべでとりまいている。つくえのうえには、えんぴつとブランクのかみをいる。<br/>　つくえのなかには、あたしのてがきのメモがいる。なにもおもいださない。",
   :li => "Doki el lyfasi es jof<trema>i</trema>l ul'ok ev lari'fori j<trema>a</trema>f. Todeo'ik ev el tofitay es tofatay ul. Todeo'ok ev doety'tado el lari'tado ul. Lari'fadiro'dijo."
@@ -253,6 +254,9 @@ book.add_page(ChapterPage.new(7,{
   :ru => "Последней урок",                                     
   :jp => "さいしゅうか",
   :li => "Doeti'Lydu"}))
+
+book.add_page(BlankPage.new)
+
 book.add_page(IllustrationPage.new("you.1",{
   :en => "What would you do?",                          
   :fr => "Que ferais-tu?",                     
@@ -261,6 +265,14 @@ book.add_page(IllustrationPage.new("you.1",{
   :li => "Lari'if jado."}))
 
 book.add_page(BlankPage.new)
+
+book.add_page(ThankPage.new({
+  :en => ["Thanks","Ginger Leigh for her creative feedback, RA for his help with the Russian translation, and folks in Montreal for imparting their ideas."],
+  :fr => ["Merci","Ginger Leigh pour ses commentaires constructifs, RA pour la traduction Russe, et <grave>a</grave> nos amis de Montr<aigue>e</aigue>al pour leurs id<aigue>e</aigue>es."],
+  :ru => ["Thanks",""],
+  :jp => ["ありがとう",""],
+  :li => ["Favify!",""]}))
+
 book.add_page(BlankPage.new)
 
 book.build
