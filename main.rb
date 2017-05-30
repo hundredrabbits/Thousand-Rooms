@@ -31,7 +31,7 @@ book.add_page(BlankPage.new)
 book.add_page(TitlePage.new({
   :en => [title[:en],"Cat, Owl, Bat & Fox","Illustrated by Rekka Bellum<br />Written by Devine Lu Linvega","First Edition"],
   :fr => [title[:fr],"Chat, Hibou, Chauve-Souris & Renard","Illustr<aigue>e</aigue> par Rekka Bellum<br /><aigue class='cap'>E</aigue>crit par Devine Lu Linvega","Premi<grave>e</grave>re <aigue>E</aigue>dition"],
-  :ru => [title[:ru],"Кошка, Сова, Летучая мышь и Лисёнок","Художник Р. Беллум<br />Под редакцией Д.&#8201;Л. Линвеги","Издание первое"],
+  :ru => [title[:ru],"Кошка, Сова, Летучая мышь и&nbsp;Лисёнок","Художник Р.&nbsp;Беллум<br />Под редакцией Д.&#8201;Л.&nbsp;Линвеги","Издание первое"],
   :jp => [title[:jp],"ネコ、アウル、バットとキツネ","レッカベラムのイラスト<br />デルリンちょ","しょはん"],
   :li => [title[:li],"Es el K<trema>a</trema>t J<trema>o</trema>l V<trema>a</trema>t F<trema>o</trema>j ul","R. Bellum'Fita.<br />D. Lu Linvega'Fide","Lady'Al."]
 }))
@@ -41,7 +41,7 @@ book.add_page(BlankPage.new)
 book.add_page(PrefacePage.new({
   :en => "You wake up in a room, surrounded by unbreakable walls. On a desk, lies a pencil and a sheet of blank paper.<br/> Inside the desk, notes bearing your handwriting, you have no recollection.",
   :fr => "Vous vous r<aigue>e</aigue>veillez dans une pi<grave>e</grave>ce, entour<aigue>e</aigue> de murs incassables. Sur un pupitre se trouve un crayon et une feuille de papier. Dans le pupitre, une note portant votre <aigue>e</aigue>criture, vous ne vous souvenez de rien.",
-  :ru => "Вы проснулись в белой замкнутой комнате. На парте перед вами чистый лист и карандаш. Под крышкой — пачка исписанной вами бумаги, о которой вы ничего не помните.",
+  :ru => "Вы&nbsp;проснулись в&nbsp;белой замкнутой комнате. На&nbsp;парте перед вами чистый лист и&nbsp;карандаш. Под&nbsp;крышкой&nbsp;— пачка исписанной вами бумаги, о&nbsp;которой вы&nbsp;ничего не&nbsp;помните.",
   :jp => "へやにおきる、こわさないのかべでとりまいている。つくえのうえには、えんぴつとブランクのかみをいる。<br/>　つくえのなかには、あたしのてがきのメモがいる。なにもおもいださない。",
   :li => "Doki el lyfasi es jof<trema>i</trema>l ul'ok ev lari'fori j<trema>a</trema>f. Todeo'ik ev el tofitay es tofatay ul. Todeo'ok ev doety'tado el lari'tado ul. Lari'fadiro'dijo."
 }))
@@ -90,19 +90,19 @@ book.add_page(ChapterPage.new(2,{
 book.add_page(IllustrationPage.new("cat.2",{
   :en => "Cat claws at the walls.",                         
   :fr => "Chat griffe les murs.",                        
-  :ru => "Кошка точит когти о стены.",                      
+  :ru => "Кошка точит когти о&nbsp;стены.",                      
   :jp => "ネコはかべをひっかく。",
   :li => "K<trema>a</trema>t'fivota jofy."}))
 book.add_page(IllustrationPage.new("owl.2",{
   :en => "Owl leaves a message in the desk.",           
   :fr => "Hibou laisse un message dans le pupitre.",  
-  :ru => "Сова оставляет в парте записку.",         
+  :ru => "Сова оставляет в&nbsp;парте записку.",         
   :jp => "アウルはつくえにメッセージをおく。",
   :li => "J<trema>o</trema>l'fiko el todeo'ok ev doety ul."}))
 book.add_page(IllustrationPage.new("bat.2",{
   :en => "Bat finds a second pencil.",                  
   :fr => "Chauve-souris trouve un autre crayon.",        
-  :ru => "Летучая мышь находит ещё карандаш.",                  
+  :ru => "Летучая мышь находит ещё&nbsp;карандаш.",                  
   :jp => "バットはふたつめのえんぴつをみつける。",
   :li => "V<trema>a</trema>t'faji tofitay'il'es."}))
 book.add_page(IllustrationPage.new("fox.2",{
@@ -124,19 +124,19 @@ book.add_page(ChapterPage.new(3,{
 book.add_page(IllustrationPage.new("cat.3",{
   :en => "Cat destroys the pencil and the paper.",      
   :fr => "Chat d<aigue>e</aigue>truit le crayon et la feuille de papier.",         
-  :ru => "Кошка расправляется с бумагой и карандашом.",        
+  :ru => "Кошка расправляется с&nbsp;бумагой и&nbsp;карандашом.",        
   :jp => "ネコはえんぴつとかみをこわす。",
   :li => "K<trema>a</trema>t'filo el tofitay es tofatay ul."}))
 book.add_page(IllustrationPage.new("owl.3",{
   :en => "Owl finds notes in the desk.",                 
   :fr => "Hibou trouve une note dans le pupitre.",       
-  :ru => "Сова находит в парте записи.",             
+  :ru => "Сова находит в&nbsp;парте записи.",             
   :jp => "アウルはつくえのなかにメモをみつける。",
   :li => "J<trema>o</trema>l'faji el todeo'ok ev doety ul."}))
 book.add_page(IllustrationPage.new("bat.3",{
   :en => "Bat finds the desk full with pencils.",       
   :fr => "Chauve-souris trouve plusieurs crayons.",       
-  :ru => "Летучая мышь обнаружила, что парта набита карандашами.", 
+  :ru => "Летучая мышь обнаружила, что&nbsp;парта набита карандашами.", 
   :jp => "バットはえんぴつがおおいのつくえをみつける。",
   :li => "V<trema>a</trema>t'faji el todeo'ok ev tofitay'il ul."}))
 book.add_page(IllustrationPage.new("fox.3",{
@@ -157,25 +157,25 @@ book.add_page(ChapterPage.new(4,{
 book.add_page(IllustrationPage.new("cat.4",{
   :en => "Cat enters the desk.",                        
   :fr => "Chat entre dans le pupitre.",                  
-  :ru => "Кошка залезает в парту.",                      
+  :ru => "Кошка залезает в&nbsp;парту.",                      
   :jp => "ネコはつくえにはいる。",
   :li => "K<trema>a</trema>t'foroka todeo."}))
 book.add_page(IllustrationPage.new("owl.4",{
   :en => "Owl tries to understand.",                    
   :fr => "Hibou essaie de comprendre.",               
-  :ru => "Сова пытается понять.",           
+  :ru => "Сова пытается отомкнуть комнату.",           
   :jp => "アウルはしりたい。",
   :li => "J<trema>o</trema>l'fati'dij<trema>a</trema>r."}))
 book.add_page(IllustrationPage.new("bat.4",{
   :en => "Bat sees no escape.",                         
   :fr => "Chauve-souris n'en peut plus.",                 
-  :ru => "Летучая мышь не видит выхода.",                
+  :ru => "Летучая мышь не&nbsp;видит выхода.",                
   :jp => "バットはにげない。",
   :li => "V<trema>a</trema>t'forika'dijo."}))
 book.add_page(IllustrationPage.new("fox.4",{
   :en => "Fox has a visitor.",                          
   :fr => "Renard <grave>a</grave> un visiteur.",                       
-  :ru => "У Лисёнка гость.",                     
+  :ru => "У&nbsp;Лисёнка гость.",                     
   :jp => "キツネはきゃくがある。",
   :li => "F<trema>o</trema>j'af daku'al'es."}))
 
@@ -190,13 +190,13 @@ book.add_page(ChapterPage.new(5,{
 book.add_page(IllustrationPage.new("cat.5",{
   :en => "Cat comes out of the desk.",                   
   :fr => "Chat sort du pupitre.",                        
-  :ru => "Кошка выползает из парты.",             
+  :ru => "Кошка вылезает из&nbsp;парты.",             
   :jp => "ネコはつくえからをでる。",
   :li => "K<trema>a</trema>t'forika todeo."}))
 book.add_page(IllustrationPage.new("owl.5",{
   :en => "Owl understands the room.",                    
   :fr => "Hibou a tout compris.",                     
-  :ru => "Сова понимает комнату.»",                          
+  :ru => "Сова разгадывает комнату.",                          
   :jp => "アウルはわかろうとする。",
   :li => "J<trema>o</trema>l'fati doki."}))
 book.add_page(IllustrationPage.new("bat.5",{
@@ -208,7 +208,7 @@ book.add_page(IllustrationPage.new("bat.5",{
 book.add_page(IllustrationPage.new("fox.5",{
   :en => "Fox has a second visitor.",                    
   :fr => "Renard <grave>a</grave> un visiteur.",                        
-  :ru => "У Лисёнка еще один гость.»",               
+  :ru => "У Лисёнка еще&nbsp;один гость.",               
   :jp => "キツネはにばんめのきゃくがある。",
   :li => "F<trema>o</trema>j'af daku'il'es."}))
 
@@ -224,13 +224,13 @@ book.add_page(ChapterPage.new(6,{
 book.add_page(IllustrationPage.new("cat.6",{
   :en => "Cat destroys the desk.",                      
   :fr => "Chat d<aigue>e</aigue>truit le pupitre.",                     
-  :ru => "Кошка расправляется с партой.",                      
+  :ru => "Кошка расправляется с&nbsp;партой.",                      
   :jp => "ネコはつくえをこわす。",
   :li => "K<trema>a</trema>t'filo todeo."}))
 book.add_page(IllustrationPage.new("owl.6",{
   :en => "Owl finds a scribble.",                       
   :fr => "Hibou trouve un gribouillage.",                   
-  :ru => "Сова находит почеркушки.",             
+  :ru => "Сова находит какие-то почеркушки.",             
   :jp => "アウルはらくがきをみつける",
   :li => "J<trema>o</trema>l'faji douty."}))
 book.add_page(IllustrationPage.new("bat.6",{
@@ -242,7 +242,7 @@ book.add_page(IllustrationPage.new("bat.6",{
 book.add_page(IllustrationPage.new("fox.6",{
   :en => "Fox has too many visitors.",                  
   :fr => "Renard a trop de visiteurs.",                  
-  :ru => "У лисёнка слишком много гостей.",            
+  :ru => "У&nbsp;лисёнка слишком много гостей.",            
   :jp => "キツネはきゃくがおおい。",
   :li => "F<trema>o</trema>j'of dulida."}))
 
@@ -260,7 +260,7 @@ book.add_page(BlankPage.new)
 book.add_page(IllustrationPage.new("you.1",{
   :en => "What would you do?",                          
   :fr => "Que ferais-tu?",                     
-  :ru => "Что будете делать?",                      
+  :ru => "Что&nbsp;будете делать?",                      
   :jp => "なにするか？",
   :li => "Lari'if jado."}))
 
@@ -269,7 +269,7 @@ book.add_page(BlankPage.new)
 book.add_page(ThankPage.new({
   :en => ["Thanks","Ginger Leigh for her creative feedback, RA for his help with the Russian translation, and folks in Montreal for imparting their ideas."],
   :fr => ["Merci","Ginger Leigh pour ses commentaires constructifs, RA pour la traduction Russe, et <grave>a</grave> nos amis de Montr<aigue>e</aigue>al pour leurs id<aigue>e</aigue>es."],
-  :ru => ["Thanks",""],
+  :ru => ["Спасибо","Джинджер Ли&nbsp;за&nbsp;творческий вклад, RA&nbsp;за&nbsp;помощь в&nbsp;переводе на&nbsp;русский, и&nbsp;ребятам из&nbsp;Монреаля за&nbsp;идеи."],
   :jp => ["ありがとう",""],
   :li => ["Favify!",""]}))
 
