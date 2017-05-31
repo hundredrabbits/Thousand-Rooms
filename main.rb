@@ -112,14 +112,14 @@ book.add_page(IllustrationPage.new("owl.2",{
   :ru => "Сова оставляет в&nbsp;парте записку.",
   :jp => "フクロウは　つくえに<br/>メモを　のこした。",
   :li => "J<trema>o</trema>l'fiko el todeo'ok ev doety ul.",
-  :de => "Eule hinterlässt eine Nachricht im Schreibtisch."}))
+  :de => "Eule hinterlässt eine Nachricht im&nbsp;Schreibtisch."}))
 book.add_page(IllustrationPage.new("bat.2",{
   :en => "Bat finds a second pencil.",
   :fr => "Chauve-souris trouve un autre crayon.",
   :ru => "Летучая мышь находит ещё&nbsp;карандаш.",
   :jp => "コウモリは　にほんめの<br/>えんぴつを　みつけた。",
   :li => "V<trema>a</trema>t'faji tofitay'il'es.",
-  :de => "Fledermaus findet einen zweiten Bleistift."}))
+  :de => "Fledermaus findet einen zweiten&nbsp;Bleistift."}))
 book.add_page(IllustrationPage.new("fox.2",{
   :en => "Fox dismantles the desk.",
   :fr => "Renard d<aigue>e</aigue>construit le pupitre.",
@@ -144,7 +144,7 @@ book.add_page(IllustrationPage.new("cat.3",{
   :ru => "Кошка расправляется с&nbsp;бумагой и&nbsp;карандашом.",
   :jp => "ネコは　えんぴつと　かみを　めちゃくちゃに　した。",
   :li => "K<trema>a</trema>t'filo el tofitay es tofatay ul.",
-  :de => "Katze zerstört den Bleistift und das Papier."}))
+  :de => "Katze zerstört den Bleistift und&nbsp;das&nbsp;Papier."}))
 book.add_page(IllustrationPage.new("owl.3",{
   :en => "Owl finds notes in the desk.",
   :fr => "Hibou trouve une note dans le pupitre.",
@@ -228,7 +228,7 @@ book.add_page(IllustrationPage.new("cat.5",{
   :ru => "Кошка вылезает из&nbsp;парты.",
   :jp => "ネコは　つくえから　でた。",
   :li => "K<trema>a</trema>t'forika todeo.",
-  :de => "Katze kommt aus dem Schreibtisch heraus."}))
+  :de => "Katze kommt aus dem Schreibtisch&nbsp;heraus."}))
 book.add_page(IllustrationPage.new("owl.5",{
   :en => "Owl understands the room.",
   :fr => "Hibou a tout compris.",
