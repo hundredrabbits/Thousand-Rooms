@@ -21,6 +21,7 @@ class Book
   page cedil { display:inline; background-image:url(assets/accent.cedil.svg); background-position:center 0px}
   page trema { display: inline-block;background-position: center 0px;height: 15.5px;}
   page trema:before { background-color:white; display: inline-block;width: 15px;height: 15px;content: ' ';position: absolute; background-image: url(assets/accent.trema.svg); }
+  .lang_ru { letter-spacing:-4px}
   "
     @increment = 0
     
@@ -58,7 +59,7 @@ class Book
 
     # Create file
     out_file = File.new("thousand.#{$lang}.html", "w")
-    out_file.puts("<html><meta charset='UTF-8'>#{content}</html>")
+    out_file.puts("<html><meta charset='UTF-8'><body class='lang_#{$lang}'>#{content}</body></html>")
     out_file.close
     
     puts "Completed #{count} pages, for thousand.#{$lang}.html"
