@@ -63,6 +63,7 @@ class Book
     out_file.close
     
     puts "Completed #{count} pages, for thousand.#{$lang}.html"
+    puts "Word count: #{$word_cound}"
 
   end
   

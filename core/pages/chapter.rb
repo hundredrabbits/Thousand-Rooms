@@ -21,7 +21,8 @@ class ChapterPage
     @style["h1 aigue"] = "display:inline; background-image:url(assets/accent.aigue.svg); background-position:center 0px"
     @style["h1 cedil"] = "display:inline; background-image:url(assets/accent.cedil.svg); background-position:3px 13px"
 
-
+    $word_cound += @text.split(" ").length
+    
   end
 
   def content

@@ -23,7 +23,7 @@ class TitlePage
     @style["trema:before"] = "display:none !important"
 
     @text = loc_text[$lang] ? loc_text[$lang] : loc_text[:en]
-    
+
   end
 
   def content

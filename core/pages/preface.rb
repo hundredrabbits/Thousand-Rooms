@@ -18,6 +18,8 @@ class PrefacePage
 
     @text = loc_text[$lang] ? loc_text[$lang] : loc_text[:en]
 
+    $word_cound += @text.split(" ").length
+
   end
 
   def content

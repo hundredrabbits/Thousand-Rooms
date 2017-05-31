@@ -13,6 +13,7 @@ require_relative 'core/pages/cover.rb'
 require_relative 'core/pages/thank.rb'
 
 $lang = ARGV.first.to_sym ? ARGV.first.to_sym : :en
+$word_cound = 0
 
 title = {
   :en => "Thousand Rooms", 
