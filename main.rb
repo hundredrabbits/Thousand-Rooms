@@ -316,12 +316,12 @@ book.add_page(IllustrationPage.new("you.1",{
 book.add_page(BlankPage.new)
 
 book.add_page(ThankPage.new({
-  :en => ["Thanks","Ginger Leigh for her creative feedback, RA for his help with the Russian translation, Chase and Yuka for the japanese translation, and folks in Montreal for imparting their ideas."],
+  :en => ["Thanks","Ginger Leigh for her creative feedback, RA for his help with the Russian translation, Chase and Yuka for the japanese translation, Max Häßlein for the german translation and folks in Montreal for imparting their ideas."],
   :fr => ["Merci","Ginger Leigh pour ses commentaires constructifs, RA pour la traduction Russe, et <grave>a</grave> nos amis de Montr<aigue>e</aigue>al pour leurs id<aigue>e</aigue>es."],
   :ru => ["Спасибо","Джинджер Ли&nbsp;за&nbsp;творческий вклад, RA&nbsp;за&nbsp;помощь в&nbsp;переводе на&nbsp;русский, и&nbsp;ребятам из&nbsp;Монреаля за&nbsp;идеи."],
   :jp => ["よんでくれて　ありがとう！"],
   :li => ["Favify!",""],
-  :de => ["Vielen Dank","Ginger Leigh für ihr kreatives Feedback, RA für seine Hilfe mit der russischen Übersetzung, Chase und Yuka für die japanische Übersetzung und unsere Freunde aus Montreal für ihre Ideen."]}))
+  :de => ["Vielen Dank","Ginger Leigh für ihr kreatives Feedback, RA für seine Hilfe mit der russischen Übersetzung, Chase und Yuka für die japanische Übersetzung, Max Häß­lein für die deutsche Übersetzung und unsere Freunde in Montreal für ihre Ideen."]}))
 
 book.add_page(BlankPage.new)
 
