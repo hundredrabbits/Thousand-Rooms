@@ -46,10 +46,10 @@ book.add_page(PrefacePage.new({
   :ru => "Вы&nbsp;проснулись в&nbsp;белой замкнутой комнате. На&nbsp;парте перед вами чистый лист и&nbsp;карандаш. Под&nbsp;крышкой&nbsp;— пачка исписанной вами бумаги, о&nbsp;которой вы&nbsp;ничего не&nbsp;помните.",
   :jp => "きみは　めを　さました。<br/>かたい　かべで　かこまれた<br/>へやの　なかで。<br/>つくえの　うえには、<br/>えんぴつと　かみが　あった。<br/><br/>つくえの　なかには、　じぶんが<br/>かいた　メモが　あった。<br/><br/>なにも　おぼえていない。",
   :li => "Doki el lyfasi es jof<trema>i</trema>l ul'ok ev lari'fori j<trema>a</trema>f. Todeo'ik ev el tofitay es tofatay ul. Todeo'ok ev doety'tado el lari'tado ul. Lari'fadiro'dijo.",
-  :de => "Du wachst in einem Raum auf, umgeben von unzerstörbare Wänden. Auf einem Schreibtisch liegen ein Bleistift und ein Blatt Papier.<br/>Im Schreibtisch befinden sich Notizen mit deiner Handschrift, du hast keinerlei Erinnerung daran."
+  :de => "Du wachst in einem Raum auf, umgeben von unzerstörbaren Wänden. Auf einem Schreibtisch liegen ein Bleistift und ein Blatt Papier.<br/>Im Schreibtisch befinden sich Notizen mit deiner Handschrift, du hast keinerlei Erinnerung daran."
   # use above if 'you have no recollection' means 'you have no recollection of the notes'
   # if 'you have no recollection' means 'you have no recollection at all, how you came here, what this all is', use:
-  # :de => "Du wachst in einem Raum auf, umgeben von unzerstörbare Wänden. Auf einem Schreibtisch liegen ein Bleistift und ein Blatt Papier.<br/>Im Schreibtisch befinden sich Notizen mit deiner Handschrift, du erinnerst dich an nichts."
+  # :de => "Du wachst in einem Raum auf, umgeben von unzerstörbaren Wänden. Auf einem Schreibtisch liegen ein Bleistift und ein Blatt Papier.<br/>Im Schreibtisch befinden sich Notizen mit deiner Handschrift, du erinnerst dich an nichts."
 }))
 
 book.add_page(BlankPage.new)
