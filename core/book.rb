@@ -21,7 +21,11 @@ class Book
   page cedil { display:inline; background-image:url(assets/accent.cedil.svg); background-position:center 0px}
   page trema { display: inline-block;background-position: center 0px;height: 15.5px;}
   page trema:before { background-color:white; display: inline-block;width: 15px;height: 15px;content: ' ';position: absolute; background-image: url(assets/accent.trema.svg); }
-  .lang_ru { letter-spacing:-4px}
+  .lang_ru h1 { letter-spacing:-12px}
+  .lang_ru .cover h1 { letter-spacing:-8px}
+  .lang_ru .title h1 { letter-spacing:-8px}
+  .lang_ru .preface p {letter-spacing:-6px}
+  .lang_ru .thank p {letter-spacing:-6px}
   "
     @increment = 0
     

@@ -270,7 +270,7 @@ book.add_page(BlankPage.new)
 book.add_page(ThankPage.new({
   :en => ["Thanks","Ginger Leigh for her creative feedback, RA for his help with the Russian translation, Chase and Yuka for the japanese translation, and folks in Montreal for imparting their ideas."],
   :fr => ["Merci","Ginger Leigh pour ses commentaires constructifs, RA pour la traduction Russe, et <grave>a</grave> nos amis de Montr<aigue>e</aigue>al pour leurs id<aigue>e</aigue>es."],
-  :ru => ["Спасибо","Джинджер Ли&nbsp;за&nbsp;творческий вклад, RA&nbsp;за&nbsp;помощь в&nbsp;переводе на&nbsp;русский, и&nbsp;ребятам из&nbsp;Монреаля за&nbsp;идеи."],
+  :ru => ["Спасибо","Джинджер Ли&nbsp;за&nbsp;творческий вклад, <span style='letter-spacing:0px'>RA</span>&nbsp;за&nbsp;помощь в&nbsp;переводе на&nbsp;русский, и&nbsp;ребятам из&nbsp;Монреаля за&nbsp;идеи."],
   :jp => ["よんでくれて　ありがとう！"],
   :li => ["Favify!",""]}))
 
