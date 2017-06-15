@@ -258,7 +258,7 @@ book.add_page(IllustrationPage.new("cat.5",{
   :jp => "ネコは　つくえから　でた。",
   :li => "K<trema>a</trema>t'forika todeo.",
   :de => "Katze kommt aus dem Schreibtisch&nbsp;heraus.",
-  :de => "Gatto sbuca fuori dalla scrivania." }))
+  :it => "Gatto sbuca fuori dalla scrivania." }))
 book.add_page(IllustrationPage.new("owl.5",{
   :en => "Owl understands the room.",
   :fr => "Hibou a tout compris.",
@@ -290,7 +290,6 @@ book.add_page(IllustrationPage.new("fox.5",{
   :li => "F<trema>o</trema>j'af daku'il'es.",
   :de => "Fuchs hat einen zweiten Besucher.",
   :it => "Volpe ha un secondo ospite."}))
-
 
 book.add_page(BlankPage.new)
 
@@ -366,7 +365,7 @@ book.add_page(ThankPage.new({
   :jp => ["よんでくれて　ありがとう！"],
   :li => ["Favify!",""],
   :de => ["Vielen Dank","Ginger Leigh f<trema>u</trema>r ihr kreatives Feedback, RA f<trema>u</trema>r seine Hilfe mit der russischen Übersetzung, Chase und Yuka f<trema>u</trema>r die japanische Übersetzung, Max H<trema>a</trema>ß­lein f<trema>u</trema>r die deutsche Übersetzung und unsere Freunde in Montreal f<trema>u</trema>r ihre Ideen."],
-  :it => ["Thanks","Ginger Leigh per i suggerimenti creativi. RA per l'aiuto nella traduzione in russo, Chase and Yuka per la traduzione in giapponese, Max H<trema>a</trema>ßlein per la traduzione in tedesco, Federico Salvador per la traduzione in italiano e gli amici di Montreal per le loro idee."]}))
+  :it => ["Grazie a","Ginger Leigh per i suggerimenti creativi. RA per l'aiuto nella traduzione in russo, Chase and Yuka per la traduzione in giapponese, Max H<trema>a</trema>ßlein per la traduzione in tedesco, Federico Salvador per la traduzione in italiano e gli amici di Montreal per le loro idee."]}))
 
 book.add_page(BlankPage.new)
 
