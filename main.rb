@@ -280,13 +280,9 @@ book.add_page(IllustrationPage.new("cat.5",{
   :jp => "ネコは　つくえから　でた。",
   :li => "K<trema>a</trema>t'forika todeo.",
   :de => "Katze kommt aus dem Schreibtisch&nbsp;heraus.",
-<<<<<<< HEAD
-  :it => "Gatto sbuca fuori dalla scrivania." }))
-=======
-  :de => "Gatto sbuca fuori dalla scrivania.",
+  :it => "Gatto sbuca fuori dalla scrivania.",
   :nl => "Kat komt uit het bureau." }))
-  # no it ?
->>>>>>> origin/master
+
 book.add_page(IllustrationPage.new("owl.5",{
   :en => "Owl understands the room.",
   :fr => "Hibou a tout compris.",
@@ -403,12 +399,8 @@ book.add_page(ThankPage.new({
   :jp => ["よんでくれて　ありがとう！"],
   :li => ["Favify!",""],
   :de => ["Vielen Dank","Ginger Leigh f<trema>u</trema>r ihr kreatives Feedback, RA f<trema>u</trema>r seine Hilfe mit der russischen Übersetzung, Chase und Yuka f<trema>u</trema>r die japanische Übersetzung, Max H<trema>a</trema>ß­lein f<trema>u</trema>r die deutsche Übersetzung und unsere Freunde in Montreal f<trema>u</trema>r ihre Ideen."],
-<<<<<<< HEAD
-  :it => ["Grazie a","Ginger Leigh per i suggerimenti creativi. RA per l'aiuto nella traduzione in russo, Chase and Yuka per la traduzione in giapponese, Max H<trema>a</trema>ßlein per la traduzione in tedesco, Federico Salvador per la traduzione in italiano e gli amici di Montreal per le loro idee."]}))
-=======
-  :it => ["Thanks","Ginger Leigh per i suggerimenti creativi. RA per l'aiuto nella traduzione in russo, Chase and Yuka per la traduzione in giapponese, Max H<trema>a</trema>ßlein per la traduzione in tedesco, Federico Salvador per la traduzione in italiano e gli amici di Montreal per le loro idee.",
-  :nl => ["Bedankt","Ginger Leigh voor haar creatieve feedback, RA voor zijn hulp bij de Russische vertaling, Chase en Yuka voor de Japanse vertaling, Max H<trema>a</trema>ßlein voor de Duitse vertaling en de mensen in Montreal voor het delen van hun ideeën."],]}))
->>>>>>> origin/master
+  :it => ["Grazie a","Ginger Leigh per i suggerimenti creativi. RA per l'aiuto nella traduzione in russo, Chase and Yuka per la traduzione in giapponese, Max H<trema>a</trema>ßlein per la traduzione in tedesco, Federico Salvador per la traduzione in italiano e gli amici di Montreal per le loro idee."],
+  :nl => ["Bedankt","Ginger Leigh voor haar creatieve feedback, RA voor zijn hulp bij de Russische vertaling, Chase en Yuka voor de Japanse vertaling, Max H<trema>a</trema>ßlein voor de Duitse vertaling en de mensen in Montreal voor het delen van hun ideeën."]}))
 
 book.add_page(BlankPage.new)
 
