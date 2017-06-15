@@ -17,6 +17,7 @@ class CoverPage
     @style[""] = "background:white; overflow:hidden"
     @style["img"] = "width:100%"
     @style["h1"] = "position:absolute; bottom:100px; color:black; text-transform:uppercase; width:100%; text-align:center; font-weight:normal; font-size:36px"
+    @style["h1 trema:before"] = "top:-15px"
     @style["img.logo"] = "position: absolute;bottom: 0px;width: 70px;height: 70px;display: block;left:calc(50% - 35px);"
     @style["grave"] = "background-position: center -1px;line-height: 50px;display: inline-block"
 

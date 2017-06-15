@@ -21,7 +21,7 @@ title = {
   :ru => "Тысяча Комнат",
   :jp => "せんのへや",
   :li => "Lae'Doi",
-  :de => "Tausend Räume",
+  :de => "Tausend R<trema>a</trema>ume",
   :it => "Mille stanze"
 }
 
@@ -49,10 +49,10 @@ book.add_page(PrefacePage.new({
   :ru => "Вы&nbsp;проснулись в&nbsp;белой замкнутой комнате. На&nbsp;парте перед вами чистый лист и&nbsp;карандаш. Под&nbsp;крышкой&nbsp;— пачка исписанной вами бумаги, о&nbsp;которой вы&nbsp;ничего не&nbsp;помните.",
   :jp => "きみは　めを　さました。<br/>かたい　かべで　かこまれた<br/>へやの　なかで。<br/>つくえの　うえには、<br/>えんぴつと　かみが　あった。<br/><br/>つくえの　なかには、　じぶんが<br/>かいた　メモが　あった。<br/><br/>なにも　おぼえていない。",
   :li => "Doki el lyfasi es jof<trema>i</trema>l ul'ok ev lari'fori j<trema>a</trema>f. Todeo'ik ev el tofitay es tofatay ul. Todeo'ok ev doety'tado el lari'tado ul. Lari'fadiro'dijo.",
-  :de => "Du wachst in einem Raum auf, umgeben von unzerstörbaren Wänden. Auf einem Schreibtisch liegen ein Bleistift und ein Blatt Papier.<br/>Im Schreibtisch befinden sich Notizen mit deiner Handschrift, du hast keinerlei Erinnerung daran.",
+  :de => "Du wachst in einem Raum auf, umgeben von unzerst<trema>o</trema>rbaren W<trema>a</trema>nden. Auf einem Schreibtisch liegen ein Bleistift und ein Blatt Papier.<br/>Im Schreibtisch befinden sich Notizen mit deiner Handschrift, du hast keinerlei Erinnerung daran.",
   # use above if 'you have no recollection' means 'you have no recollection of the notes'
   # if 'you have no recollection' means 'you have no recollection at all, how you came here, what this all is', use:
-  # :de => "Du wachst in einem Raum auf, umgeben von unzerstörbaren Wänden. Auf einem Schreibtisch liegen ein Bleistift und ein Blatt Papier.<br/>Im Schreibtisch befinden sich Notizen mit deiner Handschrift, du erinnerst dich an nichts."
+  # :de => "Du wachst in einem Raum auf, umgeben von unzerst<trema>o</trema>rbaren W<trema>a</trema>nden. Auf einem Schreibtisch liegen ein Bleistift und ein Blatt Papier.<br/>Im Schreibtisch befinden sich Notizen mit deiner Handschrift, du erinnerst dich an nichts."
   :it => "Ti svegli in una stanza, circondata da mura indistruttibili. Su una scrivania ci sono una matita e un foglio di carta.<br/>All'interno della scrivania, alcune note con la tua calligrafia delle quali non ricordi nulla."
   # use above if 'you have no recollection' means 'you have no recollection of the notes'
   # if 'you have no recollection' means 'you have no recollection at all, how you came here, what this all is', use:
@@ -83,7 +83,7 @@ book.add_page(IllustrationPage.new("owl.1",{
   :ru => "Сова находит лист бумаги.",
   :jp => "フクロウは　かみを<br/>みつけた。",
   :li => "J<trema>o</trema>l'faji tofatay.",
-  :de => "Eule findet ein Stück Papier.",
+  :de => "Eule findet ein St<trema>u</trema>ck Papier.",
   :it => "Gufo trova un foglio di carta."}))
 book.add_page(IllustrationPage.new("bat.1",{
   :en => "Bat finds a pencil.",
@@ -99,7 +99,7 @@ book.add_page(IllustrationPage.new("fox.1",{
   :ru => "Лисёнок открывает крышку парты.",
   :jp => "キツネは　つくえを　あけた。",
   :li => "F<trema>o</trema>j'firo todeo.",
-  :de => "Fuchs öffnet den Schreibtisch.",
+  :de => "Fuchs <trema>o</trema>ffnet den Schreibtisch.",
   :it => "Volpe apre la scrivania."}))
 
 book.add_page(BlankPage.new)
@@ -118,7 +118,7 @@ book.add_page(IllustrationPage.new("cat.2",{
   :ru => "Кошка точит когти о&nbsp;стены.",
   :jp => "ネコは　かべを　ひっかいた。",
   :li => "K<trema>a</trema>t'fivota jofy.",
-  :de => "Katze zerkratzt die Wände.",
+  :de => "Katze zerkratzt die W<trema>a</trema>nde.",
   :it => "Gatto graffia i muri."}))
 book.add_page(IllustrationPage.new("owl.2",{
   :en => "Owl leaves a message in the desk.",
@@ -126,7 +126,7 @@ book.add_page(IllustrationPage.new("owl.2",{
   :ru => "Сова оставляет в&nbsp;парте записку.",
   :jp => "フクロウは　つくえに<br/>メモを　のこした。",
   :li => "J<trema>o</trema>l'fiko el todeo'ok ev doety ul.",
-  :de => "Eule hinterlässt eine Nachricht im&nbsp;Schreibtisch.",
+  :de => "Eule hinterl<trema>a</trema>sst eine Nachricht im&nbsp;Schreibtisch.",
   :it => "Gufo lascia un messaggio dentro alla scrivania."}))
 book.add_page(IllustrationPage.new("bat.2",{
   :en => "Bat finds a second pencil.",
@@ -162,7 +162,7 @@ book.add_page(IllustrationPage.new("cat.3",{
   :ru => "Кошка расправляется с&nbsp;бумагой и&nbsp;карандашом.",
   :jp => "ネコは　えんぴつと　かみを　めちゃくちゃに　した。",
   :li => "K<trema>a</trema>t'filo el tofitay es tofatay ul.",
-  :de => "Katze zerstört den Bleistift und&nbsp;das&nbsp;Papier.",
+  :de => "Katze zerst<trema>o</trema>rt den Bleistift und&nbsp;das&nbsp;Papier.",
   :it => "Gatto distrugge la matita e il foglio di carta."}))
 book.add_page(IllustrationPage.new("owl.3",{
   :en => "Owl finds notes in the desk.",
@@ -227,7 +227,7 @@ book.add_page(IllustrationPage.new("bat.4",{
   :de => "Fledermaus gibt auf.",
   # the above translates to "Bat gives up"
   # or you could use:
-  # :de => "Fledermaus sieht keine Fluchtmöglichkeit."
+  # :de => "Fledermaus sieht keine Fluchtm<trema>o</trema>glichkeit."
   # which translates to "Bat sees no possibility of escape"
   # but I think "Bat gives up" is more accurate
   :it => "Pipistrello non vede vie d'uscita."
@@ -308,7 +308,7 @@ book.add_page(IllustrationPage.new("cat.6",{
   :ru => "Кошка расправляется с&nbsp;партой.",
   :jp => "ネコは　つくえを<br/>こわした 。",
   :li => "K<trema>a</trema>t'filo todeo.",
-  :de => "Katze zerstört den Schreibtisch.",
+  :de => "Katze zerst<trema>o</trema>rt den Schreibtisch.",
   :it => "Gatto distrugge la scrivania."}))
 book.add_page(IllustrationPage.new("owl.6",{
   :en => "Owl finds a scribble.",
@@ -354,19 +354,19 @@ book.add_page(IllustrationPage.new("you.1",{
   :ru => "Что&nbsp;будете делать?",
   :jp => "きみなら　どうする？",
   :li => "Lari'if jado.",
-  :de => "Was würdest du tun?",
+  :de => "Was w<trema>u</trema>rdest du tun?",
   :it => "Tu cosa faresti?"}))
 
 book.add_page(BlankPage.new)
 
 book.add_page(ThankPage.new({
-  :en => ["Thanks","Ginger Leigh for her creative feedback, RA for his help with the Russian translation, Chase and Yuka for the japanese translation, Max Häßlein for the german translation and folks in Montreal for imparting their ideas."],
+  :en => ["Thanks","Ginger Leigh for her creative feedback, RA for his help with the Russian translation, Chase and Yuka for the japanese translation, Max H<trema>a</trema>ßlein for the german translation and folks in Montreal for imparting their ideas."],
   :fr => ["Merci","Ginger Leigh pour ses commentaires constructifs, RA pour la traduction Russe, et <grave>a</grave> nos amis de Montr<aigue>e</aigue>al pour leurs id<aigue>e</aigue>es."],
   :ru => ["Спасибо","Джинджер Ли&nbsp;за&nbsp;творческий вклад, <span style='letter-spacing:0px'>RA</span>&nbsp;за&nbsp;помощь в&nbsp;переводе на&nbsp;русский, и&nbsp;ребятам из&nbsp;Монреаля за&nbsp;идеи."],
   :jp => ["よんでくれて　ありがとう！"],
   :li => ["Favify!",""],
-  :de => ["Vielen Dank","Ginger Leigh für ihr kreatives Feedback, RA für seine Hilfe mit der russischen Übersetzung, Chase und Yuka für die japanische Übersetzung, Max Häß­lein für die deutsche Übersetzung und unsere Freunde in Montreal für ihre Ideen."],
-  :it => ["Thanks","Ginger Leigh per i suggerimenti creativi. RA per l'aiuto nella traduzione in russo, Chase and Yuka per la traduzione in giapponese, Max Häßlein per la traduzione in tedesco, Federico Salvador per la traduzione in italiano e gli amici di Montreal per le loro idee."]}))
+  :de => ["Vielen Dank","Ginger Leigh f<trema>u</trema>r ihr kreatives Feedback, RA f<trema>u</trema>r seine Hilfe mit der russischen Übersetzung, Chase und Yuka f<trema>u</trema>r die japanische Übersetzung, Max H<trema>a</trema>ß­lein f<trema>u</trema>r die deutsche Übersetzung und unsere Freunde in Montreal f<trema>u</trema>r ihre Ideen."],
+  :it => ["Thanks","Ginger Leigh per i suggerimenti creativi. RA per l'aiuto nella traduzione in russo, Chase and Yuka per la traduzione in giapponese, Max H<trema>a</trema>ßlein per la traduzione in tedesco, Federico Salvador per la traduzione in italiano e gli amici di Montreal per le loro idee."]}))
 
 book.add_page(BlankPage.new)
 
