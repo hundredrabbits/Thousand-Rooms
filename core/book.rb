@@ -12,6 +12,8 @@ class Book
     @name = name[$lang]
     @pages = []
     @style = "
+
+  @font-face { font-family: 'Jura'; src: url('assets/fonts/jura_regular.ttf') format('truetype'); font-weight: normal; font-style: normal; }
   @page { size: 148mm 210mm; width:592px; height:840px; margin:0px; padding:0px }
   body { font-family:'azuki_font','aquafont','Garamond'; padding:0px; margin:0px;}
   page { page-break-after: always; display:block; position:relative; overflow:hidden; background:#ffffff; width:592px; height:820px; border:1px solid #fefefe; }
@@ -21,14 +23,18 @@ class Book
   page cedil { display:inline; background-image:url(assets/accent.cedil.svg); background-position:center 0px}
   page trema { display: inline-block;background-position: center 0px;height: 15.5px;}
   page trema:before { background-color:white; display: inline-block;width: 15px;height: 15px;content: ' ';position: absolute; background-image: url(assets/accent.trema.svg); }
+  body.lang_el { font-family: 'Jura', sans-serif; }
   body.lang_ru h1 { letter-spacing:-12px}
-  body.lang_el h1 { letter-spacing:-6px}
+  body.lang_el h1 { letter-spacing:-2px}
   body.lang_ru .cover h1 { letter-spacing:-8px}
-  body.lang_el .cover h1 { letter-spacing:-6px}
-  body.lang_el .title h1, body.lang_ru .title h1 { letter-spacing:-8px}
-  body.lang_el .preface p, body.lang_ru .preface p {letter-spacing:-6px}
-  body.lang_el .illustration h1 { letter-spacing:-12px}
+  body.lang_el .cover h1 { letter-spacing:-2px}
+  body.lang_ru .title h1 { letter-spacing:-8px}
+  body.lang_el .preface p {letter-spacing:-2px}
+  body.lang_ru .preface p {letter-spacing:-6px}
+  body.lang_el .illustration h1 { letter-spacing:-2px}
   body.lang_ru .thank p {letter-spacing:-6px}
+  body.lang_el .thank p {letter-spacing:-2px}
+  body.lang_ar { font-family: 'KufiStandardGK', 'Jura', Tahoma !important; }
   "
     @increment = 0
     
