@@ -25,6 +25,7 @@ title = {
   :it => "Mille stanze",
   :nl => "Duizend Kamers",
   :el => "Χιλια Δωματια",
+  :ar => "ألف غرفة",
 }
 
 book = Book.new(title)
@@ -43,6 +44,7 @@ book.add_page(TitlePage.new({
   :it => [title[:it],"Gatto, Gufo, Pipistrello &&nbsp;Volpe","Illustrato da Rekka Bellum<br />Scritto da Devine Lu Linvega","Prima Edizione"],
   :nl => [title[:du],"Kat, Uil, Vleermuis & Vos","Illustraties door Rekka Bellum<br />Geschreven door Devine Lu Linvega","Eerste Editie"],
   :el => [title[:el],"Γατα, Κουκουβαγια, Νυχτεριδα & Αλεπου","Εικονογράφηση Rekka Bellum<br />Συγγραφή Devine Lu Linvega","Πρωτη Εκδοση"],
+  :ar => [title[:ar],"قط، بومة، خفاش وثعلب", "رسمتها ريكا بيلم<br />كتبها ديفين لو لينفيغا", "الطبعة الأولى"],
 }))
 
 book.add_page(BlankPage.new)
@@ -63,6 +65,7 @@ book.add_page(PrefacePage.new({
   # :it => "Ti svegli in una stanza, circondata da mura indistruttibili. Su una scrivania ci sono una matita e un foglio di carta.<br/>All'interno della scrivania, alcune note con la tua calligrafia, non ricordi nulla."
   :nl => "Je wordt wakker in een kamer, omringt door onbreekbare muren. Op een bureau, Ligt een potlood en een leeg vel papier.<br/> In het bureau, notities in jouw handschrift, Je kan je niets herinneren.",
   :el => "Ξυπνάς σε ένα δωμάτιο, περικυκλωμένο από άθραυστους τοίχους. Σε ένα θρανείο βρίσκεται ένα μολύβι και ένα φύλλο λευκού χαρτιού.<br/> Μέσα στο θρανείο, σημειώσεις που φέρουν τον γραφικό σου χαρακτήρα, δεν έχεις καμία ανάμνηση.",
+  :ar => ".تستيقظ في غرفة، محاط بجدران غير قابلة للكسر. على طاولة تجد قلم رصاص وورقة فارغة"+"<br/>"+" .داخل هذه الطاولة تجد ملاحظات كتبت بخط يدك ولكن لا تتذكرها",
 }))
 
 book.add_page(BlankPage.new)
@@ -77,6 +80,7 @@ book.add_page(ChapterPage.new(1,{
   :it => "Lezione 1",
   :nl => "Les 1",
   :el => "Πρώτο Μάθημα",
+  :ar => "الدرس 1",
 }))
 book.add_page(IllustrationPage.new("cat.1",{
   :en => "Cat awakens.",
@@ -88,6 +92,7 @@ book.add_page(IllustrationPage.new("cat.1",{
   :it => "Gatto si sveglia.",
   :nl => "Kat wordt wakker.",
   :el => "Γάτα ξυπνάει.",
+  :ar => ".القط يستيقظ",
 }))
 book.add_page(IllustrationPage.new("owl.1",{
   :en => "Owl finds a piece of paper.",
@@ -99,6 +104,7 @@ book.add_page(IllustrationPage.new("owl.1",{
   :it => "Gufo trova un foglio di carta.",
   :nl => "Uil vindt een stuk papier.",
   :el => "Κουκουβάγια βρίσκει ένα κομμάτι χαρτί.",
+  :ar => ".البومة تجد ورقة",
 }))
 book.add_page(IllustrationPage.new("bat.1",{
   :en => "Bat finds a pencil.",
@@ -110,6 +116,7 @@ book.add_page(IllustrationPage.new("bat.1",{
   :it => "Pipistrello trova una matita.",
   :nl => "Vleermuis vindt een potlood.",
   :el => "Νυχτερίδα βρίσκει ένα μολύβι.",
+  :ar => ".الخفاش يجد قلم رصاص",
 }))
 book.add_page(IllustrationPage.new("fox.1",{
   :en => "Fox opens the desk.",
@@ -121,6 +128,7 @@ book.add_page(IllustrationPage.new("fox.1",{
   :it => "Volpe apre la scrivania.",
   :nl => "Vos opent het bureau.",
   :el => "Αλεπού ανοίγει το θρανείο.",
+  :ar => ".الثعلب يفتح الطاولة",
 }))
 
 book.add_page(BlankPage.new)
@@ -135,6 +143,7 @@ book.add_page(ChapterPage.new(2,{
   :it => "Lezione 2",
   :nl => "Les 2.",
   :el => "Δεύτερο Μάθημα",
+  :ar => "الدرس 2",
 }))
 book.add_page(IllustrationPage.new("cat.2",{
   :en => "Cat claws at the walls.",
@@ -146,6 +155,7 @@ book.add_page(IllustrationPage.new("cat.2",{
   :it => "Gatto graffia i muri.",
   :nl => "Kat krabt de muren.",
   :el => "Γάτα γρατσουνίζει τους τοίχους.",
+  :ar => ".القط يخدش الجدران",
 }))
 book.add_page(IllustrationPage.new("owl.2",{
   :en => "Owl leaves a message in the desk.",
@@ -157,6 +167,7 @@ book.add_page(IllustrationPage.new("owl.2",{
   :it => "Gufo lascia un messaggio dentro alla scrivania.",
   :nl => "Uil laat een bericht achter in het bureau.",
   :el => "Κουκουβάγια αφήνει ένα μήνυμα μέσα στο θρανείο.",
+  :ar => ".البومة تترك رسالة في الطاولة",
 }))
 book.add_page(IllustrationPage.new("bat.2",{
   :en => "Bat finds a second pencil.",
@@ -168,6 +179,7 @@ book.add_page(IllustrationPage.new("bat.2",{
   :it => "Pipistrello trova un'altra matita.",
   :nl => "Vleermuis vindt een tweede potlood.",
   :el => "Νυχτερίδα βρίσκει ένα δεύτερο μολύβι.",
+  :ar => "الخفاش يجد قلم رصاص آخرٍ",
 }))
 book.add_page(IllustrationPage.new("fox.2",{
   :en => "Fox dismantles the desk.",
@@ -179,6 +191,7 @@ book.add_page(IllustrationPage.new("fox.2",{
   :it => "Volpe smonta la scrivania.",
   :nl => "Vos haalt het bureau uit elkaar.",
   :el => "Αλεπού αποσυναρμολογεί το θρανείο.",
+  :ar => ".الثعلب يفكك الطاولة",
 }))
 
 
@@ -194,6 +207,7 @@ book.add_page(ChapterPage.new(3,{
   :it => "Lezione 3",
   :nl => "Les 3",
   :el => "Τρίτο Μάθημα",
+  :ar => "الدرس 3",
 }))
 book.add_page(IllustrationPage.new("cat.3",{
   :en => "Cat destroys the pencil and the paper.",
@@ -205,6 +219,7 @@ book.add_page(IllustrationPage.new("cat.3",{
   :it => "Gatto distrugge la matita e il foglio di carta.",
   :nl => "Kat vernielt het potlood en papier.", 
   :el => "Γάτα καταστρέφει το μολύβι και το χαρτί.",
+  :ar => ".القط يدمر قلم الرصاص والورقة",
 }))
 book.add_page(IllustrationPage.new("owl.3",{
   :en => "Owl finds notes in the desk.",
@@ -216,6 +231,7 @@ book.add_page(IllustrationPage.new("owl.3",{
   :it => "Gufo trova degli appunti dentro alla scrivania.",
   :nl => "Uil vindt notities in het bureau.", 
   :el => "Κουκουβάγια βρίσκει σημειώσεις μέσα στο θρανείο.",
+  :ar => ".البومة تجد ملاحظات في الطاولة",
 }))
 book.add_page(IllustrationPage.new("bat.3",{
   :en => "Bat finds the desk full with pencils.",
@@ -230,6 +246,7 @@ book.add_page(IllustrationPage.new("bat.3",{
   :it => "Pipistello trova la scrivania piena di matite.",
   :nl => "Vleermuis vindt het bureau vol met potloden.",
   :el => "Νυχτερίδα βρίσκει το θρανείο γεμάτο μολύβια.",
+  :ar => ".الخفاش يجد أن الطاولة مُتْرَعَةٌ بأقلام رصاص",
 }))
 book.add_page(IllustrationPage.new("fox.3",{
   :en => "Fox builds the desk inside-out.",
@@ -241,6 +258,7 @@ book.add_page(IllustrationPage.new("fox.3",{
   :it => "Volpe ricostruisce la scrivania al rovescio.",
   :nl => "Vos bouwt het bureau binnenste buiten.",
   :el => "Αλεπού ξαναφτιάχνει το θρανείο μέσα έξω.",
+  :ar => ".الثعلب يبني الطاولة من الداخل إلى الخارج",
 }))
 
 book.add_page(BlankPage.new)
@@ -255,6 +273,7 @@ book.add_page(ChapterPage.new(4,{
   :it => "Lezione 4",
   :nl => "Les 4",
   :el => "Τέταρτο Μάθημα",
+  :ar => "الدرس 4",
 }))
 book.add_page(IllustrationPage.new("cat.4",{
   :en => "Cat enters the desk.",
@@ -266,6 +285,7 @@ book.add_page(IllustrationPage.new("cat.4",{
   :it => "Gatto si infila nella scrivania.",
   :nl => "Kat betreedt het bureau.",
   :el => "Γάτα μπαίνει στο θρανείο.",
+  :ar => ".القط يدخل الطاولة",
 }))
 book.add_page(IllustrationPage.new("owl.4",{
   :en => "Owl tries to understand.",
@@ -277,6 +297,7 @@ book.add_page(IllustrationPage.new("owl.4",{
   :it => "Gufo cerca di capire.",
   :nl => "Uil probeert het te begrijpen.",
   :el => "Κουκουβάγια προσπαθεί να καταλάβει.",
+  :ar => ".البومة تحاول الفهم",
 }))
 book.add_page(IllustrationPage.new("bat.4",{
   :en => "Bat sees no escape.",
@@ -293,6 +314,7 @@ book.add_page(IllustrationPage.new("bat.4",{
   :it => "Pipistrello non vede vie d'uscita.",
   :nl => "Vleermuis ziet geen uitweg.",
   :el => "Νυχτερίδα δεν βρίσκει διέξοδο.",
+  :ar => "",
 }))
 book.add_page(IllustrationPage.new("fox.4",{
   :en => "Fox has a visitor.",
@@ -304,6 +326,7 @@ book.add_page(IllustrationPage.new("fox.4",{
   :it => "Volpe ha un ospite.",
   :nl => "Vos heeft een bezoeker.",
   :el => "Αλεπού έχει έναν επισκέπτη.",
+  :ar => "",
 }))
 
 book.add_page(BlankPage.new)
@@ -318,6 +341,7 @@ book.add_page(ChapterPage.new(5,{
   :it => "Lezione 5",
   :nl => "Les 5",
   :el => "Πέμπτο Μάθημα",
+  :ar => "",
 }))
 book.add_page(IllustrationPage.new("cat.5",{
   :en => "Cat comes out of the desk.",
@@ -329,6 +353,7 @@ book.add_page(IllustrationPage.new("cat.5",{
   :it => "Gatto sbuca fuori dalla scrivania.",
   :nl => "Kat komt uit het bureau.",
   :el => "Γάτα βγαίνει από το θρανείο.",
+  :ar => "",
 }))
 
 book.add_page(IllustrationPage.new("owl.5",{
@@ -347,6 +372,7 @@ book.add_page(IllustrationPage.new("owl.5",{
   # :it => "Gufo capisce tutto."
   :nl => "Uil begrijpt de kamer.",
   :el => "Κουκουβάγια καταλαβαίνει το δωμάτιο.",
+  :ar => "",
 }))
   
 book.add_page(IllustrationPage.new("bat.5",{
@@ -359,6 +385,7 @@ book.add_page(IllustrationPage.new("bat.5",{
   :it => "Pipistrello si sveglia.",
   :nl => "Vleermuis wordt wakker.",
   :el => "Νυχτερίδα ξυπνάει.",
+  :ar => "",
 }))
 book.add_page(IllustrationPage.new("fox.5",{
   :en => "Fox has a second visitor.",
@@ -370,6 +397,7 @@ book.add_page(IllustrationPage.new("fox.5",{
   :it => "Volpe ha un secondo ospite.",
   :nl => "Vos heeft een tweede bezoeker.",
   :el => "Αλεπού έχει έναν δεύτερο επισκέπτη.",
+  :ar => "",
 }))
 
 book.add_page(BlankPage.new)
@@ -384,6 +412,7 @@ book.add_page(ChapterPage.new(6,{
   :it => "Lezione 6",
   :nl => "Les 6",
   :el => "Έκτο Μάθημα",
+  :ar => "",
 }))
 book.add_page(IllustrationPage.new("cat.6",{
   :en => "Cat destroys the desk.",
@@ -395,6 +424,7 @@ book.add_page(IllustrationPage.new("cat.6",{
   :it => "Gatto distrugge la scrivania.",
   :nl => "Kat vernietigt het bureau.",
   :el => "Γάτα καταστρέφει το θρανείο.",
+  :ar => "",
 }))
 book.add_page(IllustrationPage.new("owl.6",{
   :en => "Owl finds a scribble.",
@@ -406,6 +436,7 @@ book.add_page(IllustrationPage.new("owl.6",{
   :it => "Gufo trova uno scarabocchio.",
   :nl => "Uil vindt een krabbel.",
   :el => "Κουκουβάγια βρίσκει ένα σκαρίφημα.",
+  :ar => "",
 }))
 book.add_page(IllustrationPage.new("bat.6",{
   :en => "Bat finds a pencil.",
@@ -417,6 +448,7 @@ book.add_page(IllustrationPage.new("bat.6",{
   :it => "Pipistrello trova una matita.",
   :nl => "Vleermuis vindt een potlood.",
   :el => "Νυχτερίδα βρίσκει ένα μολύβι.",
+  :ar => "",
 }))
 book.add_page(IllustrationPage.new("fox.6",{
   :en => "Fox has too many visitors.",
@@ -428,6 +460,7 @@ book.add_page(IllustrationPage.new("fox.6",{
   :it => "Volpe ha troppi ospiti.",
   :nl => "Vos heeft teveel bezoekers.",
   :el => "Αλεπού έχει πάρα πολλούς επισκέπτες.",
+  :ar => "",
 }))
 
 book.add_page(BlankPage.new)
@@ -442,6 +475,7 @@ book.add_page(ChapterPage.new(7,{
   :it => "Ultima Lezione",
   :nl => "Laatste Les",
   :el => "Τελευταίο Μάθημα",
+  :ar => "",
 }))
 
 book.add_page(BlankPage.new)
@@ -456,6 +490,7 @@ book.add_page(IllustrationPage.new("you.1",{
   :it => "Tu cosa faresti?",
   :nl => "Wat zou je doen?",
   :el => "Εσύ τί θα έκανες;",
+  :ar => "",
 }))
 
 book.add_page(BlankPage.new)
@@ -470,6 +505,7 @@ book.add_page(ThankPage.new({
   :it => ["Grazie a","Ginger Leigh per i suggerimenti creativi. RA per l'aiuto nella traduzione in russo, Chase and Yuka per la traduzione in giapponese, Max H<trema>a</trema>ßlein per la traduzione in tedesco, Federico Salvador per la traduzione in italiano e gli amici di Montreal per le loro idee."],
   :nl => ["Bedankt","Ginger Leigh voor haar creatieve feedback, RA voor zijn hulp bij de Russische vertaling, Chase en Yuka voor de Japanse vertaling, Max H<trema>a</trema>ßlein voor de Duitse vertaling en de mensen in Montreal voor het delen van hun ideeën."],
   :el => ["Ευχαριστιες","Ginger Leigh για τα δημιουργικά της σχόλια, RA για την βοήθεια με την ρώσικη μετάφραση, Chase και Yuka για την ιαπωνική μετάφραση, Max H<trema>a</trema>ßlein για την γερμανική μετάφραση και τους φίλους μας στο Montreal για τις ιδέες τους."],
+  :ar => "",
 }))
 
 book.add_page(BlankPage.new)
