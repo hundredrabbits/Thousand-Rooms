@@ -34,6 +34,7 @@ class Book
   body.lang_el .illustration h1 { letter-spacing:-2px}
   body.lang_ru .thank p {letter-spacing:-6px}
   body.lang_el .thank p {letter-spacing:-2px}
+  body.lang_ar { font-family: 'KufiStandardGK', 'Jura', Tahoma !important; }
   "
     @increment = 0
     
