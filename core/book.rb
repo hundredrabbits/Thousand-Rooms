@@ -29,7 +29,7 @@ class Book
   body.lang_ru .title h1 { letter-spacing:-8px}
   body.lang_ru .preface p {letter-spacing:-6px}
   body.lang_ru .thank p {letter-spacing:-6px}
-  body.lang_ar { font-family: 'KufiStandardGK', 'Jura', Tahoma !important; }
+  body.lang_ar { font-family: 'Jura', Tahoma !important; }
   "
     @increment = 0
     
