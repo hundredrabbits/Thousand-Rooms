@@ -23,6 +23,7 @@ class Book
   page cedil { display:inline; background-image:url(assets/accent.cedil.svg); background-position:center 0px}
   page trema { display: inline-block;background-position: center 0px;height: 15.5px;}
   page trema:before { background-color:white; display: inline-block;width: 15px;height: 15px;content: ' ';position: absolute; background-image: url(assets/accent.trema.svg); }
+<<<<<<< HEAD
   body.lang_el { font-family: 'Jura', sans-serif; }
   body.lang_ru h1 { letter-spacing:-12px}
   body.lang_el h1 { letter-spacing:-2px}
@@ -35,6 +36,15 @@ class Book
   body.lang_ru .thank p {letter-spacing:-6px}
   body.lang_el .thank p {letter-spacing:-2px}
   body.lang_ar { font-family: 'KufiStandardGK', 'Jura', Tahoma !important; }
+=======
+  body.lang_el { font-family: 'Yuanti TC', sans-serif; }
+  body.lang_ru h1 { letter-spacing:-12px}
+  body.lang_ru .cover h1 { letter-spacing:-8px}
+  body.lang_ru .title h1 { letter-spacing:-8px}
+  body.lang_ru .preface p {letter-spacing:-6px}
+  body.lang_ru .thank p {letter-spacing:-6px}
+  body.lang_ar { font-family: 'Jura', Tahoma !important; }
+>>>>>>> upstream/master
   "
     @increment = 0
     
