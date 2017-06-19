@@ -18,8 +18,6 @@ class PrefacePage
 
     @text = loc_text
 
-    $word_cound += @text.split(" ").length
-
   end
 
   def content

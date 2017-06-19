@@ -19,8 +19,6 @@ class IllustrationPage
     @style["h1"] = "position:absolute; top:100px; display:block; text-align:center; width:calc(100% - 40px); padding:0px 20px; font-size:38px;font-weight: normal; line-height: 60px"
     @style["h1 trema:before"] = "top:10px"
 
-    $word_cound += @text.split(" ").length
-
   end
 
   def content
