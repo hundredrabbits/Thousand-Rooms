@@ -65,7 +65,7 @@ book.add_page(PrefacePage.new({
   # :it => "Ti svegli in una stanza, circondata da mura indistruttibili. Su una scrivania ci sono una matita e un foglio di carta.<br/>All'interno della scrivania, alcune note con la tua calligrafia, non ricordi nulla."
   :nl => "Je wordt wakker in een kamer, omringt door onbreekbare muren. Op een bureau, Ligt een potlood en een leeg vel papier.<br/> In het bureau, notities in jouw handschrift, Je kan je niets herinneren.",
   :el => "Ξυπνάς σε ένα δωμάτιο, περικυκλωμένο από άθραυστους τοίχους. Σε ένα θρανείο βρίσκεται ένα μολύβι και ένα φύλλο λευκού χαρτιού.<br/> Μέσα στο θρανείο, σημειώσεις που φέρουν τον γραφικό σου χαρακτήρα, δεν έχεις καμία ανάμνηση.",
-  :ar => ".تستيقظ في غرفة، محاط بجدران غير قابلة للكسر. على طاولة تجد قلم رصاص وورقة فارغة"+"<br/>"+" .داخل هذه الطاولة تجد ملاحظات كتبت بخط يدك ولكن لا تتذكرها",
+  :ar => ".تستيقظ في غرفة، محاط بجدران غير قابلة للكسر. على طاولة تجد قلم رصاص وورقة فارغة.<br/> داخل هذه الطاولة تجد ملاحظات كتبت بخط يدك ولكن لا تتذكرها",
 }))
 
 book.add_page(BlankPage.new)
@@ -80,7 +80,7 @@ book.add_page(ChapterPage.new(1,{
   :it => "Lezione 1",
   :nl => "Les 1",
   :el => "Πρώτο Μάθημα",
-  :ar => "الدرس 1",
+  :ar => "الدرس ١",
 }))
 book.add_page(IllustrationPage.new("cat.1",{
   :en => "Cat awakens.",
@@ -143,7 +143,7 @@ book.add_page(ChapterPage.new(2,{
   :it => "Lezione 2",
   :nl => "Les 2.",
   :el => "Δεύτερο Μάθημα",
-  :ar => "الدرس 2",
+  :ar => "الدرس ٢",
 }))
 book.add_page(IllustrationPage.new("cat.2",{
   :en => "Cat claws at the walls.",
@@ -207,7 +207,7 @@ book.add_page(ChapterPage.new(3,{
   :it => "Lezione 3",
   :nl => "Les 3",
   :el => "Τρίτο Μάθημα",
-  :ar => "الدرس 3",
+  :ar => "الدرس ٣",
 }))
 book.add_page(IllustrationPage.new("cat.3",{
   :en => "Cat destroys the pencil and the paper.",
@@ -273,7 +273,7 @@ book.add_page(ChapterPage.new(4,{
   :it => "Lezione 4",
   :nl => "Les 4",
   :el => "Τέταρτο Μάθημα",
-  :ar => "الدرس 4",
+  :ar => "الدرس ٤",
 }))
 book.add_page(IllustrationPage.new("cat.4",{
   :en => "Cat enters the desk.",
@@ -341,7 +341,7 @@ book.add_page(ChapterPage.new(5,{
   :it => "Lezione 5",
   :nl => "Les 5",
   :el => "Πέμπτο Μάθημα",
-  :ar => "الدرس 5",
+  :ar => "الدرس ٥",
 }))
 book.add_page(IllustrationPage.new("cat.5",{
   :en => "Cat comes out of the desk.",
@@ -412,7 +412,7 @@ book.add_page(ChapterPage.new(6,{
   :it => "Lezione 6",
   :nl => "Les 6",
   :el => "Έκτο Μάθημα",
-  :ar => "الدرس 6",
+  :ar => "الدرس ٦",
 }))
 book.add_page(IllustrationPage.new("cat.6",{
   :en => "Cat destroys the desk.",
