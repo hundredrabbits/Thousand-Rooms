@@ -14,10 +14,20 @@ class Book
     @style = default_styles
     
   end
+  
+  def build
+
+    @content.each do |lang,pages|
+      puts "Building #{pages[:language]}"
+      assemble(pages)
+      bind(lang)
+    end
+
+  end
 
   def assemble target_story
     
-    puts "Assembling #{target_story[:title]}, by #{target_story[:translator]}"
+    puts "- Assembling #{target_story[:title]}, by #{target_story[:translator]}"
 
     @pages = []
     @name = name
@@ -98,7 +108,7 @@ class Book
 
   def bind lang
 
-    puts "Binding #{@pages.length} pages"
+    puts "- Binding #{@pages.length} pages"
 
     body = "<style>\n#{@style}</style>\n\n"
 
@@ -106,28 +116,14 @@ class Book
     count = 0
     @pages.each do |page|
       progress = (((count+1)/@pages.length.to_f)*100).to_i
-      puts "#{progress}% Page: #{page.id} #{page.type}"
       body += page.to_s
       count += 1
     end
-
-    # Create file
     out_file = File.new("thousand.#{lang}.html", "w")
     out_file.puts("<html><meta charset='UTF-8'><body class='lang_#{lang}'>#{body}</body></html>")
     out_file.close
     
-    puts "Completed #{count} pages, for thousand.#{lang}.html"
-    puts "Word count: #{$word_cound}"
-
-  end
-  
-  def build
-
-    @content.each do |lang,pages|
-      puts "Building #{lang}"
-      assemble(pages)
-      bind(lang)
-    end
+    puts "- Binding complete of #{count} pages, for thousand.#{lang}.html\n\n"
 
   end
 
@@ -144,24 +140,18 @@ page aigue { display:inline; background-image:url(assets/accent.aigue.svg); back
 page cedil { display:inline; background-image:url(assets/accent.cedil.svg); background-position:center 0px}
 page trema { display: inline-block;background-position: center 0px;height: 15.5px;}
 page trema:before { background-color:white; display: inline-block;width: 15px;height: 15px;content: ' ';position: absolute; background-image: url(assets/accent.trema.svg); }
-body.lang_el { font-family: 'Jura', sans-serif; }
-body.lang_ru h1 { letter-spacing:-12px}
-body.lang_el h1 { letter-spacing:-2px}
-body.lang_ru .cover h1 { letter-spacing:-8px}
-body.lang_el .cover h1 { letter-spacing:-2px}
-body.lang_ru .title h1 { letter-spacing:-8px}
-body.lang_el .preface p {letter-spacing:-2px}
-body.lang_ru .preface p {letter-spacing:-6px}
-body.lang_el .illustration h1 { letter-spacing:-2px}
-body.lang_ru .thank p {letter-spacing:-6px}
-body.lang_el .thank p {letter-spacing:-2px}
-body.lang_ar { font-family: 'KufiStandardGK', 'Jura', Tahoma !important; }
-body.lang_el { font-family: 'Yuanti TC', sans-serif; }
+
 body.lang_ru h1 { letter-spacing:-12px}
 body.lang_ru .cover h1 { letter-spacing:-8px}
 body.lang_ru .title h1 { letter-spacing:-8px}
 body.lang_ru .preface p {letter-spacing:-6px}
 body.lang_ru .thank p {letter-spacing:-6px}
+
+body.lang_el { font-family: 'aquafont', 'Yuanti TC', sans-serif; }
+body.lang_el h1 { letter-spacing:-4px}
+body.lang_el .illustration h1 { letter-spacing:-8px}
+body.lang_el .preface p { letter-spacing:-6px}
+
 body.lang_ar { font-family: 'Jura', Tahoma !important; }
 "
   end
