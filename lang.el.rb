@@ -1,7 +1,7 @@
 # Author  : Devine Lu Linvega
 # Contact : @neauoire(Twitter)
 
-$lang_en = {
+$lang_el = {
   :title => "Χιλια Δωματια",
   :title_page => [
     "Χιλια Δωματια",
