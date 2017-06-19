@@ -22,7 +22,7 @@ class TitlePage
     @style[".cap"] = "background-position: center -1px;line-height: 50px;display: inline-block"
     @style["trema:before"] = "display:none !important"
 
-    @text = loc_text[$lang] ? loc_text[$lang] : loc_text[:en]
+    @text = loc_text
 
   end
 

@@ -2,6 +2,8 @@
 # Contact : @neauoire(Twitter)
 
 $lang_ru = {
+  :translator => "",
+  :language => "",
   :title => "Тысяча Комнат",
   :title_page => [
     "Тысяча Комнат",
@@ -55,8 +57,5 @@ $lang_ru = {
     "Последней урок",
     "Что&nbsp;будете делать?"
   ],
-  :thanks => [
-    "Спасибо",
-    "Джинджер Ли&nbsp;за&nbsp;творческий вклад, <span style='letter-spacing:0px'>RA</span>&nbsp;за&nbsp;помощь в&nbsp;переводе на&nbsp;русский, и&nbsp;ребятам из&nbsp;Монреаля за&nbsp;идеи."
-  ]
+  :thanks => "Спасибо"
 }

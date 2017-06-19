@@ -9,7 +9,7 @@ class Book
   def initialize name
     
     # A5 = 148mm x 210mm
-    @name = name[$lang]
+    @name = name
     @pages = []
     @style = "
 

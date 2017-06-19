@@ -2,6 +2,8 @@
 # Contact : @neauoire(Twitter)
 
 $lang_en = {
+  :translator => "",
+  :language => "",
   :title => "Thousand Rooms",
   :title_page => [
     "Thousand Rooms",
@@ -55,8 +57,5 @@ $lang_en = {
     "Last Lesson",
     "What would you do?"
   ],
-  :thanks => [
-    "Thanks",
-    "Ginger Leigh for her creative feedback, RA for his help with the Russian translation, Chase and Yuka for the japanese translation, Max H<trema>a</trema>ßlein for the german translation and folks in Montreal for imparting their ideas."
-  ]
+  :thanks => "Thanks"
 }

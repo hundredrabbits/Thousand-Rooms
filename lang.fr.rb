@@ -2,6 +2,8 @@
 # Contact : @neauoire(Twitter)
 
 $lang_fr = {
+  :translator => "",
+  :language => "",
   :title => "Mille Pi<grave>e</grave>ces",
   :title_page => [
     "Mille Pi<grave>e</grave>ces",
@@ -55,8 +57,5 @@ $lang_fr = {
     "Derni<grave>e</grave>re Le<cedil>c</cedil>on",
     "Que ferais-tu?"
   ],
-  :thanks => [
-    "Merci",
-    "Ginger Leigh pour ses commentaires constructifs, RA pour la traduction Russe, et <grave>a</grave> nos amis de Montr<aigue>e</aigue>al pour leurs id<aigue>e</aigue>es."
-  ]
+  :thanks => "Merci"
 }

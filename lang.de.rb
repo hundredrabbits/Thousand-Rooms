@@ -2,6 +2,8 @@
 # Contact : @neauoire(Twitter)
 
 $lang_de = {
+  :translator => "",
+  :language => "",
   :title => "Tausend R<trema>a</trema>ume",
   :title_page => [
     "Tausend R<trema>a</trema>ume",
@@ -56,8 +58,5 @@ $lang_de = {
     "Letzte Lektion",
     "Was w<trema>u</trema>rdest du tun?"
   ],
-  :thanks => [
-    "Vielen Dank",
-    "Ginger Leigh f<trema>u</trema>r ihr kreatives Feedback, RA f<trema>u</trema>r seine Hilfe mit der russischen Übersetzung, Chase und Yuka f<trema>u</trema>r die japanische Übersetzung, Max H<trema>a</trema>ß­lein f<trema>u</trema>r die deutsche Übersetzung und unsere Freunde in Montreal f<trema>u</trema>r ihre Ideen."
-  ]
+  :thanks => "Vielen Dank"
 }

@@ -2,6 +2,8 @@
 # Contact : @neauoire(Twitter)
 
 $lang_ch = {
+  :translator => "",
+  :language => "",
   :title => "千间房",
   :title_page => [
     "千间房",
@@ -55,7 +57,5 @@ $lang_ch = {
     "最后一课。",
     "你会怎么做？"
   ],
-  :thanks => [
-    "致谢"
-  ]
+  :thanks => "致谢"
 }

@@ -10,7 +10,7 @@ class CoverPage
   def initialize loc_title
     
     @type = "cover"
-    @title = loc_title[$lang]
+    @title = loc_title
     @is_increment = true
 
     @style = {}

@@ -16,7 +16,7 @@ class PrefacePage
     @style["trema"] = "display:none !important"
     @is_increment = true
 
-    @text = loc_text[$lang] ? loc_text[$lang] : loc_text[:en]
+    @text = loc_text
 
     $word_cound += @text.split(" ").length
 

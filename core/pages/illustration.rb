@@ -11,9 +11,7 @@ class IllustrationPage
     
     @type = "illustration"
     @name = name
-    @text = loc_text[$lang] ? loc_text[$lang] : loc_text[:en]
-
-    if !loc_text[$lang] then puts "Missing localized #{$lang} text for #{@text}." end
+    @text = loc_text
     @is_increment = true
     
     @style = {}

@@ -42,10 +42,6 @@ $story[:ar] = $lang_ar
 
 target_story = $story[$lang]
 
-p target_story
-
-=begin
-
 book = Book.new(target_story[:title])
 book.add_page(CoverPage.new(target_story[:title]))
 book.add_page(BlankPage.new)
@@ -60,35 +56,35 @@ book.add_page(IllustrationPage.new("bat.1",target_story[:lesson1][3]))
 book.add_page(IllustrationPage.new("fox.1",target_story[:lesson1][4]))
 book.add_page(BlankPage.new)
 
-book.add_page(ChapterPage.new(2,target_story[:lesson1][0]))
+book.add_page(ChapterPage.new(2,target_story[:lesson2][0]))
 book.add_page(IllustrationPage.new("cat.2",target_story[:lesson2][1]))
 book.add_page(IllustrationPage.new("owl.2",target_story[:lesson2][2]))
 book.add_page(IllustrationPage.new("bat.2",target_story[:lesson2][3]))
 book.add_page(IllustrationPage.new("fox.2",target_story[:lesson2][4]))
 book.add_page(BlankPage.new)
 
-book.add_page(ChapterPage.new(3,target_story[:lesson1][0]))
+book.add_page(ChapterPage.new(3,target_story[:lesson3][0]))
 book.add_page(IllustrationPage.new("cat.3",target_story[:lesson3][1]))
 book.add_page(IllustrationPage.new("owl.3",target_story[:lesson3][2]))
 book.add_page(IllustrationPage.new("bat.3",target_story[:lesson3][3]))
 book.add_page(IllustrationPage.new("fox.3",target_story[:lesson3][4]))
 book.add_page(BlankPage.new)
 
-book.add_page(ChapterPage.new(4,target_story[:lesson1][0]))
+book.add_page(ChapterPage.new(4,target_story[:lesson4][0]))
 book.add_page(IllustrationPage.new("cat.4",target_story[:lesson4][1]))
 book.add_page(IllustrationPage.new("owl.4",target_story[:lesson4][2]))
 book.add_page(IllustrationPage.new("bat.4",target_story[:lesson4][3]))
 book.add_page(IllustrationPage.new("fox.4",target_story[:lesson4][4]))
 book.add_page(BlankPage.new)
 
-book.add_page(ChapterPage.new(5,target_story[:lesson1][0]))
+book.add_page(ChapterPage.new(5,target_story[:lesson5][0]))
 book.add_page(IllustrationPage.new("cat.5",target_story[:lesson5][1]))
 book.add_page(IllustrationPage.new("owl.5",target_story[:lesson5][2]))
 book.add_page(IllustrationPage.new("bat.5",target_story[:lesson5][3]))
 book.add_page(IllustrationPage.new("fox.5",target_story[:lesson5][4]))
 book.add_page(BlankPage.new)
 
-book.add_page(ChapterPage.new(6,target_story[:lesson1][0]))
+book.add_page(ChapterPage.new(6,target_story[:lesson6][0]))
 book.add_page(IllustrationPage.new("cat.6",target_story[:lesson6][1]))
 book.add_page(IllustrationPage.new("owl.6",target_story[:lesson6][2]))
 book.add_page(IllustrationPage.new("bat.6",target_story[:lesson6][3]))
@@ -100,8 +96,7 @@ book.add_page(BlankPage.new)
 book.add_page(IllustrationPage.new("you.1",target_story[:lesson7][1]))
 book.add_page(BlankPage.new)
 
-book.add_page(ThankPage.new(target_story[:thanks][0]))
+book.add_page(ThankPage.new(target_story[:thanks]))
 book.add_page(BlankPage.new)
 
 book.build
-=end

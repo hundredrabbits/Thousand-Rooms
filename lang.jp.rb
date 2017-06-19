@@ -2,6 +2,8 @@
 # Contact : @neauoire(Twitter)
 
 $lang_jp = {
+  :translator => "",
+  :language => "",
   :title => "せんのへや",
   :title_page => [
     "せんのへや",
@@ -55,8 +57,5 @@ $lang_jp = {
     "さいしゅうわ",
     "きみなら　どうする？"
   ],
-  :thanks => [
-    "よんでくれて　ありがとう！",
-    ""
-  ]
+  :thanks => "よんでくれて　ありがとう！"
 }

@@ -2,6 +2,8 @@
 # Contact : @neauoire(Twitter)
 
 $lang_el = {
+  :translator => "",
+  :language => "",
   :title => "Χιλια Δωματια",
   :title_page => [
     "Χιλια Δωματια",
@@ -55,7 +57,5 @@ $lang_el = {
     "Τελευταίο Μάθημα",
     "Εσύ τί θα έκανες;"
   ],
-  :thanks => [
-    "Ευχαριστιες"
-  ]
+  :thanks => "Ευχαριστιες"
 }

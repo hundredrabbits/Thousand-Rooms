@@ -2,6 +2,8 @@
 # Contact : @neauoire(Twitter)
 
 $lang_ar = {
+  :translator => "",
+  :language => "",
   :title => "ألف غرفة",
   :title_page => [
     "ألف غرفة",
@@ -55,7 +57,5 @@ $lang_ar = {
     ".الدرس الأخير",
     "ماذا كنت ستفعل؟"
   ],
-  :thanks => [
-    "شكراً"
-  ]
+  :thanks => "شكراً"
 }

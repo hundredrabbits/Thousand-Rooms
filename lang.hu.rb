@@ -2,6 +2,8 @@
 # Contact : @neauoire(Twitter)
 
 $lang_hu = {
+  :translator => "",
+  :language => "",
   :title => "Ezer Szoba",
   :title_page => [
     "Ezer Szoba",
@@ -55,7 +57,5 @@ $lang_hu = {
     "Utols&oacute; Lecke"
     "Te mit tenn&eacute;l?",
   ],
-  :thanks => [
-    "K&ouml;sz&ouml;net"
-  ]
+  :thanks => "K&ouml;sz&ouml;net"
 }

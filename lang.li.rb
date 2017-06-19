@@ -2,6 +2,8 @@
 # Contact : @neauoire(Twitter)
 
 $lang_li = {
+  :translator => "",
+  :language => "",
   :title => "Lae'Doi",
   :title_page => [
     "Lae'Doi",
@@ -55,8 +57,5 @@ $lang_li = {
     "Doeti'Lydu",
     "Lari'if jado."
   ],
-  :thanks => [
-    "Favify!",
-    ""
-  ]
+  :thanks => "Favify!"
 }

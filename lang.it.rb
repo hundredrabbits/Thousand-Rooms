@@ -2,6 +2,8 @@
 # Contact : @neauoire(Twitter)
 
 $lang_it = {
+  :translator => "",
+  :language => "",
   :title => "Mille stanze",
   :title_page => [
     "Mille stanze",
@@ -55,7 +57,5 @@ $lang_it = {
     "Ultima Lezione",
     "Tu cosa faresti?"
   ],
-  :thanks => [
-    "Grazie a"
-  ]
+  :thanks => "Grazie a"
 }

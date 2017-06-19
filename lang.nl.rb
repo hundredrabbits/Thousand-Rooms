@@ -2,6 +2,8 @@
 # Contact : @neauoire(Twitter)
 
 $lang_nl = {
+  :translator => "",
+  :language => "",
   :title => "Duizend Kamers",
   :title_page => [
     "Duizend Kamers",
@@ -55,7 +57,5 @@ $lang_nl = {
     "Laatste Les",
     "Wat zou je doen?"
   ],
-  :thanks => [
-    "Bedankt"
-  ]
+  :thanks => "Bedankt"
 }
