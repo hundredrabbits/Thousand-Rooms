@@ -12,8 +12,27 @@ require_relative 'core/pages/chapter.rb'
 require_relative 'core/pages/cover.rb'
 require_relative 'core/pages/thank.rb'
 
+require_relative 'lang.en.rb'
+require_relative 'lang.fr.rb'
+require_relative 'lang.ru.rb'
+require_relative 'lang.jp.rb'
+
 $lang = ARGV.first.to_sym ? ARGV.first.to_sym : :en
 $word_cound = 0
+
+$story = {}
+$story[:en] = $lang_en
+$story[:fr] = $lang_fr
+$story[:ru] = $lang_ru
+$story[:jp] = $lang_jp
+$story[:li] = $lang_li
+$story[:de] = $lang_de
+$story[:it] = $lang_it
+$story[:nl] = $lang_nl
+$story[:el] = $lang_el
+$story[:ch] = $lang_ch
+
+$story[:ar] = $lang_ar
 
 title = {
   :en => "Thousand Rooms",
