@@ -1,62 +1,61 @@
 # Author  : Devine Lu Linvega
 # Contact : @neauoire(Twitter)
 
-$lang_en = {
-  :title => "Thousand Rooms",
+$lang_it = {
+  :title => "Mille stanze",
   :title_page => [
-    "Thousand Rooms",
-    "Cat, Owl, Bat & Fox","Illustrated by Rekka Bellum<br />Written by Devine Lu Linvega",
-    "First Edition"
+    "Mille stanze",
+    "Gatto, Gufo, Pipistrello &&nbsp;Volpe","Illustrato da Rekka Bellum<br />Scritto da Devine Lu Linvega",
+    "Prima Edizione"
   ],
-  :preface => "You wake up in a room, surrounded by unbreakable walls. On a desk, lies a pencil and a sheet of blank paper.<br/> Inside the desk, notes bearing your handwriting, you have no recollection.",
+  :preface => "Ti svegli in una stanza, circondata da mura indistruttibili. Su una scrivania ci sono una matita e un foglio di carta.<br/>All'interno della scrivania, alcune note con la tua calligrafia delle quali non ricordi nulla.",
   :lesson1 => [
-    "Lesson 1",
-    "Cat awakens.",
-    "Owl finds a piece of paper.",
-    "Bat finds a pencil.",
-    "Fox opens the desk."
+    "Lezione 1",
+    "Gatto si sveglia.",
+    "Gufo trova un foglio di carta.",
+    "Pipistrello trova una matita.",
+    "Volpe apre la scrivania."
   ],
   :lesson2 => [
-    "Lesson 2",
-    "Cat claws at the walls.",
-    "Owl leaves a message in the desk.",
-    "Bat finds a second pencil.",
-    "Fox dismantles the desk."
+    "Lezione 2",
+    "Gatto graffia i muri.",
+    "Gufo lascia un messaggio dentro alla scrivania.",
+    "Pipistrello trova un'altra matita.",
+    "F<trema>o</trema>j'f<trema>i</trema>l todeo."
   ],
   :lesson3 => [
-    "Lesson 3",
-    "Cat destroys the pencil and the paper.",
-    "Owl finds notes in the desk.",
-    "Bat finds the desk full with pencils.",
-    "Fox builds the desk inside-out."
+    "Lezione 3",
+    "Gatto distrugge la matita e il foglio di carta.",
+    "Gufo trova degli appunti dentro alla scrivania.",
+    "Pipistello trova la scrivania piena di matite.",
+    "Volpe ricostruisce la scrivania al rovescio."
   ],
   :lesson4 =>[
-    "Lesson 4",
-    "Cat enters the desk.",
-    "Owl tries to understand.",
-    "Bat sees no escape.",
-    "Fox has a visitor."
+    "Lezione 4",
+    "Gatto si infila nella scrivania.",
+    "Gufo cerca di capire.",
+    "Pipistrello non vede vie d'uscita.",
+    "Volpe ha un ospite."
   ],
   :lesson5 =>[
-    "Lesson 5",
-    "Cat comes out of the desk.",
-    "Owl understands the room.",
-    "Bat awakens.",
-    "Fox has a second visitor."
+    "Lezione 5",
+    "Gatto sbuca fuori dalla scrivania.",
+    "Gufo capisce la stanza.",
+    "Pipistrello si sveglia.",
+    "Volpe ha un secondo ospite."
   ],
   :lesson6 => [
-    "Lesson 6",
-    "Cat destroys the desk.",
-    "Owl finds a scribble.",
-    "Bat finds a pencil.",
-    "Fox has too many visitors."
+    "Lezione 6",
+    "Gatto distrugge la scrivania.",
+    "Gufo trova uno scarabocchio.",
+    "Pipistrello trova una matita.",
+    "Volpe ha troppi ospiti."
   ],
   :lesson7 => [
-    "Last Lesson",
-    "What would you do?"
+    "Ultima Lezione",
+    "Tu cosa faresti?"
   ],
   :thanks => [
-    "Thanks",
-    "Ginger Leigh for her creative feedback, RA for his help with the Russian translation, Chase and Yuka for the japanese translation, Max H<trema>a</trema>ßlein for the german translation and folks in Montreal for imparting their ideas."
+    "Grazie a"
   ]
 }
