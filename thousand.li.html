@@ -1,5 +1,7 @@
 <html><meta charset='UTF-8'><body class='lang_li'><style>
 
+
+  @font-face { font-family: 'Jura'; src: url('assets/fonts/jura_regular.ttf') format('truetype'); font-weight: normal; font-style: normal; }
   @page { size: 148mm 210mm; width:592px; height:840px; margin:0px; padding:0px }
   body { font-family:'azuki_font','aquafont','Garamond'; padding:0px; margin:0px;}
   page { page-break-after: always; display:block; position:relative; overflow:hidden; background:#ffffff; width:592px; height:820px; border:1px solid #fefefe; }
@@ -9,10 +11,32 @@
   page cedil { display:inline; background-image:url(assets/accent.cedil.svg); background-position:center 0px}
   page trema { display: inline-block;background-position: center 0px;height: 15.5px;}
   page trema:before { background-color:white; display: inline-block;width: 15px;height: 15px;content: ' ';position: absolute; background-image: url(assets/accent.trema.svg); }
-  .lang_ru { letter-spacing:-4px}
+<<<<<<< HEAD
+  body.lang_el { font-family: 'Jura', sans-serif; }
+  body.lang_ru h1 { letter-spacing:-12px}
+  body.lang_el h1 { letter-spacing:-2px}
+  body.lang_ru .cover h1 { letter-spacing:-8px}
+  body.lang_el .cover h1 { letter-spacing:-2px}
+  body.lang_ru .title h1 { letter-spacing:-8px}
+  body.lang_el .preface p {letter-spacing:-2px}
+  body.lang_ru .preface p {letter-spacing:-6px}
+  body.lang_el .illustration h1 { letter-spacing:-2px}
+  body.lang_ru .thank p {letter-spacing:-6px}
+  body.lang_el .thank p {letter-spacing:-2px}
+  body.lang_ar { font-family: 'KufiStandardGK', 'Jura', Tahoma !important; }
+=======
+  body.lang_el { font-family: 'Yuanti TC', sans-serif; }
+  body.lang_ru h1 { letter-spacing:-12px}
+  body.lang_ru .cover h1 { letter-spacing:-8px}
+  body.lang_ru .title h1 { letter-spacing:-8px}
+  body.lang_ru .preface p {letter-spacing:-6px}
+  body.lang_ru .thank p {letter-spacing:-6px}
+  body.lang_ar { font-family: 'Jura', Tahoma !important; }
+>>>>>>> upstream/master
     page.cover  { background:white; overflow:hidden }
   page.cover img { width:100% }
   page.cover h1 { position:absolute; bottom:100px; color:black; text-transform:uppercase; width:100%; text-align:center; font-weight:normal; font-size:36px }
+  page.cover h1 trema:before { top:-15px }
   page.cover img.logo { position: absolute;bottom: 0px;width: 70px;height: 70px;display: block;left:calc(50% - 35px); }
   page.cover grave { background-position: center -1px;line-height: 50px;display: inline-block }
   page.title h1 { font-weight: normal;text-transform: uppercase;display: block;text-align: center;font-size: 36px;margin-top: 120px;margin-bottom: 40px }
@@ -32,8 +56,13 @@
   page.chapter h1 cedil { display:inline; background-image:url(assets/accent.cedil.svg); background-position:3px 13px }
   page.illustration img { display: block; width:100%; position:absolute; bottom:0px }
   page.illustration h1 { position:absolute; top:100px; display:block; text-align:center; width:calc(100% - 40px); padding:0px 20px; font-size:38px;font-weight: normal; line-height: 60px }
+  page.illustration h1 trema:before { top:10px }
   page.thank p { padding:40px; font-size:26px; line-height:36px }
   page.thank h1 { font-weight: normal;text-transform: uppercase;display: block;text-align: center;font-size: 36px;margin-top: 120px;margin-bottom: 40px }
+  page.thank list { display:block }
+  page.thank list li { display:block; font-size:20px; line-height:30px }
+  page.thank list li span.left {  width: calc(50% - 15px);display: inline-block;text-align: right;margin-right: 15px }
+  page.thank list li span.right {  width: calc(50% - 15px);display: inline-block;text-align: left;margin-left: 15px }
 </style>
 
 <page class='cover'>
@@ -252,7 +281,7 @@
 </page>
 
 <page class='thank'>
-  <h1>Favify!</h1><p></p>
+  <h1>Favify!</h1><list><li><span class='left'>Russian</span><span class='right'>RA</span></li><li><span class='left'>Japanese</span><span class='right'>Chase & Yuka</span></li><li><span class='left'>German</span><span class='right'>Max Haß­lein</span></li><li><span class='left'>Italian</span><span class='right'>Federico Salvador</span></li><li><span class='left'>Dutch</span><span class='right'>Vincent</span></li><li><span class='left'>Greek</span><span class='right'>Paris K.</span></li><li><span class='left'>Chinese</span><span class='right'>Humble Ray</span></li><li><span class='left'>Arabic</span><span class='right'>Hazza Alkaabi</span></li></list>
 </page>
 
 <page class='blank'>

@@ -1,7 +1,7 @@
 # Contact : 
 
 $lang_de = {
-  :translator => "Max H<trema>a</trema>ß­lein",
+  :translator => "Max Haß­lein",
   :language => "German",
   :title => "Tausend R<trema>a</trema>ume",
   :title_page => [

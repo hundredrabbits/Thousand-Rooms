@@ -65,7 +65,7 @@ class Book
 
   end
   
-  def build
+  def build lang
   
     puts "Generating.."
 
@@ -81,11 +81,11 @@ class Book
     end
 
     # Create file
-    out_file = File.new("thousand.#{$lang}.html", "w")
-    out_file.puts("<html><meta charset='UTF-8'><body class='lang_#{$lang}'>#{content}</body></html>")
+    out_file = File.new("thousand.#{lang}.html", "w")
+    out_file.puts("<html><meta charset='UTF-8'><body class='lang_#{lang}'>#{content}</body></html>")
     out_file.close
     
-    puts "Completed #{count} pages, for thousand.#{$lang}.html"
+    puts "Completed #{count} pages, for thousand.#{lang}.html"
     puts "Word count: #{$word_cound}"
 
   end
