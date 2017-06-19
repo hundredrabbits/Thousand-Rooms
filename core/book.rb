@@ -153,6 +153,7 @@ body.lang_el .illustration h1 { letter-spacing:-8px}
 body.lang_el .preface p { letter-spacing:-6px}
 
 body.lang_ar { font-family: 'Jura', Tahoma !important; }
+body.lang_ar line { display:block}
 "
   end
 
