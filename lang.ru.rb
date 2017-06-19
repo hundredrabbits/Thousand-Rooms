@@ -1,9 +1,8 @@
-# Author  : Devine Lu Linvega
-# Contact : @neauoire(Twitter)
+# Contact : @tema_ra
 
 $lang_ru = {
-  :translator => "",
-  :language => "",
+  :translator => "RA",
+  :language => "Russian",
   :title => "Тысяча Комнат",
   :title_page => [
     "Тысяча Комнат",

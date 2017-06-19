@@ -1,9 +1,8 @@
-# Author  : Devine Lu Linvega
-# Contact : @neauoire(Twitter)
+# Contact : @neauoire
 
 $lang_li = {
-  :translator => "",
-  :language => "",
+  :translator => "Devine Lu Linvega",
+  :language => "Lietal",
   :title => "Lae'Doi",
   :title_page => [
     "Lae'Doi",

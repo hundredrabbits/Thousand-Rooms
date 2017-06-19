@@ -96,7 +96,7 @@ book.add_page(BlankPage.new)
 book.add_page(IllustrationPage.new("you.1",target_story[:lesson7][1]))
 book.add_page(BlankPage.new)
 
-book.add_page(ThankPage.new(target_story[:thanks]))
+book.add_page(ThankPage.new(target_story[:thanks],$story))
 book.add_page(BlankPage.new)
 
 book.build

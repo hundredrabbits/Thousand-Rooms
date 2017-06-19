@@ -7,7 +7,7 @@ class ThankPage
   
   include Page
 
-  def initialize loc_text = nil, body = "Missing"
+  def initialize loc_text = nil, story
   
     @type = "thank"
     @text = loc_text
@@ -17,8 +17,12 @@ class ThankPage
     @style["p"] = "padding:40px; font-size:26px; line-height:36px"
     @style["h1"] = "font-weight: normal;text-transform: uppercase;display: block;text-align: center;font-size: 36px;margin-top: 120px;margin-bottom: 40px"
 
+    story.each do |lang,content|
+      p "#{content[:language]} -> #{content[:translator]}"
+    end
+
     @thanks = loc_text
-    @names = body
+    @names = "" # body
 
   end
 

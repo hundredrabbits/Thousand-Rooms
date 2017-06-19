@@ -1,9 +1,8 @@
-# Author  : Devine Lu Linvega
-# Contact : @neauoire(Twitter)
+# Contact : 
 
 $lang_de = {
-  :translator => "",
-  :language => "",
+  :translator => "Max H<trema>a</trema>ß­lein",
+  :language => "German",
   :title => "Tausend R<trema>a</trema>ume",
   :title_page => [
     "Tausend R<trema>a</trema>ume",

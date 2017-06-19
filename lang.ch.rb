@@ -1,9 +1,8 @@
-# Author  : Devine Lu Linvega
-# Contact : @neauoire(Twitter)
+# Contact : @HumbleRay_CN
 
 $lang_ch = {
-  :translator => "",
-  :language => "",
+  :translator => "Humble Ray",
+  :language => "Chinese",
   :title => "千间房",
   :title_page => [
     "千间房",

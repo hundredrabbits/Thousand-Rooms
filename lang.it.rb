@@ -1,9 +1,8 @@
-# Author  : Devine Lu Linvega
-# Contact : @neauoire(Twitter)
+# Contact : @no_faith_left
 
 $lang_it = {
-  :translator => "",
-  :language => "",
+  :translator => "Federico Salvador",
+  :language => "Italian",
   :title => "Mille stanze",
   :title_page => [
     "Mille stanze",

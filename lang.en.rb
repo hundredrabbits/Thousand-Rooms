@@ -1,9 +1,8 @@
-# Author  : Devine Lu Linvega
-# Contact : @neauoire(Twitter)
+# Contact : @neauoire
 
 $lang_en = {
-  :translator => "",
-  :language => "",
+  :translator => "Devine Lu Linvega",
+  :language => "English",
   :title => "Thousand Rooms",
   :title_page => [
     "Thousand Rooms",

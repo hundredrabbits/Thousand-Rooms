@@ -1,9 +1,8 @@
-# Author  : Devine Lu Linvega
-# Contact : @neauoire(Twitter)
+# Contact : @chasecolburn 
 
 $lang_jp = {
-  :translator => "",
-  :language => "",
+  :translator => "Chase & Yuka",
+  :language => "Japanese",
   :title => "せんのへや",
   :title_page => [
     "せんのへや",

@@ -1,9 +1,8 @@
-# Author  : Devine Lu Linvega
-# Contact : @neauoire(Twitter)
+# Contact : @HazzaRAlkaabi
 
 $lang_ar = {
-  :translator => "",
-  :language => "",
+  :translator => "Hazza Alkaabi",
+  :language => "Arabic",
   :title => "ألف غرفة",
   :title_page => [
     "ألف غرفة",

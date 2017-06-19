@@ -1,9 +1,8 @@
-# Author  : Devine Lu Linvega
-# Contact : @neauoire(Twitter)
+# Contact : @ctrlaltdefeat_
 
 $lang_nl = {
-  :translator => "",
-  :language => "",
+  :translator => "Vincent",
+  :language => "Dutch",
   :title => "Duizend Kamers",
   :title_page => [
     "Duizend Kamers",

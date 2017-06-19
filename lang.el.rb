@@ -1,9 +1,8 @@
-# Author  : Devine Lu Linvega
-# Contact : @neauoire(Twitter)
+# Contact : @enc_io
 
 $lang_el = {
-  :translator => "",
-  :language => "",
+  :translator => "Paris K.",
+  :language => "Greek",
   :title => "Χιλια Δωματια",
   :title_page => [
     "Χιλια Δωματια",

@@ -1,9 +1,8 @@
-# Author  : Devine Lu Linvega
-# Contact : @neauoire(Twitter)
+# Contact : @RekkaBell
 
 $lang_fr = {
-  :translator => "",
-  :language => "",
+  :translator => "Rekka Bellum",
+  :language => "French",
   :title => "Mille Pi<grave>e</grave>ces",
   :title_page => [
     "Mille Pi<grave>e</grave>ces",

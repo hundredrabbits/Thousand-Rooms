@@ -1,9 +1,8 @@
-# Author  : Devine Lu Linvega
-# Contact : @neauoire(Twitter)
+# Contact : 
 
 $lang_hu = {
-  :translator => "",
-  :language => "",
+  :translator => "Attila Magyar",
+  :language => "Hungarian",
   :title => "Ezer Szoba",
   :title_page => [
     "Ezer Szoba",
