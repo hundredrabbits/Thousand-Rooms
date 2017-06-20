@@ -130,6 +130,8 @@ class Book
   def default_styles
 
     return "
+@font-face { font-family: 'maruko'; src: url('assets/fonts/maruko.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'tea'; src: url('assets/fonts/tea.ttf') format('truetype'); font-weight: normal; font-style: normal; }
 @font-face { font-family: 'Jura'; src: url('assets/fonts/jura_regular.ttf') format('truetype'); font-weight: normal; font-style: normal; }
 @page { size: 148mm 210mm; width:592px; height:840px; margin:0px; padding:0px }
 body { font-family:'azuki_font','aquafont','Garamond'; padding:0px; margin:0px;}
@@ -154,6 +156,9 @@ body.lang_el .preface p { letter-spacing:-6px}
 
 body.lang_ar { font-family: 'Jura', Tahoma !important; }
 body.lang_ar line { display:block}
+body.lang_ar .preface line { text-align:right}
+
+body.lang_ch { font-family: 'tea'}
 "
   end
 
