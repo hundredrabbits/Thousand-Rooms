@@ -21,6 +21,7 @@ class TitlePage
     @style["grave"] = "background-position: center -1px;line-height: 50px;display: inline-block"
     @style[".cap"] = "background-position: center -1px;line-height: 50px;display: inline-block"
     @style["trema:before"] = "display:none !important"
+    @style[".umlaut:before"] = "width: 18px; margin-left: -10px; top: -9px;"
 
     @text = loc_text
 
