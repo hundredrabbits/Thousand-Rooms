@@ -24,6 +24,7 @@ require_relative 'lang.el.rb'
 require_relative 'lang.ch.rb'
 require_relative 'lang.ar.rb'
 require_relative 'lang.hu.rb'
+require_relative 'lang.pt.rb'
 
 content = {}
 content[:en] = $lang_en
@@ -38,6 +39,7 @@ content[:el] = $lang_el
 content[:ch] = $lang_ch
 content[:ar] = $lang_ar
 content[:hu] = $lang_hu
+content[:pt] = $lang_pt
 
 book = Book.new(content)
 book.build
