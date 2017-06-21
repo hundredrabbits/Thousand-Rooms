@@ -1,7 +1,7 @@
-# Contact : 
+# Contact : @maxhaesslein
 
 $lang_de = {
-  :translator => "Max Haß­lein",
+  :translator => "Max Häß­lein",
   :language => "German",
   :title => "Tausend R<trema>a</trema>ume",
   :title_page => [
@@ -51,7 +51,6 @@ $lang_de = {
     "Eule findet Gekritzel.",
     "Fledermaus findet einen Bleistift.",
     "Fuchs hat zu viele Besucher."
-
   ],
   :lesson7 => [
     "Letzte Lektion",
