@@ -27,7 +27,7 @@ $lang_pt = {
   :lesson3 => [
     "Lição 3",
     "Gato destrói o lápis e a folha de papel.",
-    "Coruja descobre notas dentro da secretária",
+    "Coruja descobre notas dentro da secretária.",
     "Mocego descobre que a secretária está cheia de lápis.",
     "Raposa monta a secretária ao contrário."
   ],
