@@ -1,6 +1,6 @@
 # Contact : @neauoire
 
-$lang_en = {
+$lang_es = {
   :translator => "Fáyer (Antonio Uribe)",
   :language => "Español",
   :title => "Mil Habitaciones",
