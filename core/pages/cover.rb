@@ -20,6 +20,7 @@ class CoverPage
     @style["h1 trema:before"] = "top:-15px"
     @style["img.logo"] = "position: absolute;bottom: 0px;width: 70px;height: 70px;display: block;left:calc(50% - 35px);"
     @style["grave"] = "background-position: center -1px;line-height: 50px;display: inline-block"
+    @style[".umlaut:before"] = "width: 18px; margin-left: -10px; top: -9px;"
 
   end
 

@@ -142,6 +142,8 @@ page aigue { display:inline; background-image:url(assets/accent.aigue.svg); back
 page cedil { display:inline; background-image:url(assets/accent.cedil.svg); background-position:center 0px}
 page trema { display: inline-block;background-position: center 0px;height: 15.5px;}
 page trema:before { background-color:white; display: inline-block;width: 15px;height: 15px;content: ' ';position: absolute; background-image: url(assets/accent.trema.svg); }
+page .umlaut { display: inline-block; position: relative; }
+page .umlaut:before { display: block; width: 17px; margin-left: -9px; height: 100%; content: ''; position: absolute; top: 8px; left: 50%; background: url(assets/accent.umlaut.svg) no-repeat center top; background-size: contain; }
 
 body.lang_ru h1 { letter-spacing:-12px}
 body.lang_ru .cover h1 { letter-spacing:-8px}

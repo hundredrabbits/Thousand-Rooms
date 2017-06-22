@@ -12,6 +12,8 @@ page aigue { display:inline; background-image:url(assets/accent.aigue.svg); back
 page cedil { display:inline; background-image:url(assets/accent.cedil.svg); background-position:center 0px}
 page trema { display: inline-block;background-position: center 0px;height: 15.5px;}
 page trema:before { background-color:white; display: inline-block;width: 15px;height: 15px;content: ' ';position: absolute; background-image: url(assets/accent.trema.svg); }
+page .umlaut { display: inline-block; position: relative; }
+page .umlaut:before { display: block; width: 17px; margin-left: -9px; height: 100%; content: ''; position: absolute; top: 8px; left: 50%; background: url(assets/accent.umlaut.svg) no-repeat center top; background-size: contain; }
 
 body.lang_ru h1 { letter-spacing:-12px}
 body.lang_ru .cover h1 { letter-spacing:-8px}
@@ -35,6 +37,7 @@ body.lang_ch { font-family: 'tea'}
   page.cover h1 trema:before { top:-15px }
   page.cover img.logo { position: absolute;bottom: 0px;width: 70px;height: 70px;display: block;left:calc(50% - 35px); }
   page.cover grave { background-position: center -1px;line-height: 50px;display: inline-block }
+  page.cover .umlaut:before { width: 18px; margin-left: -10px; top: -9px; }
   page.title h1 { font-weight: normal;text-transform: uppercase;display: block;text-align: center;font-size: 36px;margin-top: 120px;margin-bottom: 40px }
   page.title h2 { text-transform: uppercase;display: block;text-align: center;font-size: 30px;font-weight: normal;margin-bottom: 40px;padding: 0px 60px;line-height: 40px }
   page.title h3 { display:block; text-align:center; font-size:28px; margin-top:40px; font-weight:normal; line-height:40px; margin-bottom:40px; }
@@ -43,8 +46,10 @@ body.lang_ch { font-family: 'tea'}
   page.title grave { background-position: center -1px;line-height: 50px;display: inline-block }
   page.title .cap { background-position: center -1px;line-height: 50px;display: inline-block }
   page.title trema:before { display:none !important }
+  page.title .umlaut:before { width: 18px; margin-left: -10px; top: -9px; }
   page.preface p { padding:40px; font-size:26px; line-height:36px }
   page.preface trema { display:none !important }
+  page.preface .umlaut:before { margin-left: -7px; top:-10px; width: 13px; margin-top: 12px; }
   page.chapter h1 { position:absolute; top:40%; display:block; text-align:center; margin-top:-13px;font-size:40px; width:100%; font-weight: normal }
   page.chapter img { width: 300px;height: 300px;position: absolute;top: calc(50%);left: calc(50% - 150px) }
   page.chapter h1 grave { display: inline;background-image: url(assets/accent.grave.svg);background-position: 2px 5px !important }
@@ -277,7 +282,11 @@ body.lang_ch { font-family: 'tea'}
 </page>
 
 <page class='thank'>
+<<<<<<< HEAD
   <h1>Ευχαριστιες</h1><list><li><span class='left'>Russian</span><span class='right'>RA</span></li><li><span class='left'>Japanese</span><span class='right'>Chase & Yuka</span></li><li><span class='left'>German</span><span class='right'>Max Haß­lein</span></li><li><span class='left'>Italian</span><span class='right'>Federico Salvador</span></li><li><span class='left'>Dutch</span><span class='right'>Vincent</span></li><li><span class='left'>Greek</span><span class='right'>Paris K.</span></li><li><span class='left'>Chinese</span><span class='right'>Humble Ray</span></li><li><span class='left'>Arabic</span><span class='right'>Hazza Alkaabi</span></li><li><span class='left'>Hungarian</span><span class='right'>Attila Mal<aigue>a</aigue>rik</span></li><li><span class='left'>Español</span><span class='right'>Fáyer (Antonio Uribe)</span></li></list>
+=======
+  <h1>Ευχαριστιες</h1><list><li><span class='left'>Russian</span><span class='right'>RA</span></li><li><span class='left'>Japanese</span><span class='right'>Chase & Yuka</span></li><li><span class='left'>German</span><span class='right'>Max Häßlein</span></li><li><span class='left'>Italian</span><span class='right'>Federico Salvador</span></li><li><span class='left'>Dutch</span><span class='right'>Vincent</span></li><li><span class='left'>Greek</span><span class='right'>Paris K.</span></li><li><span class='left'>Chinese</span><span class='right'>Humble Ray</span></li><li><span class='left'>Arabic</span><span class='right'>Hazza Alkaabi</span></li><li><span class='left'>Hungarian</span><span class='right'>Attila Mal<aigue>a</aigue>rik</span></li><li><span class='left'>Português (Portugal)</span><span class='right'>Hugo Anaya</span></li></list>
+>>>>>>> origin/master
 </page>
 
 <page class='blank'>

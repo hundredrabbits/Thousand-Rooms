@@ -1,32 +1,32 @@
-# Contact : 
+# Contact : @maxhaesslein
 
 $lang_de = {
-  :translator => "Max Haß­lein",
+  :translator => "Max Häßlein",
   :language => "German",
-  :title => "Tausend R<trema>a</trema>ume",
+  :title => "Tausend R<span class='umlaut'>a</span>ume",
   :title_page => [
-    "Tausend R<trema>a</trema>ume",
+    "Tausend R<span class='umlaut'>a</span>ume",
     "Katze, Eule, Fledermaus &&nbsp;Fuchs","Illustriert von Rekka Bellum<br />Geschrieben von Devine Lu Linvega",
     "Erste Edition"
   ],
-  :preface => "Du wachst in einem Raum auf, umgeben von unzerst<trema>o</trema>rbaren W<trema>a</trema>nden. Auf einem Schreibtisch liegen ein Bleistift und ein Blatt Papier.<br/>Im Schreibtisch befinden sich Notizen mit deiner Handschrift, du hast keinerlei Erinnerung daran.",
+  :preface => "Du wachst in einem Raum auf, umgeben von unzerst<span class='umlaut'>o</span>rbaren W<span class='umlaut'>a</span>nden. Auf einem Schreibtisch liegen ein Bleistift und ein Blatt Papier.<br/>Im Schreibtisch befinden sich Notizen mit deiner Handschrift, du hast keinerlei Erinnerung daran.",
   :lesson1 => [
     "Lektion 1",
     "Katze wacht auf.",
-    "Eule findet ein St<trema>u</trema>ck Papier.",
+    "Eule findet ein St<span class='umlaut'>u</span>ck Papier.",
     "Fledermaus findet einen Bleistift.",
-    "Fuchs <trema>o</trema>ffnet den Schreibtisch."
+    "Fuchs <span class='umlaut'>o</span>ffnet den Schreibtisch."
   ],
   :lesson2 => [
     "Lektion 2",
-    "Katze zerkratzt die W<trema>a</trema>nde.",
-    "Eule hinterl<trema>a</trema>sst eine Nachricht im&nbsp;Schreibtisch.",
+    "Katze zerkratzt die W<span class='umlaut'>a</span>nde.",
+    "Eule hinterl<span class='umlaut'>a</span>sst eine Nachricht im&nbsp;Schreibtisch.",
     "Fledermaus findet einen zweiten&nbsp;Bleistift.",
     "Fuchs nimmt den Schreibtisch auseinander."
   ],
   :lesson3 => [
     "Lektion 3",
-    "Katze zerst<trema>o</trema>rt den Bleistift und&nbsp;das&nbsp;Papier.",
+    "Katze zerst<span class='umlaut'>o</span>rt den Bleistift und&nbsp;das&nbsp;Papier.",
     "Eule findet Notizen im Schreibtisch.",
     "Fledermaus findet viele Bleistifte.",
     "Fuchs baut den Schreibtisch verkehrt herum wieder auf."
@@ -47,15 +47,14 @@ $lang_de = {
   ],
   :lesson6 => [
     "Lektion 6",
-    "Katze zerst<trema>o</trema>rt den Schreibtisch.",
+    "Katze zerst<span class='umlaut'>o</span>rt den Schreibtisch.",
     "Eule findet Gekritzel.",
     "Fledermaus findet einen Bleistift.",
     "Fuchs hat zu viele Besucher."
-
   ],
   :lesson7 => [
     "Letzte Lektion",
-    "Was w<trema>u</trema>rdest du tun?"
+    "Was w<span class='umlaut'>u</span>rdest du tun?"
   ],
   :thanks => "Vielen Dank"
 }
