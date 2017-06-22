@@ -1,60 +1,60 @@
 # Contact : 
 
 $lang_hu = {
-  :translator => "Attila Mal<aigue>a</aigue>rik",
+  :translator => "Attila Mal<acute>a</acute>rik",
   :language => "Hungarian",
   :title => "Ezer Szoba",
   :title_page => [
     "Ezer Szoba",
-    "Macska, Bagoly, Denev<aigue>e</aigue>r&nbsp;&&nbsp;R<aigue>o</aigue>ka", "Illusztr<aigue>a</aigue>lta Rekka Bellum<br/>Írta Devine Lu Linvega", 
-    "Első Kiad<aigue>a</aigue>s"
+    "Macska, Bagoly, Denev<acute_up>e</acute_up>r&nbsp;&&nbsp;R<acute_up>o</acute_up>ka", "Illusztr<acute_26>a</acute_26>lta Rekka Bellum<br/><acute_up>I</acute_up>rta Devine Lu Linvega", 
+    "Els<dblacute>o</dblacute> Kiad<acute_up>a</acute_up>s"
   ],
-  :preface => "Egy szob<aigue>a</aigue>ban <aigue>e</aigue>bredsz, törhetetlen falakkal körbev<aigue>e</aigue>ve. Egy ír<aigue>o</aigue>asztalon egy ceruza, <aigue>e</aigue>s egy üres papírlap van.<br/>Az ír<aigue>o</aigue>asztalban jegyzetek vannak a te k<aigue>e</aigue>zír<aigue>a</aigue>soddal, de nem eml<aigue>e</aigue>kszel r<aigue>a</aigue>juk.",
+  :preface => "Egy szob<acute_26>a</acute_26>ban <acute_26>e</acute_26>bredsz, t<diacrit>o</diacrit>rhetetlen falakkal k<diacrit>o</diacrit>rbev<acute_26>e</acute_26>ve. Egy <acute_26>i</acute_26>r<acute_26>o</acute_26>asztalon egy ceruza, <acute_26>e</acute_26>s egy <diacrit>u</diacrit>res pap<acute_26>i</acute_26>rlap van.<br/>Az <acute_26>i</acute_26>r<acute_26>o</acute_26>asztalban jegyzetek vannak a te <br>k<acute_26>e</acute_26>z<acute_26>i</acute_26>r<acute_26>a</acute_26>soddal, de nem eml<acute_26>e</acute_26>kszel r<acute_26>a</acute_26>juk.",
   :lesson1 => [
-    "Első Lecke",
-    "Macska <aigue>e</aigue>bredezik.",
-    "Bagoly egy papírlapot tal<aigue>a</aigue>l.",
-    "Denev<aigue>e</aigue>r egy ceruz<aigue>a</aigue>t tal<aigue>a</aigue>l.",
-    "R<aigue>o</aigue>ka kinyitja az ír<aigue>o</aigue>asztalt."
+    "Els<dblacute>o</dblacute> Lecke",
+    "Macska <acute>e</acute>bredezik.",
+    "Bagoly egy pap<acute>i</acute>rlapot tal<acute>a</acute>l.",
+    "Denev<acute>e</acute>r egy ceruz<acute>a</acute>t tal<acute>a</acute>l.",
+    "R<acute>o</acute>ka kinyitja az <acute>i</acute>r<acute>o</acute>asztalt."
   ],
   :lesson2 => [
-    "M<aigue>a</aigue>sodik Lecke",
+    "M<acute_26>a</acute_26>sodik Lecke",
     "Macska a falat kaparja.",
-    "Bagoly üzenetet hagy az ír<aigue>o</aigue>asztalban.",
-    "Denev<aigue>e</aigue>r egy m<aigue>a</aigue>sodik ceruz<aigue>a</aigue>t tal<aigue>a</aigue>l.",
-    "R<aigue>o</aigue>ka sz<aigue>e</aigue>tszereli az ír<aigue>o</aigue>asztalt."
+    "Bagoly <diacrit>u</diacrit>zenetet hagy az <acute>i</acute>r<acute>o</acute>asztalban.",
+    "Denev<acute>e</acute>r egy m<acute>a</acute>sodik ceruz<acute>a</acute>t tal<acute>a</acute>l.",
+    "R<acute>o</acute>ka sz<acute>e</acute>tszereli az <acute>i</acute>r<acute>o</acute>asztalt."
   ],
   :lesson3 => [
     "Harmadik Lecke",
-    "Macska sz<aigue>e</aigue>tmarcangolja a ceruz<aigue>a</aigue>t <aigue>e</aigue>s a papírlapot.",
-    "Bagoly jegyzeteket tal<aigue>a</aigue>l az ír<aigue>o</aigue>asztalban.",
-    "Denev<aigue>e</aigue>r sok ceruz<aigue>a</aigue>t tal<aigue>a</aigue>l az ír<aigue>o</aigue>asztalban.",
-    "R<aigue>o</aigue>ka rosszul szereli össze az ír<aigue>o</aigue>asztalt."
+    "Macska sz<acute>e</acute>tmarcangolja a ceruz<acute>a</acute>t <acute>e</acute>s a pap<acute>i</acute>rlapot.",
+    "Bagoly jegyzeteket tal<acute>a</acute>l az <acute>i</acute>r<acute>o</acute>asztalban.",
+    "Denev<acute>e</acute>r sok ceruz<acute>a</acute>t tal<acute>a</acute>l az <acute>i</acute>r<acute>o</acute>asztalban.",
+    "R<acute>o</acute>ka rosszul szereli <diacrit>o</diacrit>ssze az <acute>i</acute>r<acute>o</acute>asztalt."
   ],
   :lesson4 =>[
     "Negyedik Lecke",
-    "Macska belem<aigue>a</aigue>szik az ír<aigue>o</aigue>asztalba.",
-    "Bagoly <aigue>e</aigue>rtelmet keres.",
-    "Denev<aigue>e</aigue>r feladja.",
-    "R<aigue>o</aigue>k<aigue>a</aigue>nak l<aigue>a</aigue>togat<aigue>o</aigue>ja van."
+    "Macska belem<acute>a</acute>szik az <acute>i</acute>r<acute>o</acute>asztalba.",
+    "Bagoly <acute>e</acute>rtelmet keres.",
+    "Denev<acute>e</acute>r feladja.",
+    "R<acute>o</acute>k<acute>a</acute>nak l<acute>a</acute>togat<acute>o</acute>ja van."
   ],
   :lesson5 =>[
-    "Ötödik Lecke",
-    "Macska kisz<aigue>a</aigue>ll az ír<aigue>o</aigue>asztalb<aigue>o</aigue>l.",
-    "Bagoly meg<aigue>e</aigue>rti a szob<aigue>a</aigue>t.",
-    "Denev<aigue>e</aigue>r fel<aigue>e</aigue>bred.",
-    "R<aigue>o</aigue>k<aigue>a</aigue>nak m<aigue>a</aigue>sodik l<aigue>a</aigue>togat<aigue>o</aigue>ja van."
+    "<diacrit_up>O</diacrit_up>t<diacrit>o</diacrit>dik Lecke",
+    "Macska kisz<acute>a</acute>ll az<br><acute>i</acute>r<acute>o</acute>asztalb<acute>o</acute>l.",
+    "Bagoly meg<acute>e</acute>rti a szob<acute>a</acute>t.",
+    "Denev<acute>e</acute>r fel<acute>e</acute>bred.",
+    "R<acute>o</acute>k<acute>a</acute>nak m<acute>a</acute>sodik l<acute>a</acute>togat<acute>o</acute>ja van."
   ],
   :lesson6 => [
     "Hatodik Lecke",
-    "Macska tönkreteszi az ír<aigue>o</aigue>asztalt.",
-    "Bagoly egy firk<aigue>a</aigue>t tal<aigue>a</aigue>l.",
-    "Denev<aigue>e</aigue>r egy ceruz<aigue>a</aigue>t tal<aigue>a</aigue>l.",
-    "R<aigue>o</aigue>k<aigue>a</aigue>nak túl sok l<aigue>a</aigue>togat<aigue>o</aigue>ja van."
+    "Macska t<diacrit>o</diacrit>nkreteszi az <acute>i</acute>r<acute>o</acute>asztalt.",
+    "Bagoly egy firk<acute>a</acute>t tal<acute>a</acute>l.",
+    "Denev<acute>e</acute>r egy ceruz<acute>a</acute>t tal<acute>a</acute>l.",
+    "R<acute>o</acute>k<acute>a</acute>nak t<acute>u</acute>l sok l<acute>a</acute>togat<acute>o</acute>ja van."
   ],
   :lesson7 => [
-    "Utols<aigue>o</aigue> Lecke",
-    "Te mit tenn<aigue>e</aigue>l?"
+    "Utols<acute_up>o</acute_up> Lecke",
+    "Te mit tenn<acute>e</acute>l?"
   ],
-  :thanks => "Köszönet"
+  :thanks => "K<diacrit_up>o</diacrit_up>sz<diacrit_up>o</diacrit_up>net"
 }
