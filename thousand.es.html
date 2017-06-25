@@ -7,11 +7,18 @@
 body { font-family:'azuki_font','aquafont','Garamond'; padding:0px; margin:0px;}
 page { page-break-after: always; display:block; position:relative; overflow:hidden; background:#ffffff; width:592px; height:820px; border:1px solid #fefefe; }
 page id { position: absolute;bottom: 10px;display: block;text-align: center;width:100%;}
-page grave { display:inline; background-image:url(assets/accent.grave.svg); background-position:center 0px}
-page aigue { display:inline; background-image:url(assets/accent.aigue.svg); background-position:center 0px}
-page cedil { display:inline; background-image:url(assets/accent.cedil.svg); background-position:center 0px}
-page trema { display: inline-block;background-position: center 0px;height: 15.5px;}
+page grave { display:inline; background-image:url(assets/accent.grave.svg); background-position:center 0px; background-repeat:no-repeat}
+page aigue { display:inline; background-image:url(assets/accent.aigue.svg); background-position:center 0px; background-repeat:no-repeat}
+page tilde { display:inline; background-image:url(assets/accent.tilde.svg); background-position:center 0px; background-repeat:no-repeat}
+page cedil { display:inline; background-image:url(assets/accent.cedil.svg); background-position:center 0px; background-repeat:no-repeat}
+page trema { display: inline-block;background-position: center 0px;height: 15.5px;; background-repeat:no-repeat}
 page trema:before { background-color:white; display: inline-block;width: 15px;height: 15px;content: ' ';position: absolute; background-image: url(assets/accent.trema.svg); }
+page .umlaut { display: inline-block; position: relative; }
+page .umlaut:before { display: block; width: 17px; margin-left: -9px; height: 100%; content: ''; position: absolute; top: 8px; left: 50%; background: url(assets/accent.umlaut.svg) no-repeat center top; background-size: contain; }
+
+page.title aigue { display: inline-block;background-position-y: -4px  }
+page.illustration aigue { background-size: 18px 20px }
+page.chapter aigue { background-size: 18px 20px }
 
 body.lang_ru h1 { letter-spacing:-12px}
 body.lang_ru .cover h1 { letter-spacing:-8px}
@@ -35,6 +42,7 @@ body.lang_ch { font-family: 'tea'}
   page.cover h1 trema:before { top:-15px }
   page.cover img.logo { position: absolute;bottom: 0px;width: 70px;height: 70px;display: block;left:calc(50% - 35px); }
   page.cover grave { background-position: center -1px;line-height: 50px;display: inline-block }
+  page.cover .umlaut:before { width: 18px; margin-left: -10px; top: -9px; }
   page.title h1 { font-weight: normal;text-transform: uppercase;display: block;text-align: center;font-size: 36px;margin-top: 120px;margin-bottom: 40px }
   page.title h2 { text-transform: uppercase;display: block;text-align: center;font-size: 30px;font-weight: normal;margin-bottom: 40px;padding: 0px 60px;line-height: 40px }
   page.title h3 { display:block; text-align:center; font-size:28px; margin-top:40px; font-weight:normal; line-height:40px; margin-bottom:40px; }
@@ -43,8 +51,10 @@ body.lang_ch { font-family: 'tea'}
   page.title grave { background-position: center -1px;line-height: 50px;display: inline-block }
   page.title .cap { background-position: center -1px;line-height: 50px;display: inline-block }
   page.title trema:before { display:none !important }
+  page.title .umlaut:before { width: 18px; margin-left: -10px; top: -9px; }
   page.preface p { padding:40px; font-size:26px; line-height:36px }
   page.preface trema { display:none !important }
+  page.preface .umlaut:before { margin-left: -7px; top:-10px; width: 13px; margin-top: 12px; }
   page.chapter h1 { position:absolute; top:40%; display:block; text-align:center; margin-top:-13px;font-size:40px; width:100%; font-weight: normal }
   page.chapter img { width: 300px;height: 300px;position: absolute;top: calc(50%);left: calc(50% - 150px) }
   page.chapter h1 grave { display: inline;background-image: url(assets/accent.grave.svg);background-position: 2px 5px !important }
@@ -72,10 +82,10 @@ body.lang_ch { font-family: 'tea'}
 <page class='title'>
   
 <h1>Mil Habitaciones</h1>
-<h2>Gato, Búho, Murciélago y Zorro</h2>
+<h2>Gato, B<aigue>u</aigue>ho, Murci<aigue>e</aigue>lago y Zorro</h2>
 <img src='assets/glyph.png'/>
 <h3>Ilustrado por Rekka Bellum<br />Escrito por Devine Lu Linvega</h3>
-<h4>Primera Edición</h4>
+<h4>Primera Edicion</h4>
 
 </page>
 
@@ -84,7 +94,7 @@ body.lang_ch { font-family: 'tea'}
 </page>
 
 <page class='preface'>
-  <p>Despiertas en una habitación, rodeado de paredes irrompibles. Sobre el escritorio se encuentra un lápiz y una hoja blanca de papel.<br> Dentro del escritorio hay notas con tu escritura, no tienes recuerdos de eso.</p>
+  <p>Despiertas en una habitaci<aigue>o</aigue>n, rodeado de paredes irrompibles. Sobre el escritorio se encuentra un l<aigue>a</aigue>piz y una hoja blanca de papel.<br> Dentro del escritorio hay notas con tu escritura, no tienes recuerdos de eso.</p>
 </page>
 
 <page class='blank'>
@@ -92,7 +102,7 @@ body.lang_ch { font-family: 'tea'}
 </page>
 
 <page class='chapter'>
-  <h1>Lección 1</h1><img src='assets/lesson.1.png'/>
+  <h1>Lecci<aigue>o</aigue>n 1</h1><img src='assets/lesson.1.png'/>
 </page>
 
 <page class='illustration'>
@@ -102,12 +112,12 @@ body.lang_ch { font-family: 'tea'}
 
 <page class='illustration'>
   <img src='assets/owl.1.png'/>
-  <h1>Búho encuentra un pedazo de papel.</h1>
+  <h1>B<aigue>u</aigue>ho encuentra un pedazo de papel.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/bat.1.png'/>
-  <h1>Murciélago encuentra un lápiz.</h1>
+  <h1>Murci<aigue>e</aigue>lago encuentra un l<aigue>a</aigue>piz.</h1>
 </page>
 
 <page class='illustration'>
@@ -120,22 +130,22 @@ body.lang_ch { font-family: 'tea'}
 </page>
 
 <page class='chapter'>
-  <h1>Lección 2</h1><img src='assets/lesson.2.png'/>
+  <h1>Lecci<aigue>o</aigue>n 2</h1><img src='assets/lesson.2.png'/>
 </page>
 
 <page class='illustration'>
   <img src='assets/cat.2.png'/>
-  <h1>Gato rasguña las paredes.</h1>
+  <h1>Gato rasgu<tilde>n</tilde>a las paredes.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/owl.2.png'/>
-  <h1>Búho deja un mensaje en el escritorio.</h1>
+  <h1>B<aigue>u</aigue>ho deja un mensaje en el escritorio.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/bat.2.png'/>
-  <h1>Murciélago encuentra un segundo lápiz.</h1>
+  <h1>Murci<aigue>e</aigue>lago encuentra un segundo l<aigue>a</aigue>piz.</h1>
 </page>
 
 <page class='illustration'>
@@ -148,22 +158,22 @@ body.lang_ch { font-family: 'tea'}
 </page>
 
 <page class='chapter'>
-  <h1>Lección 3</h1><img src='assets/lesson.3.png'/>
+  <h1>Lecci<aigue>o</aigue>n 3</h1><img src='assets/lesson.3.png'/>
 </page>
 
 <page class='illustration'>
   <img src='assets/cat.3.png'/>
-  <h1>Gato destruye el lápiz y el papel.</h1>
+  <h1>Gato destruye el l<aigue>a</aigue>piz y el papel.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/owl.3.png'/>
-  <h1>Búho encuentra notas en el escritorio.</h1>
+  <h1>B<aigue>u</aigue>ho encuentra notas en el escritorio.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/bat.3.png'/>
-  <h1>Murciélago encuentra el escritorio lleno de lápices.</h1>
+  <h1>Murci<aigue>e</aigue>lago encuentra el escritorio lleno de l<aigue>a</aigue>pices.</h1>
 </page>
 
 <page class='illustration'>
@@ -176,7 +186,7 @@ body.lang_ch { font-family: 'tea'}
 </page>
 
 <page class='chapter'>
-  <h1>Lección 4</h1><img src='assets/lesson.4.png'/>
+  <h1>Lecci<aigue>o</aigue>n 4</h1><img src='assets/lesson.4.png'/>
 </page>
 
 <page class='illustration'>
@@ -186,12 +196,12 @@ body.lang_ch { font-family: 'tea'}
 
 <page class='illustration'>
   <img src='assets/owl.4.png'/>
-  <h1>Búho trata de entender.</h1>
+  <h1>B<aigue>u</aigue>ho trata de entender.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/bat.4.png'/>
-  <h1>Murciélago no encuentra salida.</h1>
+  <h1>Murci<aigue>e</aigue>lago no encuentra salida.</h1>
 </page>
 
 <page class='illustration'>
@@ -204,7 +214,7 @@ body.lang_ch { font-family: 'tea'}
 </page>
 
 <page class='chapter'>
-  <h1>Lección 5</h1><img src='assets/lesson.5.png'/>
+  <h1>Lecci<aigue>o</aigue>n 5</h1><img src='assets/lesson.5.png'/>
 </page>
 
 <page class='illustration'>
@@ -214,12 +224,12 @@ body.lang_ch { font-family: 'tea'}
 
 <page class='illustration'>
   <img src='assets/owl.5.png'/>
-  <h1>Búho entiende la habitación.</h1>
+  <h1>B<aigue>u</aigue>ho entiende la habitaci<aigue>o</aigue>n.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/bat.5.png'/>
-  <h1>Murciélago despierta.</h1>
+  <h1>Murci<aigue>e</aigue>lago despierta.</h1>
 </page>
 
 <page class='illustration'>
@@ -232,7 +242,7 @@ body.lang_ch { font-family: 'tea'}
 </page>
 
 <page class='chapter'>
-  <h1>Lección 6</h1><img src='assets/lesson.6.png'/>
+  <h1>Lecci<aigue>o</aigue>n 6</h1><img src='assets/lesson.6.png'/>
 </page>
 
 <page class='illustration'>
@@ -242,12 +252,12 @@ body.lang_ch { font-family: 'tea'}
 
 <page class='illustration'>
   <img src='assets/owl.6.png'/>
-  <h1>Búho encuentra un garabato.</h1>
+  <h1>B<aigue>u</aigue>ho encuentra un garabato.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/bat.6.png'/>
-  <h1>Murciélago encuentra un lápiz.</h1>
+  <h1>Murci<aigue>e</aigue>lago encuentra un l<aigue>a</aigue>piz.</h1>
 </page>
 
 <page class='illustration'>
@@ -260,7 +270,7 @@ body.lang_ch { font-family: 'tea'}
 </page>
 
 <page class='chapter'>
-  <h1>Última Lección</h1><img src='assets/lesson.7.png'/>
+  <h1>Última Lecci<aigue>o</aigue>n</h1><img src='assets/lesson.7.png'/>
 </page>
 
 <page class='blank'>
@@ -269,7 +279,7 @@ body.lang_ch { font-family: 'tea'}
 
 <page class='illustration'>
   <img src='assets/you.1.png'/>
-  <h1>¿Qué harías tú?</h1>
+  <h1>¿Qu<aigue>e</aigue> harías t<aigue>u</aigue>?</h1>
 </page>
 
 <page class='blank'>
@@ -277,7 +287,7 @@ body.lang_ch { font-family: 'tea'}
 </page>
 
 <page class='thank'>
-  <h1>Gracias</h1><list><li><span class='left'>Russian</span><span class='right'>RA</span></li><li><span class='left'>Japanese</span><span class='right'>Chase & Yuka</span></li><li><span class='left'>German</span><span class='right'>Max Haß­lein</span></li><li><span class='left'>Italian</span><span class='right'>Federico Salvador</span></li><li><span class='left'>Dutch</span><span class='right'>Vincent</span></li><li><span class='left'>Greek</span><span class='right'>Paris K.</span></li><li><span class='left'>Chinese</span><span class='right'>Humble Ray</span></li><li><span class='left'>Arabic</span><span class='right'>Hazza Alkaabi</span></li><li><span class='left'>Hungarian</span><span class='right'>Attila Mal<aigue>a</aigue>rik</span></li><li><span class='left'>Español</span><span class='right'>Fáyer (Antonio Uribe)</span></li></list>
+  <h1>Gracias</h1><list><li><span class='left'>Russian</span><span class='right'>RA</span></li><li><span class='left'>Japanese</span><span class='right'>Chase & Yuka</span></li><li><span class='left'>German</span><span class='right'>Max Häßlein</span></li><li><span class='left'>Italian</span><span class='right'>Federico Salvador</span></li><li><span class='left'>Dutch</span><span class='right'>Vincent</span></li><li><span class='left'>Greek</span><span class='right'>Paris K.</span></li><li><span class='left'>Chinese</span><span class='right'>Humble Ray</span></li><li><span class='left'>Arabic</span><span class='right'>Hazza Alkaabi</span></li><li><span class='left'>Hungarian</span><span class='right'>Attila Mal<aigue>a</aigue>rik</span></li><li><span class='left'>Espa<tilde>n</tilde>ol</span><span class='right'>F<aigue>a</aigue>yer (Antonio Uribe)</span></li><li><span class='left'>Português (Portugal)</span><span class='right'>Hugo Anaya</span></li><li><span class='left'>Polish</span><span class='right'>Tymoteusz Masiakowski</span></li></list>
 </page>
 
 <page class='blank'>

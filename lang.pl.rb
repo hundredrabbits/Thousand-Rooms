@@ -1,6 +1,6 @@
 # Contact : @mothnode
 
-$lang_en = {
+$lang_pl = {
   :translator => "Tymoteusz Masiakowski",
   :language => "Polish",
   :title => "Tysiąc Pokojów",
