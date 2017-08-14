@@ -2,7 +2,7 @@
 
 $lang_pt = {
   :translator => "Hugo Anaya",
-  :language => "Português (Portugal)",
+  :language => "Português",
   :title => "Mil Quartos",
   :title_page => [
     "Mil Quartos",

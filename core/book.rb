@@ -166,6 +166,10 @@ body.lang_ar line { display:block}
 body.lang_ar .preface line { text-align:right}
 
 body.lang_ch { font-family: 'tea'}
+
+body.lang_pt { font-family: 'aquafont', 'Yuanti TC', sans-serif; }
+body.lang_pl { font-family: 'aquafont', 'Yuanti TC', sans-serif; }
+body.lang_hu { font-family: 'aquafont', 'Yuanti TC', sans-serif; }
 "
   end
 
