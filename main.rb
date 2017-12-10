@@ -10,6 +10,7 @@ require_relative 'core/pages/illustration.rb'
 require_relative 'core/pages/preface.rb'
 require_relative 'core/pages/chapter.rb'
 require_relative 'core/pages/cover.rb'
+require_relative 'core/pages/backcover.rb'
 require_relative 'core/pages/thank.rb'
 
 require_relative 'lang.en.rb'

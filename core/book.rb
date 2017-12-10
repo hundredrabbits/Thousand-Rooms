@@ -20,8 +20,24 @@ class Book
     @content.each do |lang,pages|
       puts "Building #{pages[:language]}"
       assemble(pages)
-      bind(lang)
+      bind(lang,order_for_print(@pages),"print")
     end
+
+  end
+
+  def order_for_print pages
+
+    new_sequence = []
+    puts "- Reordering #{pages.length} pages for print"
+    i = 0
+    while i < (pages.length/2)
+      new_sequence.push(pages[i])
+      new_sequence.push(pages[pages.length-i-1])
+      puts pages[pages.length-i-1] && pages[i] ? "> Page #{i} <#{i} & #{pages.length-i-1}> #{pages[i].type} & #{pages[pages.length-i-1].type}" : "Missing page"
+      i += 1
+    end
+
+    return new_sequence
 
   end
 
@@ -87,7 +103,7 @@ class Book
     add_page(BlankPage.new)
 
     add_page(ThankPage.new(target_story[:thanks],@content))
-    add_page(BlankPage.new)
+    add_page(BackCoverPage.new)
 
   end
 
@@ -106,7 +122,7 @@ class Book
 
   end
 
-  def bind lang
+  def bind lang,pages = @pages, format = "digital"
 
     puts "- Binding #{@pages.length} pages"
 
@@ -114,16 +130,16 @@ class Book
 
     # Print pages
     count = 0
-    @pages.each do |page|
-      progress = (((count+1)/@pages.length.to_f)*100).to_i
+    pages.each do |page|
+      progress = (((count+1)/pages.length.to_f)*100).to_i
       body += page.to_s
       count += 1
     end
-    out_file = File.new("thousand.#{lang}.html", "w")
-    out_file.puts("<html><meta charset='UTF-8'><body class='lang_#{lang}'>#{body}</body></html>")
+    out_file = File.new("thousand.#{lang}.#{format}.html", "w")
+    out_file.puts("<html><meta charset='UTF-8'><body class='lang_#{lang} format_#{format}'>#{body}</body></html>")
     out_file.close
     
-    puts "- Binding complete of #{count} pages, for thousand.#{lang}.html\n\n"
+    puts "- Binding complete.\n\n"
 
   end
 
@@ -135,7 +151,7 @@ class Book
 @font-face { font-family: 'Jura'; src: url('assets/fonts/jura_regular.ttf') format('truetype'); font-weight: normal; font-style: normal; }
 @page { size: 148mm 210mm; width:592px; height:840px; margin:0px; padding:0px }
 body { font-family:'azuki_font','aquafont','Garamond'; padding:0px; margin:0px;}
-page { page-break-after: always; display:block; position:relative; overflow:hidden; background:#ffffff; width:592px; height:820px; border:1px solid #fefefe; }
+page { page-break-after: always; display:block; position:relative; overflow:hidden; background:#ffffff; width:592px; height:820px; }
 page id { position: absolute;bottom: 10px;display: block;text-align: center;width:100%;}
 page grave { display:inline; background-image:url(assets/accent.grave.svg); background-position:center 0px; background-repeat:no-repeat}
 page aigue { display:inline; background-image:url(assets/accent.aigue.svg); background-position:center 0px; background-repeat:no-repeat}
@@ -170,6 +186,13 @@ body.lang_ch { font-family: 'tea'}
 body.lang_pt { font-family: 'aquafont', 'Yuanti TC', sans-serif; }
 body.lang_pl { font-family: 'aquafont', 'Yuanti TC', sans-serif; }
 body.lang_hu { font-family: 'aquafont', 'Yuanti TC', sans-serif; }
+
+body.format_print { background:white; width:1233px}
+body.format_print page { page-break-after: unset;display:block; float:left; border-bottom:1px solid white}
+body.format_print page:nth-child(odd) { page-break-after: right; border-left:1px solid black; border-right:1px solid white; margin-left:40px }
+body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
+
+
 "
   end
 

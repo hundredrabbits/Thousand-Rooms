@@ -1,0 +1,310 @@
+<html><meta charset='UTF-8'><body class='lang_ar format_print'><style>
+
+@font-face { font-family: 'maruko'; src: url('assets/fonts/maruko.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'tea'; src: url('assets/fonts/tea.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Jura'; src: url('assets/fonts/jura_regular.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@page { size: 148mm 210mm; width:592px; height:840px; margin:0px; padding:0px }
+body { font-family:'azuki_font','aquafont','Garamond'; padding:0px; margin:0px;}
+page { page-break-after: always; display:block; position:relative; overflow:hidden; background:#ffffff; width:592px; height:820px; }
+page id { position: absolute;bottom: 10px;display: block;text-align: center;width:100%;}
+page grave { display:inline; background-image:url(assets/accent.grave.svg); background-position:center 0px; background-repeat:no-repeat}
+page aigue { display:inline; background-image:url(assets/accent.aigue.svg); background-position:center 0px; background-repeat:no-repeat}
+page tilde { display:inline; background-image:url(assets/accent.tilde.svg); background-position:center 0px; background-repeat:no-repeat}
+page cedil { display:inline; background-image:url(assets/accent.cedil.svg); background-position:center 0px; background-repeat:no-repeat}
+page trema { display: inline-block;background-position: center 0px;height: 15.5px;; background-repeat:no-repeat}
+page trema:before { background-color:white; display: inline-block;width: 15px;height: 15px;content: ' ';position: absolute; background-image: url(assets/accent.trema.svg); }
+page .umlaut { display: inline-block; position: relative; }
+page .umlaut:before { display: block; width: 17px; margin-left: -9px; height: 100%; content: ''; position: absolute; top: 8px; left: 50%; background: url(assets/accent.umlaut.svg) no-repeat center top; background-size: contain; }
+
+page.title aigue { display: inline-block;background-position-y: -4px  }
+page.illustration aigue { background-size: 18px 20px }
+page.chapter aigue { background-size: 18px 20px }
+
+body.lang_ru h1 { letter-spacing:-12px}
+body.lang_ru .cover h1 { letter-spacing:-8px}
+body.lang_ru .title h1 { letter-spacing:-8px}
+body.lang_ru .preface p {letter-spacing:-6px}
+body.lang_ru .thank p {letter-spacing:-6px}
+
+body.lang_el { font-family: 'aquafont', 'Yuanti TC', sans-serif; }
+body.lang_el h1 { letter-spacing:-4px}
+body.lang_el .illustration h1 { letter-spacing:-8px}
+body.lang_el .preface p { letter-spacing:-6px}
+
+body.lang_ar { font-family: 'Jura', Tahoma !important; }
+body.lang_ar line { display:block}
+body.lang_ar .preface line { text-align:right}
+
+body.lang_ch { font-family: 'tea'}
+
+body.lang_pt { font-family: 'aquafont', 'Yuanti TC', sans-serif; }
+body.lang_pl { font-family: 'aquafont', 'Yuanti TC', sans-serif; }
+body.lang_hu { font-family: 'aquafont', 'Yuanti TC', sans-serif; }
+
+body.format_print { background:white; width:1233px}
+body.format_print page { page-break-after: unset;display:block; float:left; border-bottom:1px solid white}
+body.format_print page:nth-child(odd) { page-break-after: right; border-left:1px solid black; border-right:1px solid white; margin-left:40px }
+body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
+
+
+  page.cover  { background:white; overflow:hidden }
+  page.cover img { width:100% }
+  page.cover h1 { position:absolute; bottom:100px; color:black; text-transform:uppercase; width:100%; text-align:center; font-weight:normal; font-size:36px }
+  page.cover h1 trema:before { top:-15px }
+  page.cover img.logo { position: absolute;bottom: 0px;width: 70px;height: 70px;display: block;left:calc(50% - 35px); }
+  page.cover grave { background-position: center -1px;line-height: 50px;display: inline-block }
+  page.cover .umlaut:before { width: 18px; margin-left: -10px; top: -9px; }
+  page.title h1 { font-weight: normal;text-transform: uppercase;display: block;text-align: center;font-size: 36px;margin-top: 120px;margin-bottom: 40px }
+  page.title h2 { text-transform: uppercase;display: block;text-align: center;font-size: 30px;font-weight: normal;margin-bottom: 40px;padding: 0px 60px;line-height: 40px }
+  page.title h3 { display:block; text-align:center; font-size:28px; margin-top:40px; font-weight:normal; line-height:40px; margin-bottom:40px; }
+  page.title h4 { display: block;text-align: center;font-size: 18px;margin-top: 40px;font-weight: normal;line-height: 40px;margin-bottom: 40px;text-transform: uppercase  }
+  page.title img { display: block;width: 200px;margin: 0px auto;margin-bottom: 40px }
+  page.title grave { background-position: center -1px;line-height: 50px;display: inline-block }
+  page.title .cap { background-position: center -1px;line-height: 50px;display: inline-block }
+  page.title trema:before { display:none !important }
+  page.title .umlaut:before { width: 18px; margin-left: -10px; top: -9px; }
+  page.preface p { padding:40px; font-size:26px; line-height:36px }
+  page.preface trema { display:none !important }
+  page.preface .umlaut:before { margin-left: -7px; top:-10px; width: 13px; margin-top: 12px; }
+  page.chapter h1 { position:absolute; top:40%; display:block; text-align:center; margin-top:-13px;font-size:40px; width:100%; font-weight: normal }
+  page.chapter img { width: 300px;height: 300px;position: absolute;top: calc(50%);left: calc(50% - 150px) }
+  page.chapter h1 grave { display: inline;background-image: url(assets/accent.grave.svg);background-position: 2px 5px !important }
+  page.chapter h1 aigue { display:inline; background-image:url(assets/accent.aigue.svg); background-position:center 0px }
+  page.chapter h1 cedil { display:inline; background-image:url(assets/accent.cedil.svg); background-position:3px 13px }
+  page.illustration img { display: block; width:100%; position:absolute; bottom:0px }
+  page.illustration h1 { position:absolute; top:100px; display:block; text-align:center; width:calc(100% - 40px); padding:0px 20px; font-size:38px;font-weight: normal; line-height: 60px }
+  page.illustration h1 trema:before { top:10px }
+  page.thank p { padding:40px; font-size:26px; line-height:36px }
+  page.thank h1 { font-weight: normal;text-transform: uppercase;display: block;text-align: center;font-size: 36px;margin-top: 120px;margin-bottom: 40px }
+  page.thank list { display:block }
+  page.thank list li { display:block; font-size:20px; line-height:30px }
+  page.thank list li span.left {  width: calc(50% - 15px);display: inline-block;text-align: right;margin-right: 15px }
+  page.thank list li span.right {  width: calc(50% - 15px);display: inline-block;text-align: left;margin-left: 15px }
+  page.back_cover  { background:white; overflow:hidden }
+  page.back_cover img.logo { position: absolute;bottom: 0px;width: 70px;height: 70px;display: block;left:calc(50% - 35px); }
+</style>
+
+<page class='cover'>
+  <img src='assets/cover.svg'/><h1>ألف غرفة</h1><img class='logo' src='assets/hundred.rabbits.logo.svg'/>
+</page>
+
+<page class='back_cover'>
+  <img class='logo' src='assets/hundred.rabbits.logo.svg'/>
+</page>
+
+<page class='blank'>
+  
+</page>
+
+<page class='thank'>
+  <h1>شكراً</h1><list><li><span class='left'>Russian</span><span class='right'>RA</span></li><li><span class='left'>Japanese</span><span class='right'>Chase & Yuka</span></li><li><span class='left'>German</span><span class='right'>Max Häßlein</span></li><li><span class='left'>Italian</span><span class='right'>Federico Salvador</span></li><li><span class='left'>Dutch</span><span class='right'>Vincent</span></li><li><span class='left'>Greek</span><span class='right'>Paris K.</span></li><li><span class='left'>Chinese</span><span class='right'>Humble Ray</span></li><li><span class='left'>Arabic</span><span class='right'>Hazza Alkaabi</span></li><li><span class='left'>Hungarian</span><span class='right'>Attila Mal<aigue>a</aigue>rik</span></li><li><span class='left'>Espa<tilde>n</tilde>ol</span><span class='right'>F<aigue>a</aigue>yer (Antonio Uribe)</span></li><li><span class='left'>Português</span><span class='right'>Hugo Anaya</span></li><li><span class='left'>Polish</span><span class='right'>Tymoteusz Masiakowski</span></li></list>
+</page>
+
+<page class='title'>
+  
+<h1>ألف غرفة</h1>
+<h2>قط، بومة، خفاش وثعلب</h2>
+<img src='assets/glyph.png'/>
+<h3>رسمتها ريكا بيلم<br />كتبها ديفين لو لينفيغا</h3>
+<h4>الطبعة الأولى</h4>
+
+</page>
+
+<page class='blank'>
+  
+</page>
+
+<page class='blank'>
+  
+</page>
+
+<page class='illustration'>
+  <img src='assets/you.1.png'/>
+  <h1>ماذا كنت ستفعل؟</h1>
+</page>
+
+<page class='preface'>
+  <p><line>تستيقظ في غرفة، محاط بجدران غير قابلة للكسر. على طاولة تجد قلم رصاص وورقة فارغة</line><line> داخل هذه الطاولة تجد ملاحظات كتبت بخط يدك ولكن لا تتذكرها</line></p>
+</page>
+
+<page class='blank'>
+  
+</page>
+
+<page class='blank'>
+  
+</page>
+
+<page class='chapter'>
+  <h1>.الدرس الأخير</h1><img src='assets/lesson.7.png'/>
+</page>
+
+<page class='chapter'>
+  <h1>الدرس ١</h1><img src='assets/lesson.1.png'/>
+</page>
+
+<page class='blank'>
+  
+</page>
+
+<page class='illustration'>
+  <img src='assets/cat.1.png'/>
+  <h1>.القط يستيقظ</h1>
+</page>
+
+<page class='illustration'>
+  <img src='assets/fox.6.png'/>
+  <h1>.الثعلب لديه الكثير من الزوار</h1>
+</page>
+
+<page class='illustration'>
+  <img src='assets/owl.1.png'/>
+  <h1>.البومة تجد ورقة</h1>
+</page>
+
+<page class='illustration'>
+  <img src='assets/bat.6.png'/>
+  <h1>.الخفاش يجد قلم رصاص</h1>
+</page>
+
+<page class='illustration'>
+  <img src='assets/bat.1.png'/>
+  <h1>.الخفاش يجد قلم رصاص</h1>
+</page>
+
+<page class='illustration'>
+  <img src='assets/owl.6.png'/>
+  <h1>.البومة تجد خربشات</h1>
+</page>
+
+<page class='illustration'>
+  <img src='assets/fox.1.png'/>
+  <h1>.الثعلب يفتح الطاولة</h1>
+</page>
+
+<page class='illustration'>
+  <img src='assets/cat.6.png'/>
+  <h1>.القط يدمر الطاولة</h1>
+</page>
+
+<page class='blank'>
+  
+</page>
+
+<page class='chapter'>
+  <h1>الدرس ٦</h1><img src='assets/lesson.6.png'/>
+</page>
+
+<page class='chapter'>
+  <h1>الدرس ٢</h1><img src='assets/lesson.2.png'/>
+</page>
+
+<page class='blank'>
+  
+</page>
+
+<page class='illustration'>
+  <img src='assets/cat.2.png'/>
+  <h1>.القط يخدش الجدران</h1>
+</page>
+
+<page class='illustration'>
+  <img src='assets/fox.5.png'/>
+  <h1>.الثعلب عنده زائر ثانٍ</h1>
+</page>
+
+<page class='illustration'>
+  <img src='assets/owl.2.png'/>
+  <h1>.البومة تترك رسالة في الطاولة</h1>
+</page>
+
+<page class='illustration'>
+  <img src='assets/bat.5.png'/>
+  <h1>.الخفاش يستيقظ</h1>
+</page>
+
+<page class='illustration'>
+  <img src='assets/bat.2.png'/>
+  <h1>.الخفاش يجد قلم رصاص آخرٍ</h1>
+</page>
+
+<page class='illustration'>
+  <img src='assets/owl.5.png'/>
+  <h1>.البومة تفهم الغرفة</h1>
+</page>
+
+<page class='illustration'>
+  <img src='assets/fox.2.png'/>
+  <h1>.الثعلب يفكك الطاولة</h1>
+</page>
+
+<page class='illustration'>
+  <img src='assets/cat.5.png'/>
+  <h1>.القط يخرج من الطاولة</h1>
+</page>
+
+<page class='blank'>
+  
+</page>
+
+<page class='chapter'>
+  <h1>الدرس ٥</h1><img src='assets/lesson.5.png'/>
+</page>
+
+<page class='chapter'>
+  <h1>الدرس ٣</h1><img src='assets/lesson.3.png'/>
+</page>
+
+<page class='blank'>
+  
+</page>
+
+<page class='illustration'>
+  <img src='assets/cat.3.png'/>
+  <h1>.القط يدمر قلم الرصاص والورقة</h1>
+</page>
+
+<page class='illustration'>
+  <img src='assets/fox.4.png'/>
+  <h1>.الثعلب لديه زائر</h1>
+</page>
+
+<page class='illustration'>
+  <img src='assets/owl.3.png'/>
+  <h1>.البومة تجد ملاحظات في الطاولة</h1>
+</page>
+
+<page class='illustration'>
+  <img src='assets/bat.4.png'/>
+  <h1>.الخفاش لا يجد منفذ للهروب</h1>
+</page>
+
+<page class='illustration'>
+  <img src='assets/bat.3.png'/>
+  <h1>.الخفاش يجد أن الطاولة مُتْرَعَةٌ بأقلام رصاص</h1>
+</page>
+
+<page class='illustration'>
+  <img src='assets/owl.4.png'/>
+  <h1>.البومة تحاول الفهم</h1>
+</page>
+
+<page class='illustration'>
+  <img src='assets/fox.3.png'/>
+  <h1>.الثعلب يبني الطاولة من الداخل إلى الخارج</h1>
+</page>
+
+<page class='illustration'>
+  <img src='assets/cat.4.png'/>
+  <h1>.القط يدخل الطاولة</h1>
+</page>
+
+<page class='blank'>
+  
+</page>
+
+<page class='chapter'>
+  <h1>الدرس ٤</h1><img src='assets/lesson.4.png'/>
+</page>
+
+</body></html>
