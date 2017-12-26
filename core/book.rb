@@ -20,7 +20,7 @@ class Book
     @content.each do |lang,pages|
       puts "Building #{pages[:language]}"
       assemble(pages)
-      bind(lang,order_for_print(@pages),"print")
+      bind(lang,@pages,"digital")
     end
 
   end
@@ -149,6 +149,7 @@ class Book
 @font-face { font-family: 'maruko'; src: url('assets/fonts/maruko.ttf') format('truetype'); font-weight: normal; font-style: normal; }
 @font-face { font-family: 'tea'; src: url('assets/fonts/tea.ttf') format('truetype'); font-weight: normal; font-style: normal; }
 @font-face { font-family: 'Jura'; src: url('assets/fonts/jura_regular.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'azuki_font'; src: url('assets/fonts/azuki_font.ttf') format('truetype'); font-weight: normal; font-style: normal; }
 @page { size: 148mm 210mm; width:592px; height:840px; margin:0px; padding:0px }
 body { font-family:'azuki_font','aquafont','Garamond'; padding:0px; margin:0px;}
 page { page-break-after: always; display:block; position:relative; overflow:hidden; background:#ffffff; width:592px; height:820px; }
