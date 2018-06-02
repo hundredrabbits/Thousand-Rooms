@@ -163,9 +163,25 @@ page trema:before { background-color:white; display: inline-block;width: 15px;he
 page .umlaut { display: inline-block; position: relative; }
 page .umlaut:before { display: block; width: 17px; margin-left: -9px; height: 100%; content: ''; position: absolute; top: 8px; left: 50%; background: url(assets/accent.umlaut.svg) no-repeat center top; background-size: contain; }
 
+/* Hungarian accents */
+
+page acute { display: inline-block; position: relative; }
+page acute:before { display: block; width: 17px; margin-left: -8px; height: 100%; content: ''; position: absolute; top: 15px; left: 50%; background: url(assets/accent.acute.svg) no-repeat center top; background-size: contain; }
+page acute_26 { display: inline-block; position: relative; }
+page acute_26:before { display: block; width: 17px; margin-left: -9px; height: 100%; content: ''; position: absolute; top: 5px; left: 50%; background: url(assets/accent.acute.svg) no-repeat center top; background-size: contain; }
+page acute_up { display: inline-block; position: relative; }
+page acute_up:before { display: block; width: 17px; margin-left: -8px; height: 100%; content: ''; position: absolute; top: -3px; left: 50%; background: url(assets/accent.acute.svg) no-repeat center top; background-size: contain; }
+page dblacute { display: inline-block; position: relative; }
+page dblacute:before { display: block; width: 17px; margin-left: -10px; height: 100%; content: ''; position: absolute; top: 2px; left: 50%; background: url(assets/accent.dblacute.svg) no-repeat center top; background-size: contain; }
+page diacrit { display: inline-block; position: relative; }
+page diacrit:before { display: block; width: 17px; margin-left: -9px; height: 100%; content: ''; position: absolute; top: 0px; left: 50%; background: url(assets/accent.diacrit.svg) no-repeat center top; background-size: contain; }
+page diacrit_up { display: inline-block; position: relative; }
+page diacrit_up:before { display: block; width: 17px; margin-left: -9px; height: 100%; content: ''; position: absolute; top: -13px; left: 50%; background: url(assets/accent.diacrit.svg) no-repeat center top; background-size: contain; }
+
 page.title aigue { display: inline-block;background-position-y: -4px  }
 page.illustration aigue { background-size: 18px 20px }
 page.chapter aigue { background-size: 18px 20px }
+
 
 body.lang_ru h1 { letter-spacing:-12px}
 body.lang_ru .cover h1 { letter-spacing:-8px}
