@@ -10,6 +10,7 @@ require_relative 'core/pages/illustration.rb'
 require_relative 'core/pages/preface.rb'
 require_relative 'core/pages/chapter.rb'
 require_relative 'core/pages/cover.rb'
+require_relative 'core/pages/backcover.rb'
 require_relative 'core/pages/thank.rb'
 
 require_relative 'lang.en.rb'
@@ -24,7 +25,9 @@ require_relative 'lang.el.rb'
 require_relative 'lang.ch.rb'
 require_relative 'lang.ar.rb'
 require_relative 'lang.hu.rb'
+require_relative 'lang.es.rb'
 require_relative 'lang.pt.rb'
+require_relative 'lang.pl.rb'
 
 content = {}
 content[:en] = $lang_en
@@ -39,7 +42,9 @@ content[:el] = $lang_el
 content[:ch] = $lang_ch
 content[:ar] = $lang_ar
 content[:hu] = $lang_hu
+content[:es] = $lang_es
 content[:pt] = $lang_pt
+content[:pl] = $lang_pl
 
 book = Book.new(content)
 book.build
