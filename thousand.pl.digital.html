@@ -17,9 +17,25 @@ page trema:before { background-color:white; display: inline-block;width: 15px;he
 page .umlaut { display: inline-block; position: relative; }
 page .umlaut:before { display: block; width: 17px; margin-left: -9px; height: 100%; content: ''; position: absolute; top: 8px; left: 50%; background: url(assets/accent.umlaut.svg) no-repeat center top; background-size: contain; }
 
+/* Hungarian accents */
+
+page acute { display: inline-block; position: relative; }
+page acute:before { display: block; width: 17px; margin-left: -8px; height: 100%; content: ''; position: absolute; top: 15px; left: 50%; background: url(assets/accent.acute.svg) no-repeat center top; background-size: contain; }
+page acute_26 { display: inline-block; position: relative; }
+page acute_26:before { display: block; width: 17px; margin-left: -9px; height: 100%; content: ''; position: absolute; top: 5px; left: 50%; background: url(assets/accent.acute.svg) no-repeat center top; background-size: contain; }
+page acute_up { display: inline-block; position: relative; }
+page acute_up:before { display: block; width: 17px; margin-left: -8px; height: 100%; content: ''; position: absolute; top: -3px; left: 50%; background: url(assets/accent.acute.svg) no-repeat center top; background-size: contain; }
+page dblacute { display: inline-block; position: relative; }
+page dblacute:before { display: block; width: 17px; margin-left: -10px; height: 100%; content: ''; position: absolute; top: 2px; left: 50%; background: url(assets/accent.dblacute.svg) no-repeat center top; background-size: contain; }
+page diacrit { display: inline-block; position: relative; }
+page diacrit:before { display: block; width: 17px; margin-left: -9px; height: 100%; content: ''; position: absolute; top: 0px; left: 50%; background: url(assets/accent.diacrit.svg) no-repeat center top; background-size: contain; }
+page diacrit_up { display: inline-block; position: relative; }
+page diacrit_up:before { display: block; width: 17px; margin-left: -9px; height: 100%; content: ''; position: absolute; top: -13px; left: 50%; background: url(assets/accent.diacrit.svg) no-repeat center top; background-size: contain; }
+
 page.title aigue { display: inline-block;background-position-y: -4px  }
 page.illustration aigue { background-size: 18px 20px }
 page.chapter aigue { background-size: 18px 20px }
+
 
 body.lang_ru h1 { letter-spacing:-12px}
 body.lang_ru .cover h1 { letter-spacing:-8px}
@@ -99,7 +115,7 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 <h2>Kot, Sowa, Nietoperz i Lis</h2>
 <img src='assets/glyph.png'/>
 <h3>Ilustrowała Rekka Bellum<br />Napisał Devine Lu Linvega</h3>
-<h4>Pierwsza Edycja</h4>
+<h4>Pierwsze wydanie</h4>
 
 </page>
 
@@ -108,7 +124,7 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 </page>
 
 <page class='preface'>
-  <p>Budzisz się w pokoju otoczonym ścianami nie do sforsowania. Na biurku leży ołówek i pusta kartka papieru.<br/> W środku znajdują się notatki z Twoim pismem, ale nie pamiętasz o czym traktują.</p>
+  <p>Budzisz się w pokoju otoczonym ścianami nie do sforsowania. Na biurku leży ołówek i czysta kartka papieru.<br/> W środku znajdują się notatki z Twoim pismem, których wcale sobie nie przypominasz.</p>
 </page>
 
 <page class='blank'>
@@ -116,17 +132,17 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 </page>
 
 <page class='chapter'>
-  <h1>Lekcja 1</h1><img src='assets/lesson.1.png'/>
+  <h1>Lekcja pierwsza</h1><img src='assets/lesson.1.png'/>
 </page>
 
 <page class='illustration'>
   <img src='assets/cat.1.png'/>
-  <h1>Kot się budzi.</h1>
+  <h1>Kot budzi się.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/owl.1.png'/>
-  <h1>Sowa znajduje kawałek papieru.</h1>
+  <h1>Sowa znajduje kartkę papieru.</h1>
 </page>
 
 <page class='illustration'>
@@ -144,12 +160,12 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 </page>
 
 <page class='chapter'>
-  <h1>Lekcja 2</h1><img src='assets/lesson.2.png'/>
+  <h1>Lekcja druga</h1><img src='assets/lesson.2.png'/>
 </page>
 
 <page class='illustration'>
   <img src='assets/cat.2.png'/>
-  <h1>Kot drapie ściany.</h1>
+  <h1>Kot drapie ściany pazurami.</h1>
 </page>
 
 <page class='illustration'>
@@ -172,17 +188,17 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 </page>
 
 <page class='chapter'>
-  <h1>Lekcja 3</h1><img src='assets/lesson.3.png'/>
+  <h1>Lekcja trzecia</h1><img src='assets/lesson.3.png'/>
 </page>
 
 <page class='illustration'>
   <img src='assets/cat.3.png'/>
-  <h1>Kot niszczy ołówek i kawałek papieru.</h1>
+  <h1>Kot niszczy ołówek i kartke papieru.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/owl.3.png'/>
-  <h1>Sowa znajduje notatki w biurku.</h1>
+  <h1>Sowa znajduje w biurku notatki.</h1>
 </page>
 
 <page class='illustration'>
@@ -192,7 +208,7 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 
 <page class='illustration'>
   <img src='assets/fox.3.png'/>
-  <h1>Lis z precyzją konstruuje biurko.</h1>
+  <h1>Lis buduje biurko na odwrót.</h1>
 </page>
 
 <page class='blank'>
@@ -200,12 +216,12 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 </page>
 
 <page class='chapter'>
-  <h1>Lekcja 4</h1><img src='assets/lesson.4.png'/>
+  <h1>Lekcja czwarta</h1><img src='assets/lesson.4.png'/>
 </page>
 
 <page class='illustration'>
   <img src='assets/cat.4.png'/>
-  <h1>Kot wchodzi do biurka.</h1>
+  <h1>Kot włazi do biurka.</h1>
 </page>
 
 <page class='illustration'>
@@ -215,7 +231,7 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 
 <page class='illustration'>
   <img src='assets/bat.4.png'/>
-  <h1>Nietoperz widzi brak szansy na ucieczkę.</h1>
+  <h1>Nietoperz nie widzi szansy na ucieczkę.</h1>
 </page>
 
 <page class='illustration'>
@@ -228,12 +244,12 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 </page>
 
 <page class='chapter'>
-  <h1>Lekcja 5</h1><img src='assets/lesson.5.png'/>
+  <h1>Lekcja piąta</h1><img src='assets/lesson.5.png'/>
 </page>
 
 <page class='illustration'>
   <img src='assets/cat.5.png'/>
-  <h1>Kot wchodzi z biurka.</h1>
+  <h1>Kot wyłazi z biurka.</h1>
 </page>
 
 <page class='illustration'>
@@ -243,7 +259,7 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 
 <page class='illustration'>
   <img src='assets/bat.5.png'/>
-  <h1>Nietoperz się budzi.</h1>
+  <h1>Nietoperz budzi się.</h1>
 </page>
 
 <page class='illustration'>
@@ -256,7 +272,7 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 </page>
 
 <page class='chapter'>
-  <h1>Lekcja 6</h1><img src='assets/lesson.6.png'/>
+  <h1>Lekcja szósta</h1><img src='assets/lesson.6.png'/>
 </page>
 
 <page class='illustration'>
@@ -284,7 +300,7 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 </page>
 
 <page class='chapter'>
-  <h1>Ostatnia Lekcja</h1><img src='assets/lesson.7.png'/>
+  <h1>Ostatnia lekcja</h1><img src='assets/lesson.7.png'/>
 </page>
 
 <page class='blank'>
@@ -293,7 +309,7 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 
 <page class='illustration'>
   <img src='assets/you.1.png'/>
-  <h1>Co Ty byś zrobił?</h1>
+  <h1>A co Ty zrobisz?</h1>
 </page>
 
 <page class='blank'>
@@ -301,7 +317,7 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 </page>
 
 <page class='thank'>
-  <h1>Dziękujemy</h1><list><li><span class='left'>Russian</span><span class='right'>RA</span></li><li><span class='left'>Japanese</span><span class='right'>Chase & Yuka</span></li><li><span class='left'>German</span><span class='right'>Max Häßlein</span></li><li><span class='left'>Italian</span><span class='right'>Federico Salvador</span></li><li><span class='left'>Dutch</span><span class='right'>Vincent</span></li><li><span class='left'>Greek</span><span class='right'>Paris K.</span></li><li><span class='left'>Chinese</span><span class='right'>Humble Ray</span></li><li><span class='left'>Arabic</span><span class='right'>Hazza Alkaabi</span></li><li><span class='left'>Hungarian</span><span class='right'>Attila Mal<aigue>a</aigue>rik</span></li><li><span class='left'>Espa<tilde>n</tilde>ol</span><span class='right'>F<aigue>a</aigue>yer (Antonio Uribe)</span></li><li><span class='left'>Português</span><span class='right'>Hugo Anaya</span></li><li><span class='left'>Polish</span><span class='right'>Tymoteusz Masiakowski</span></li></list>
+  <h1>Podziękowania</h1><list><li><span class='left'>Russian</span><span class='right'>RA</span></li><li><span class='left'>Japanese</span><span class='right'>Chase & Yuka</span></li><li><span class='left'>German</span><span class='right'>Max Häßlein</span></li><li><span class='left'>Italian</span><span class='right'>Federico Salvador</span></li><li><span class='left'>Dutch</span><span class='right'>Vincent</span></li><li><span class='left'>Greek</span><span class='right'>Paris K.</span></li><li><span class='left'>Chinese</span><span class='right'>Humble Ray</span></li><li><span class='left'>Arabic</span><span class='right'>Hazza Alkaabi</span></li><li><span class='left'>Hungarian</span><span class='right'>Attila Mal<acute>a</acute>rik</span></li><li><span class='left'>Espa<tilde>n</tilde>ol</span><span class='right'>F<aigue>a</aigue>yer (Antonio Uribe)</span></li><li><span class='left'>Português</span><span class='right'>Hugo Anaya</span></li><li><span class='left'>Polish</span><span class='right'>Tymoteusz Masiakowski & Tomasz Stecko</span></li></list>
 </page>
 
 <page class='back_cover'>

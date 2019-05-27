@@ -17,9 +17,25 @@ page trema:before { background-color:white; display: inline-block;width: 15px;he
 page .umlaut { display: inline-block; position: relative; }
 page .umlaut:before { display: block; width: 17px; margin-left: -9px; height: 100%; content: ''; position: absolute; top: 8px; left: 50%; background: url(assets/accent.umlaut.svg) no-repeat center top; background-size: contain; }
 
+/* Hungarian accents */
+
+page acute { display: inline-block; position: relative; }
+page acute:before { display: block; width: 17px; margin-left: -8px; height: 100%; content: ''; position: absolute; top: 15px; left: 50%; background: url(assets/accent.acute.svg) no-repeat center top; background-size: contain; }
+page acute_26 { display: inline-block; position: relative; }
+page acute_26:before { display: block; width: 17px; margin-left: -9px; height: 100%; content: ''; position: absolute; top: 5px; left: 50%; background: url(assets/accent.acute.svg) no-repeat center top; background-size: contain; }
+page acute_up { display: inline-block; position: relative; }
+page acute_up:before { display: block; width: 17px; margin-left: -8px; height: 100%; content: ''; position: absolute; top: -3px; left: 50%; background: url(assets/accent.acute.svg) no-repeat center top; background-size: contain; }
+page dblacute { display: inline-block; position: relative; }
+page dblacute:before { display: block; width: 17px; margin-left: -10px; height: 100%; content: ''; position: absolute; top: 2px; left: 50%; background: url(assets/accent.dblacute.svg) no-repeat center top; background-size: contain; }
+page diacrit { display: inline-block; position: relative; }
+page diacrit:before { display: block; width: 17px; margin-left: -9px; height: 100%; content: ''; position: absolute; top: 0px; left: 50%; background: url(assets/accent.diacrit.svg) no-repeat center top; background-size: contain; }
+page diacrit_up { display: inline-block; position: relative; }
+page diacrit_up:before { display: block; width: 17px; margin-left: -9px; height: 100%; content: ''; position: absolute; top: -13px; left: 50%; background: url(assets/accent.diacrit.svg) no-repeat center top; background-size: contain; }
+
 page.title aigue { display: inline-block;background-position-y: -4px  }
 page.illustration aigue { background-size: 18px 20px }
 page.chapter aigue { background-size: 18px 20px }
+
 
 body.lang_ru h1 { letter-spacing:-12px}
 body.lang_ru .cover h1 { letter-spacing:-8px}
@@ -108,7 +124,7 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 </page>
 
 <page class='preface'>
-  <p>Ξυπνάς σε ένα δωμάτιο, περικυκλωμένο από άθραυστους τοίχους. Σε ένα θρανείο βρίσκεται ένα μολύβι και ένα φύλλο λευκού χαρτιού.<br/> Μέσα στο θρανείο, σημειώσεις που φέρουν τον γραφικό σου χαρακτήρα, δεν έχεις καμία ανάμνηση.</p>
+  <p>Ξυπνάς σε ένα δωμάτιο περικυκλωμένο από άθραυστους τοίχους. Σε ένα θρανίο βρίσκεται ένα μολύβι κι ένα φύλλο λευκού χαρτιού. Μέσα στο θρανίο υπάρχουν σημειώσεις που φέρουν το γραφικό σου χαρακτήρα. Δεν έχεις καμία ανάμνηση.</p>
 </page>
 
 <page class='blank'>
@@ -121,22 +137,22 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 
 <page class='illustration'>
   <img src='assets/cat.1.png'/>
-  <h1>Γάτα ξυπνάει.</h1>
+  <h1>Η Γάτα ξυπνάει.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/owl.1.png'/>
-  <h1>Κουκουβάγια βρίσκει ένα κομμάτι χαρτί.</h1>
+  <h1>Η Κουκουβάγια βρίσκει ένα κομμάτι χαρτί.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/bat.1.png'/>
-  <h1>Νυχτερίδα βρίσκει ένα μολύβι.</h1>
+  <h1>Η Νυχτερίδα βρίσκει ένα μολύβι.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/fox.1.png'/>
-  <h1>Αλεπού ανοίγει το θρανείο.</h1>
+  <h1>Η Αλεπού ανοίγει το θρανίο.</h1>
 </page>
 
 <page class='blank'>
@@ -149,22 +165,22 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 
 <page class='illustration'>
   <img src='assets/cat.2.png'/>
-  <h1>Γάτα γρατσουνίζει τους τοίχους.</h1>
+  <h1>Η Γάτα γρατζουνάει τους τοίχους.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/owl.2.png'/>
-  <h1>Κουκουβάγια αφήνει ένα μήνυμα μέσα στο θρανείο.</h1>
+  <h1>Η Κουκουβάγια αφήνει ένα μήνυμα μέσα στο θρανίο.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/bat.2.png'/>
-  <h1>Νυχτερίδα βρίσκει ένα δεύτερο μολύβι.</h1>
+  <h1>Η Νυχτερίδα βρίσκει ένα δεύτερο μολύβι.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/fox.2.png'/>
-  <h1>Αλεπού αποσυναρμολογεί το θρανείο.</h1>
+  <h1>Η Αλεπού αποσυναρμολογεί το θρανίο.</h1>
 </page>
 
 <page class='blank'>
@@ -177,22 +193,22 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 
 <page class='illustration'>
   <img src='assets/cat.3.png'/>
-  <h1>Γάτα καταστρέφει το μολύβι και το χαρτί.</h1>
+  <h1>Η Γάτα καταστρέφει το μολύβι και το χαρτί.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/owl.3.png'/>
-  <h1>Κουκουβάγια βρίσκει σημειώσεις μέσα στο θρανείο.</h1>
+  <h1>Η Κουκουβάγια βρίσκει σημειώσεις μέσα στο θρανίο.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/bat.3.png'/>
-  <h1>Νυχτερίδα βρίσκει το θρανείο γεμάτο μολύβια.</h1>
+  <h1>Η Νυχτερίδα βρίσκει το θρανίο γεμάτο μολύβια.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/fox.3.png'/>
-  <h1>Αλεπού ξαναφτιάχνει το θρανείο μέσα έξω.</h1>
+  <h1>Η Αλεπού ξαναφτιάχνει το θρανίο ανεστραμμένα.</h1>
 </page>
 
 <page class='blank'>
@@ -205,22 +221,22 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 
 <page class='illustration'>
   <img src='assets/cat.4.png'/>
-  <h1>Γάτα μπαίνει στο θρανείο.</h1>
+  <h1>Η Γάτα μπαίνει στο θρανίο.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/owl.4.png'/>
-  <h1>Κουκουβάγια προσπαθεί να καταλάβει.</h1>
+  <h1>Η Κουκουβάγια προσπαθεί να καταλάβει.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/bat.4.png'/>
-  <h1>Νυχτερίδα δεν βρίσκει διέξοδο.</h1>
+  <h1>Η Νυχτερίδα δεν βρίσκει διέξοδο.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/fox.4.png'/>
-  <h1>Αλεπού έχει έναν επισκέπτη.</h1>
+  <h1>Η Αλεπού έχει έναν επισκέπτη.</h1>
 </page>
 
 <page class='blank'>
@@ -233,22 +249,22 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 
 <page class='illustration'>
   <img src='assets/cat.5.png'/>
-  <h1>Γάτα βγαίνει από το θρανείο.</h1>
+  <h1>Η Γάτα βγαίνει από το θρανίο.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/owl.5.png'/>
-  <h1>Κουκουβάγια καταλαβαίνει το δωμάτιο.</h1>
+  <h1>Η Κουκουβάγια καταλαβαίνει το δωμάτιο.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/bat.5.png'/>
-  <h1>Νυχτερίδα ξυπνάει.</h1>
+  <h1>Η Νυχτερίδα ξυπνάει.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/fox.5.png'/>
-  <h1>Αλεπού έχει έναν δεύτερο επισκέπτη.</h1>
+  <h1>Η Αλεπού έχει ένα δεύτερο επισκέπτη.</h1>
 </page>
 
 <page class='blank'>
@@ -261,22 +277,22 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 
 <page class='illustration'>
   <img src='assets/cat.6.png'/>
-  <h1>Γάτα καταστρέφει το θρανείο.</h1>
+  <h1>Η Γάτα καταστρέφει το θρανίο.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/owl.6.png'/>
-  <h1>Κουκουβάγια βρίσκει ένα σκαρίφημα.</h1>
+  <h1>Η Κουκουβάγια βρίσκει ένα σκαρίφημα.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/bat.6.png'/>
-  <h1>Νυχτερίδα βρίσκει ένα μολύβι.</h1>
+  <h1>Η Νυχτερίδα βρίσκει ένα μολύβι.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/fox.6.png'/>
-  <h1>Αλεπού έχει πάρα πολλούς επισκέπτες.</h1>
+  <h1>Η Αλεπού έχει πάρα πολλούς επισκέπτες.</h1>
 </page>
 
 <page class='blank'>
@@ -293,7 +309,7 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 
 <page class='illustration'>
   <img src='assets/you.1.png'/>
-  <h1>Εσύ τί θα έκανες;</h1>
+  <h1>Εσύ τι θα έκανες;</h1>
 </page>
 
 <page class='blank'>
@@ -301,7 +317,7 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 </page>
 
 <page class='thank'>
-  <h1>Ευχαριστιες</h1><list><li><span class='left'>Russian</span><span class='right'>RA</span></li><li><span class='left'>Japanese</span><span class='right'>Chase & Yuka</span></li><li><span class='left'>German</span><span class='right'>Max Häßlein</span></li><li><span class='left'>Italian</span><span class='right'>Federico Salvador</span></li><li><span class='left'>Dutch</span><span class='right'>Vincent</span></li><li><span class='left'>Greek</span><span class='right'>Paris K.</span></li><li><span class='left'>Chinese</span><span class='right'>Humble Ray</span></li><li><span class='left'>Arabic</span><span class='right'>Hazza Alkaabi</span></li><li><span class='left'>Hungarian</span><span class='right'>Attila Mal<aigue>a</aigue>rik</span></li><li><span class='left'>Espa<tilde>n</tilde>ol</span><span class='right'>F<aigue>a</aigue>yer (Antonio Uribe)</span></li><li><span class='left'>Português</span><span class='right'>Hugo Anaya</span></li><li><span class='left'>Polish</span><span class='right'>Tymoteusz Masiakowski</span></li></list>
+  <h1>Ευχαριστιες</h1><list><li><span class='left'>Russian</span><span class='right'>RA</span></li><li><span class='left'>Japanese</span><span class='right'>Chase & Yuka</span></li><li><span class='left'>German</span><span class='right'>Max Häßlein</span></li><li><span class='left'>Italian</span><span class='right'>Federico Salvador</span></li><li><span class='left'>Dutch</span><span class='right'>Vincent</span></li><li><span class='left'>Greek</span><span class='right'>Paris K.</span></li><li><span class='left'>Chinese</span><span class='right'>Humble Ray</span></li><li><span class='left'>Arabic</span><span class='right'>Hazza Alkaabi</span></li><li><span class='left'>Hungarian</span><span class='right'>Attila Mal<acute>a</acute>rik</span></li><li><span class='left'>Espa<tilde>n</tilde>ol</span><span class='right'>F<aigue>a</aigue>yer (Antonio Uribe)</span></li><li><span class='left'>Português</span><span class='right'>Hugo Anaya</span></li><li><span class='left'>Polish</span><span class='right'>Tymoteusz Masiakowski & Tomasz Stecko</span></li></list>
 </page>
 
 <page class='back_cover'>

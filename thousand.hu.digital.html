@@ -17,9 +17,25 @@ page trema:before { background-color:white; display: inline-block;width: 15px;he
 page .umlaut { display: inline-block; position: relative; }
 page .umlaut:before { display: block; width: 17px; margin-left: -9px; height: 100%; content: ''; position: absolute; top: 8px; left: 50%; background: url(assets/accent.umlaut.svg) no-repeat center top; background-size: contain; }
 
+/* Hungarian accents */
+
+page acute { display: inline-block; position: relative; }
+page acute:before { display: block; width: 17px; margin-left: -8px; height: 100%; content: ''; position: absolute; top: 15px; left: 50%; background: url(assets/accent.acute.svg) no-repeat center top; background-size: contain; }
+page acute_26 { display: inline-block; position: relative; }
+page acute_26:before { display: block; width: 17px; margin-left: -9px; height: 100%; content: ''; position: absolute; top: 5px; left: 50%; background: url(assets/accent.acute.svg) no-repeat center top; background-size: contain; }
+page acute_up { display: inline-block; position: relative; }
+page acute_up:before { display: block; width: 17px; margin-left: -8px; height: 100%; content: ''; position: absolute; top: -3px; left: 50%; background: url(assets/accent.acute.svg) no-repeat center top; background-size: contain; }
+page dblacute { display: inline-block; position: relative; }
+page dblacute:before { display: block; width: 17px; margin-left: -10px; height: 100%; content: ''; position: absolute; top: 2px; left: 50%; background: url(assets/accent.dblacute.svg) no-repeat center top; background-size: contain; }
+page diacrit { display: inline-block; position: relative; }
+page diacrit:before { display: block; width: 17px; margin-left: -9px; height: 100%; content: ''; position: absolute; top: 0px; left: 50%; background: url(assets/accent.diacrit.svg) no-repeat center top; background-size: contain; }
+page diacrit_up { display: inline-block; position: relative; }
+page diacrit_up:before { display: block; width: 17px; margin-left: -9px; height: 100%; content: ''; position: absolute; top: -13px; left: 50%; background: url(assets/accent.diacrit.svg) no-repeat center top; background-size: contain; }
+
 page.title aigue { display: inline-block;background-position-y: -4px  }
 page.illustration aigue { background-size: 18px 20px }
 page.chapter aigue { background-size: 18px 20px }
+
 
 body.lang_ru h1 { letter-spacing:-12px}
 body.lang_ru .cover h1 { letter-spacing:-8px}
@@ -96,10 +112,10 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 <page class='title'>
   
 <h1>Ezer Szoba</h1>
-<h2>Macska, Bagoly, Denev<aigue>e</aigue>r&nbsp;&&nbsp;R<aigue>o</aigue>ka</h2>
+<h2>Macska, Bagoly, Denev<acute_up>e</acute_up>r&nbsp;&&nbsp;R<acute_up>o</acute_up>ka</h2>
 <img src='assets/glyph.png'/>
-<h3>Illusztr<aigue>a</aigue>lta Rekka Bellum<br/>Írta Devine Lu Linvega</h3>
-<h4>Első Kiad<aigue>a</aigue>s</h4>
+<h3>Illusztr<acute_26>a</acute_26>lta Rekka Bellum<br/><acute_up>I</acute_up>rta Devine Lu Linvega</h3>
+<h4>Els<dblacute>o</dblacute> Kiad<acute_up>a</acute_up>s</h4>
 
 </page>
 
@@ -108,7 +124,7 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 </page>
 
 <page class='preface'>
-  <p>Egy szob<aigue>a</aigue>ban <aigue>e</aigue>bredsz, törhetetlen falakkal körbev<aigue>e</aigue>ve. Egy ír<aigue>o</aigue>asztalon egy ceruza, <aigue>e</aigue>s egy üres papírlap van.<br/>Az ír<aigue>o</aigue>asztalban jegyzetek vannak a te k<aigue>e</aigue>zír<aigue>a</aigue>soddal, de nem eml<aigue>e</aigue>kszel r<aigue>a</aigue>juk.</p>
+  <p>Egy szob<acute_26>a</acute_26>ban <acute_26>e</acute_26>bredsz, t<diacrit>o</diacrit>rhetetlen falakkal k<diacrit>o</diacrit>rbev<acute_26>e</acute_26>ve. Egy <acute_26>i</acute_26>r<acute_26>o</acute_26>asztalon egy ceruza, <acute_26>e</acute_26>s egy <diacrit>u</diacrit>res pap<acute_26>i</acute_26>rlap van.<br/>Az <acute_26>i</acute_26>r<acute_26>o</acute_26>asztalban jegyzetek vannak a te <br>k<acute_26>e</acute_26>z<acute_26>i</acute_26>r<acute_26>a</acute_26>soddal, de nem eml<acute_26>e</acute_26>kszel r<acute_26>a</acute_26>juk.</p>
 </page>
 
 <page class='blank'>
@@ -116,27 +132,27 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 </page>
 
 <page class='chapter'>
-  <h1>Első Lecke</h1><img src='assets/lesson.1.png'/>
+  <h1>Els<dblacute>o</dblacute> Lecke</h1><img src='assets/lesson.1.png'/>
 </page>
 
 <page class='illustration'>
   <img src='assets/cat.1.png'/>
-  <h1>Macska <aigue>e</aigue>bredezik.</h1>
+  <h1>Macska <acute>e</acute>bredezik.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/owl.1.png'/>
-  <h1>Bagoly egy papírlapot tal<aigue>a</aigue>l.</h1>
+  <h1>Bagoly egy pap<acute>i</acute>rlapot tal<acute>a</acute>l.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/bat.1.png'/>
-  <h1>Denev<aigue>e</aigue>r egy ceruz<aigue>a</aigue>t tal<aigue>a</aigue>l.</h1>
+  <h1>Denev<acute>e</acute>r egy ceruz<acute>a</acute>t tal<acute>a</acute>l.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/fox.1.png'/>
-  <h1>R<aigue>o</aigue>ka kinyitja az ír<aigue>o</aigue>asztalt.</h1>
+  <h1>R<acute>o</acute>ka kinyitja az <acute>i</acute>r<acute>o</acute>asztalt.</h1>
 </page>
 
 <page class='blank'>
@@ -144,7 +160,7 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 </page>
 
 <page class='chapter'>
-  <h1>M<aigue>a</aigue>sodik Lecke</h1><img src='assets/lesson.2.png'/>
+  <h1>M<acute_26>a</acute_26>sodik Lecke</h1><img src='assets/lesson.2.png'/>
 </page>
 
 <page class='illustration'>
@@ -154,17 +170,17 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 
 <page class='illustration'>
   <img src='assets/owl.2.png'/>
-  <h1>Bagoly üzenetet hagy az ír<aigue>o</aigue>asztalban.</h1>
+  <h1>Bagoly <diacrit>u</diacrit>zenetet hagy az <acute>i</acute>r<acute>o</acute>asztalban.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/bat.2.png'/>
-  <h1>Denev<aigue>e</aigue>r egy m<aigue>a</aigue>sodik ceruz<aigue>a</aigue>t tal<aigue>a</aigue>l.</h1>
+  <h1>Denev<acute>e</acute>r egy m<acute>a</acute>sodik ceruz<acute>a</acute>t tal<acute>a</acute>l.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/fox.2.png'/>
-  <h1>R<aigue>o</aigue>ka sz<aigue>e</aigue>tszereli az ír<aigue>o</aigue>asztalt.</h1>
+  <h1>R<acute>o</acute>ka sz<acute>e</acute>tszereli az <acute>i</acute>r<acute>o</acute>asztalt.</h1>
 </page>
 
 <page class='blank'>
@@ -177,22 +193,22 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 
 <page class='illustration'>
   <img src='assets/cat.3.png'/>
-  <h1>Macska sz<aigue>e</aigue>tmarcangolja a ceruz<aigue>a</aigue>t <aigue>e</aigue>s a papírlapot.</h1>
+  <h1>Macska sz<acute>e</acute>tmarcangolja a ceruz<acute>a</acute>t <acute>e</acute>s a pap<acute>i</acute>rlapot.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/owl.3.png'/>
-  <h1>Bagoly jegyzeteket tal<aigue>a</aigue>l az ír<aigue>o</aigue>asztalban.</h1>
+  <h1>Bagoly jegyzeteket tal<acute>a</acute>l az <acute>i</acute>r<acute>o</acute>asztalban.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/bat.3.png'/>
-  <h1>Denev<aigue>e</aigue>r sok ceruz<aigue>a</aigue>t tal<aigue>a</aigue>l az ír<aigue>o</aigue>asztalban.</h1>
+  <h1>Denev<acute>e</acute>r sok ceruz<acute>a</acute>t tal<acute>a</acute>l az <acute>i</acute>r<acute>o</acute>asztalban.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/fox.3.png'/>
-  <h1>R<aigue>o</aigue>ka rosszul szereli össze az ír<aigue>o</aigue>asztalt.</h1>
+  <h1>R<acute>o</acute>ka rosszul szereli <diacrit>o</diacrit>ssze az <acute>i</acute>r<acute>o</acute>asztalt.</h1>
 </page>
 
 <page class='blank'>
@@ -205,22 +221,22 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 
 <page class='illustration'>
   <img src='assets/cat.4.png'/>
-  <h1>Macska belem<aigue>a</aigue>szik az ír<aigue>o</aigue>asztalba.</h1>
+  <h1>Macska belem<acute>a</acute>szik az <acute>i</acute>r<acute>o</acute>asztalba.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/owl.4.png'/>
-  <h1>Bagoly <aigue>e</aigue>rtelmet keres.</h1>
+  <h1>Bagoly <acute>e</acute>rtelmet keres.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/bat.4.png'/>
-  <h1>Denev<aigue>e</aigue>r feladja.</h1>
+  <h1>Denev<acute>e</acute>r feladja.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/fox.4.png'/>
-  <h1>R<aigue>o</aigue>k<aigue>a</aigue>nak l<aigue>a</aigue>togat<aigue>o</aigue>ja van.</h1>
+  <h1>R<acute>o</acute>k<acute>a</acute>nak l<acute>a</acute>togat<acute>o</acute>ja van.</h1>
 </page>
 
 <page class='blank'>
@@ -228,27 +244,27 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 </page>
 
 <page class='chapter'>
-  <h1>Ötödik Lecke</h1><img src='assets/lesson.5.png'/>
+  <h1><diacrit_up>O</diacrit_up>t<diacrit>o</diacrit>dik Lecke</h1><img src='assets/lesson.5.png'/>
 </page>
 
 <page class='illustration'>
   <img src='assets/cat.5.png'/>
-  <h1>Macska kisz<aigue>a</aigue>ll az ír<aigue>o</aigue>asztalb<aigue>o</aigue>l.</h1>
+  <h1>Macska kisz<acute>a</acute>ll az<br><acute>i</acute>r<acute>o</acute>asztalb<acute>o</acute>l.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/owl.5.png'/>
-  <h1>Bagoly meg<aigue>e</aigue>rti a szob<aigue>a</aigue>t.</h1>
+  <h1>Bagoly meg<acute>e</acute>rti a szob<acute>a</acute>t.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/bat.5.png'/>
-  <h1>Denev<aigue>e</aigue>r fel<aigue>e</aigue>bred.</h1>
+  <h1>Denev<acute>e</acute>r fel<acute>e</acute>bred.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/fox.5.png'/>
-  <h1>R<aigue>o</aigue>k<aigue>a</aigue>nak m<aigue>a</aigue>sodik l<aigue>a</aigue>togat<aigue>o</aigue>ja van.</h1>
+  <h1>R<acute>o</acute>k<acute>a</acute>nak m<acute>a</acute>sodik l<acute>a</acute>togat<acute>o</acute>ja van.</h1>
 </page>
 
 <page class='blank'>
@@ -261,22 +277,22 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 
 <page class='illustration'>
   <img src='assets/cat.6.png'/>
-  <h1>Macska tönkreteszi az ír<aigue>o</aigue>asztalt.</h1>
+  <h1>Macska t<diacrit>o</diacrit>nkreteszi az <acute>i</acute>r<acute>o</acute>asztalt.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/owl.6.png'/>
-  <h1>Bagoly egy firk<aigue>a</aigue>t tal<aigue>a</aigue>l.</h1>
+  <h1>Bagoly egy firk<acute>a</acute>t tal<acute>a</acute>l.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/bat.6.png'/>
-  <h1>Denev<aigue>e</aigue>r egy ceruz<aigue>a</aigue>t tal<aigue>a</aigue>l.</h1>
+  <h1>Denev<acute>e</acute>r egy ceruz<acute>a</acute>t tal<acute>a</acute>l.</h1>
 </page>
 
 <page class='illustration'>
   <img src='assets/fox.6.png'/>
-  <h1>R<aigue>o</aigue>k<aigue>a</aigue>nak túl sok l<aigue>a</aigue>togat<aigue>o</aigue>ja van.</h1>
+  <h1>R<acute>o</acute>k<acute>a</acute>nak t<acute>u</acute>l sok l<acute>a</acute>togat<acute>o</acute>ja van.</h1>
 </page>
 
 <page class='blank'>
@@ -284,7 +300,7 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 </page>
 
 <page class='chapter'>
-  <h1>Utols<aigue>o</aigue> Lecke</h1><img src='assets/lesson.7.png'/>
+  <h1>Utols<acute_up>o</acute_up> Lecke</h1><img src='assets/lesson.7.png'/>
 </page>
 
 <page class='blank'>
@@ -293,7 +309,7 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 
 <page class='illustration'>
   <img src='assets/you.1.png'/>
-  <h1>Te mit tenn<aigue>e</aigue>l?</h1>
+  <h1>Te mit tenn<acute>e</acute>l?</h1>
 </page>
 
 <page class='blank'>
@@ -301,7 +317,7 @@ body.format_print page:nth-child(even) { page-break-after: left; clear:both; }
 </page>
 
 <page class='thank'>
-  <h1>Köszönet</h1><list><li><span class='left'>Russian</span><span class='right'>RA</span></li><li><span class='left'>Japanese</span><span class='right'>Chase & Yuka</span></li><li><span class='left'>German</span><span class='right'>Max Häßlein</span></li><li><span class='left'>Italian</span><span class='right'>Federico Salvador</span></li><li><span class='left'>Dutch</span><span class='right'>Vincent</span></li><li><span class='left'>Greek</span><span class='right'>Paris K.</span></li><li><span class='left'>Chinese</span><span class='right'>Humble Ray</span></li><li><span class='left'>Arabic</span><span class='right'>Hazza Alkaabi</span></li><li><span class='left'>Hungarian</span><span class='right'>Attila Mal<aigue>a</aigue>rik</span></li><li><span class='left'>Espa<tilde>n</tilde>ol</span><span class='right'>F<aigue>a</aigue>yer (Antonio Uribe)</span></li><li><span class='left'>Português</span><span class='right'>Hugo Anaya</span></li><li><span class='left'>Polish</span><span class='right'>Tymoteusz Masiakowski</span></li></list>
+  <h1>K<diacrit_up>o</diacrit_up>sz<diacrit_up>o</diacrit_up>net</h1><list><li><span class='left'>Russian</span><span class='right'>RA</span></li><li><span class='left'>Japanese</span><span class='right'>Chase & Yuka</span></li><li><span class='left'>German</span><span class='right'>Max Häßlein</span></li><li><span class='left'>Italian</span><span class='right'>Federico Salvador</span></li><li><span class='left'>Dutch</span><span class='right'>Vincent</span></li><li><span class='left'>Greek</span><span class='right'>Paris K.</span></li><li><span class='left'>Chinese</span><span class='right'>Humble Ray</span></li><li><span class='left'>Arabic</span><span class='right'>Hazza Alkaabi</span></li><li><span class='left'>Hungarian</span><span class='right'>Attila Mal<acute>a</acute>rik</span></li><li><span class='left'>Espa<tilde>n</tilde>ol</span><span class='right'>F<aigue>a</aigue>yer (Antonio Uribe)</span></li><li><span class='left'>Português</span><span class='right'>Hugo Anaya</span></li><li><span class='left'>Polish</span><span class='right'>Tymoteusz Masiakowski & Tomasz Stecko</span></li></list>
 </page>
 
 <page class='back_cover'>
