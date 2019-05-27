@@ -1,7 +1,7 @@
 # Contact : @enc_io
 
 $lang_el = {
-  :translator => "Paris K.",
+  :translator => "Paris K. & Nikos Kokolakis",
   :language => "Greek",
   :title => "Χιλια Δωματια",
   :title_page => [
