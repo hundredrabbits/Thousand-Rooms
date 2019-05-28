@@ -147,6 +147,7 @@ class Book
 
     return "
 @font-face { font-family: 'maruko'; src: url('assets/fonts/maruko.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'segoeprb'; src: url('assets/fonts/segoeprb.ttf') format('truetype'); font-weight: normal; font-style: normal; }
 @font-face { font-family: 'tea'; src: url('assets/fonts/tea.ttf') format('truetype'); font-weight: normal; font-style: normal; }
 @font-face { font-family: 'Jura'; src: url('assets/fonts/jura_regular.ttf') format('truetype'); font-weight: normal; font-style: normal; }
 @font-face { font-family: 'azuki_font'; src: url('assets/fonts/azuki_font.ttf') format('truetype'); font-weight: normal; font-style: normal; }
@@ -189,10 +190,10 @@ body.lang_ru .title h1 { letter-spacing:-8px}
 body.lang_ru .preface p {letter-spacing:-6px}
 body.lang_ru .thank p {letter-spacing:-6px}
 
-body.lang_el { font-family: 'aquafont', 'Yuanti TC', sans-serif; }
-body.lang_el h1 { letter-spacing:-4px}
-body.lang_el .illustration h1 { letter-spacing:-8px}
-body.lang_el .preface p { letter-spacing:-6px}
+body.lang_el { font-family: 'segoeprb', sans-serif; }
+body.lang_el h1 { letter-spacing:0px}
+body.lang_el .illustration h1 { letter-spacing:0px}
+body.lang_el .preface p { letter-spacing:0px}
 
 body.lang_ar { font-family: 'Jura', Tahoma !important; }
 body.lang_ar line { display:block}
