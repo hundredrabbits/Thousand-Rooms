@@ -6,4 +6,4 @@ Simply replace en, with ru, jp or li to build other languages.
 
 # Licenses
 
-The source code of Thousand Rooms is licensed under **MIT** and the **images, text and assets** are licensed under [BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). View individual licenses for details.
+The source code of Thousand Rooms is licensed under **MIT** (see LICENSE.mit.md) and the **images, text and assets** (see LICENSE.by-nc-sa-4.0.md) are licensed under [BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). View individual licenses for details.
